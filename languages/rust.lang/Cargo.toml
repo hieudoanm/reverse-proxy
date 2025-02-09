@@ -1,0 +1,9 @@
+[package]
+name = "reverse-proxy"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+hyper = { version = "0.14", features = ["server", "client", "http1", "http2", "tcp"] }
+url = "2.5"  # For parsing URLs

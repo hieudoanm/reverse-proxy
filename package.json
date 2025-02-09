@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Reverse Proxy",
   "main": "index.js",
+  "packageManager": "pnpm@10.2.1",
   "scripts": {
-    "build": "docsify init ./docs"
+    "lint": "turbo run lint",
+    "build": "turbo run build",
+    "format": "turbo run format",
+    "docs": "rimraf ./docs && docsify init ./docs",
+    "prepare": "husky || true"
   },
   "keywords": [
     "reverse",

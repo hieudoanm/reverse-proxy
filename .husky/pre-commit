@@ -1,0 +1,4 @@
+pnpm run docs
+pnpm run lint
+pnpm run format
+git add -A
