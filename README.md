@@ -1,11 +1,5 @@
 # Reverse Proxy
 
-## Table of Content
-
-- [Reverse Proxy](#reverse-proxy)
-  - [Table of Content](#table-of-content)
-  - [Languages](#languages)
-
 ## Languages
 
 ![languages](./images/languages.png)
