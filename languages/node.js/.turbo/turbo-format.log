@@ -3,13 +3,13 @@
 > reverse-proxy-node@1.0.0 format /Users/hieudoan/git/github.com/hieudoanm/reverse-proxy/languages/node.js
 > prettier --cache --write .
 
-.gitignore[2K[1G.node-version[2K[1G.npmrc[2K[1G.nvmrc[2K[1G.prettierignore[2K[1G.prettierrc[2K[1G[90m.prettierrc[39m 26ms (unchanged)
-.turbo/turbo-format.log[2K[1Geslint.config.mjs[2K[1Geslint.config.mjs 7ms
-example.http[2K[1Gnodemon.json[2K[1G[90mnodemon.json[39m 0ms (unchanged)
+.gitignore[2K[1G.node-version[2K[1G.npmrc[2K[1G.nvmrc[2K[1G.prettierignore[2K[1G.prettierrc[2K[1G[90m.prettierrc[39m 0ms (unchanged) (cached)
+.turbo/turbo-format.log[2K[1Geslint.config.mjs[2K[1G[90meslint.config.mjs[39m 20ms (unchanged)
+example.http[2K[1Gnodemon.json[2K[1G[90mnodemon.json[39m 0ms (unchanged) (cached)
 package.json[2K[1G[90mpackage.json[39m 1ms (unchanged)
-public/.nojekyll[2K[1Gpublic/index.html[2K[1Gpublic/index.html 17ms
-public/README.md[2K[1G[90mpublic/README.md[39m 12ms (unchanged)
-README.md[2K[1G[90mREADME.md[39m 1ms (unchanged)
-src/server.ts[2K[1G[90msrc/server.ts[39m 39ms (unchanged)
-tsconfig.json[2K[1G[90mtsconfig.json[39m 6ms (unchanged)
-vercel.json[2K[1G[90mvercel.json[39m 1ms (unchanged)
+public/.nojekyll[2K[1Gpublic/index.html[2K[1G[90mpublic/index.html[39m 15ms (unchanged)
+public/README.md[2K[1G[90mpublic/README.md[39m 0ms (unchanged) (cached)
+README.md[2K[1G[90mREADME.md[39m 0ms (unchanged) (cached)
+src/server.ts[2K[1G[90msrc/server.ts[39m 0ms (unchanged) (cached)
+tsconfig.json[2K[1G[90mtsconfig.json[39m 1ms (unchanged) (cached)
+vercel.json[2K[1G[90mvercel.json[39m 0ms (unchanged) (cached)
