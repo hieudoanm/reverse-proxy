@@ -1,6 +1,6 @@
 # Reverse Proxy
 
-- C++ (In Progress)
+- [C++](https://cplusplus.com/)
 - [Go](https://go.dev/)
 - [Node.js](https://nodejs.org/en)
 - [Python](https://python.org)
