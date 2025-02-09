@@ -27,7 +27,7 @@ importers:
   languages/node.js:
     devDependencies:
       '@eslint/js':
-        specifier: ^9.20.0
+        specifier: 9.20.0
         version: 9.20.0
       '@types/node':
         specifier: 22.13.1
@@ -36,7 +36,7 @@ importers:
         specifier: 9.20.0
         version: 9.20.0
       globals:
-        specifier: ^15.14.0
+        specifier: 15.14.0
         version: 15.14.0
       kill-port:
         specifier: 2.0.1
@@ -57,7 +57,7 @@ importers:
         specifier: 5.7.3
         version: 5.7.3
       typescript-eslint:
-        specifier: ^8.23.0
+        specifier: 8.23.0
         version: 8.23.0(eslint@9.20.0)(typescript@5.7.3)
 
 packages:
