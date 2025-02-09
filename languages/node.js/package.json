@@ -1,0 +1,31 @@
+{
+  "name": "reverse-proxy-node",
+  "version": "1.0.0",
+  "description": "Reverse Proxy",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node",
+    "format": "prettier --cache --write .",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "reverse",
+    "proxy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "22.13.1",
+    "eslint": "9.20.0",
+    "globals": "^15.14.0",
+    "kill-port": "2.0.1",
+    "nodemon": "3.1.9",
+    "prettier": "3.5.0",
+    "rimraf": "6.0.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3",
+    "typescript-eslint": "^8.23.0"
+  }
+}
