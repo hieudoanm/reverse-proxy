@@ -16,3 +16,4 @@
   - [Actix](https://actix.rs/)
   - [Hyper](https://hyper.rs/)
   - [Rocket](https://rocket.rs/)
+  - [Wrap](https://github.com/seanmonstar/warp)
