@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Reverse Proxy",
   "main": "index.js",
-  "packageManager": "pnpm@10.2.1",
+  "packageManager": "pnpm@10.3.0",
   "scripts": {
     "lint": "turbo run lint",
     "build": "turbo run build",
