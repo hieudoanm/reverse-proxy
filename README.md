@@ -13,3 +13,5 @@
 - [Node.js](https://nodejs.org/en)
 - [Python](https://python.org)
 - [Rust](https://www.rust-lang.org/)
+  - [Hyper](https://hyper.rs/)
+  - [Rocket](https://rocket.rs/)
