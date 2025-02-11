@@ -5,5 +5,7 @@ test:
 	cargo test
 
 build:
-	rm -rf target
+	cargo build
+
+build-prod:
 	cargo build --release

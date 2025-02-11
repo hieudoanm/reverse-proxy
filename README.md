@@ -14,6 +14,7 @@
 - [Python](https://python.org)
 - [Rust](https://www.rust-lang.org/)
   - [Actix](https://actix.rs/)
+  - [Gotham](https://gotham.rs/)
   - [Hyper](https://hyper.rs/)
   - [Rocket](https://rocket.rs/)
   - [Wrap](https://github.com/seanmonstar/warp)
