@@ -17,6 +17,9 @@
   - [http](https://pkg.go.dev/net/http) - Built-in
 - [Node.js](https://nodejs.org/en)
 - [Python](https://python.org)
+  - [FastAPI](https://fastapi.tiangolo.com/)
+  - [Flask](https://flask.palletsprojects.com/en/stable/)
+  - http - Built-in
 - [Rust](https://www.rust-lang.org/)
   - [Actix](https://actix.rs/)
   - [Gotham](https://gotham.rs/)
