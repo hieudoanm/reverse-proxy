@@ -10,6 +10,11 @@
 
 - [C++](https://cplusplus.com/)
 - [Go](https://go.dev/)
+  - [beego](https://github.com/beego/beego)
+  - [echo](https://echo.labstack.com/)
+  - [gin](https://gin-gonic.com/)
+  - [gorilla](https://gorilla.github.io/)
+  - [http](https://pkg.go.dev/net/http) - Built-in
 - [Node.js](https://nodejs.org/en)
 - [Python](https://python.org)
 - [Rust](https://www.rust-lang.org/)
