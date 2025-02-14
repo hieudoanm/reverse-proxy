@@ -1,0 +1,31 @@
+{
+  "name": "reverse-proxy-http",
+  "version": "0.0.1",
+  "description": "Reverse Proxy - Node.js - HTTP",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node",
+    "format": "prettier --cache --write .",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "reverse",
+    "proxy"
+  ],
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@eslint/js": "9.20.0",
+    "@types/node": "22.13.4",
+    "eslint": "9.20.1",
+    "globals": "15.15.0",
+    "kill-port": "2.0.1",
+    "nodemon": "3.1.9",
+    "prettier": "3.5.1",
+    "rimraf": "6.0.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.24.0"
+  }
+}

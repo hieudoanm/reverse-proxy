@@ -1,31 +1,31 @@
 {
-  "name": "reverse-proxy-node",
-  "version": "1.0.0",
-  "description": "Reverse Proxy",
+  "name": "reverse-proxy-hono",
+  "version": "0.0.1",
+  "description": "Reverse Proxy - Hono",
   "main": "dist/server.js",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "start": "node",
-    "format": "prettier --cache --write .",
-    "dev": "nodemon"
+    "dev": "wrangler dev --minify ./src/index.ts"
   },
   "keywords": [
     "reverse",
     "proxy"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "hono": "4.7.1"
+  },
   "devDependencies": {
     "@eslint/js": "9.20.0",
     "@types/node": "22.13.4",
     "eslint": "9.20.1",
     "globals": "15.15.0",
-    "kill-port": "2.0.1",
-    "nodemon": "3.1.9",
     "prettier": "3.5.1",
     "rimraf": "6.0.1",
     "ts-node": "10.9.2",
     "typescript": "5.7.3",
-    "typescript-eslint": "8.24.0"
+    "typescript-eslint": "8.24.0",
+    "wrangler": "3.109.0"
   }
 }
