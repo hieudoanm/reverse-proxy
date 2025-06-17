@@ -1,0 +1,4 @@
+.turbo
+.wrangler
+dist
+node_modules

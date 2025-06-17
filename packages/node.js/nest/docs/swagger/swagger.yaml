@@ -1,0 +1,160 @@
+openapi: 3.0.0
+paths:
+  /countries:
+    get:
+      operationId: CountriesController_getStatus
+      parameters: []
+      responses:
+        default:
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Country"
+      tags:
+        - Countries
+  /health:
+    get:
+      operationId: HealthController_getStatus
+      parameters: []
+      responses:
+        default:
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Status"
+      tags:
+        - Health
+info:
+  title: Nest.js
+  description: Nest.js Extensions
+  version: "1.0"
+  contact: {}
+tags: []
+servers: []
+components:
+  schemas:
+    CoatOfArms:
+      type: object
+      properties:
+        png:
+          type: string
+        svg:
+          type: string
+      required:
+        - png
+        - svg
+    Flags:
+      type: object
+      properties:
+        alt:
+          type: string
+        png:
+          type: string
+        svg:
+          type: string
+      required:
+        - alt
+        - png
+        - svg
+    Map:
+      type: object
+      properties: {}
+    Country:
+      type: object
+      properties:
+        coatOfArms:
+          $ref: "#/components/schemas/CoatOfArms"
+        flags:
+          $ref: "#/components/schemas/Flags"
+        currencies:
+          $ref: "#/components/schemas/Map"
+        altSpellings:
+          type: array
+          items:
+            type: string
+        capital:
+          type: array
+          items:
+            type: string
+        timezones:
+          type: array
+          items:
+            type: string
+        tld:
+          type: array
+          items:
+            type: string
+        continents:
+          type: array
+          items:
+            type: string
+        latlng:
+          type: array
+          items:
+            type: string
+        cca2:
+          type: string
+        cca3:
+          type: string
+        ccn3:
+          type: string
+        cioc:
+          type: string
+        independent:
+          type: boolean
+        status:
+          type: string
+        unMember:
+          type: boolean
+        region:
+          type: string
+        subregion:
+          type: string
+        landlocked:
+          type: boolean
+        area:
+          type: number
+        flag:
+          type: string
+        population:
+          type: number
+        fifa:
+          type: string
+        startOfWeek:
+          type: string
+      required:
+        - coatOfArms
+        - flags
+        - currencies
+        - altSpellings
+        - capital
+        - timezones
+        - tld
+        - continents
+        - latlng
+        - cca2
+        - cca3
+        - ccn3
+        - cioc
+        - independent
+        - status
+        - unMember
+        - region
+        - subregion
+        - landlocked
+        - area
+        - flag
+        - population
+        - fifa
+        - startOfWeek
+    Status:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status

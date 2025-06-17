@@ -1,0 +1,30 @@
+{
+  "name": "reverse-proxy",
+  "version": "0.0.1",
+  "description": "Reverse Proxy",
+  "packageManager": "pnpm@10.12.1",
+  "keywords": [
+    "reverse",
+    "proxy"
+  ],
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hieudoanm/reverse-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hieudoanm/reverse-proxy/issues"
+  },
+  "homepage": "https://github.com/hieudoanm/reverse-proxy#readme",
+  "scripts": {
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "prepare": "husky || true"
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "rimraf": "6.0.1",
+    "turbo": "2.5.4"
+  }
+}
