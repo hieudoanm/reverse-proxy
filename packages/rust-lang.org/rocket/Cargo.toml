@@ -1,0 +1,10 @@
+[package]
+name = "reverse-proxy-rocket"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+rocket = { version = "=0.5.1" }
+reqwest = { version = "=0.12.20", features = ["json"] }
+tokio = { version = "=1.45.1", features = ["full"] }
