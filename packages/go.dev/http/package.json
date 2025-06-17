@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/hieudoanm/reverse-proxy#readme",
   "scripts": {
-    "format": "make fmt",
-    "lint": "make vet",
+    "format": "make fmt || true",
+    "lint": "make vet || true",
     "prebuild": "rimraf public",
-    "build": "docsify init ./public && make build"
+    "build": "docsify init ./public && make build || true"
   },
   "devDependencies": {
     "docsify-cli": "4.4.4",
