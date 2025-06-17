@@ -1,5 +1,5 @@
 {
-  "name": "reverse-proxy-go-http",
+  "name": "@reverse-proxy/go-http",
   "version": "0.0.1",
   "description": "Reverse Proxy - Go HTTP",
   "packageManager": "pnpm@10.12.1",

@@ -1,7 +1,7 @@
 {
-  "name": "@nothing/reverse-proxy-nest",
+  "name": "@reverse-proxy/node-nest",
   "version": "0.0.1",
-  "description": "Reverse Proxy - Nest.js",
+  "description": "Reverse Proxy - Node.js - Nest.js",
   "main": "dist/main",
   "repository": {
     "type": "git",
