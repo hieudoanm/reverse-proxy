@@ -1,0 +1,30 @@
+plugins {
+    // ✅ Spring Boot plugin
+    id 'org.springframework.boot' version '3.2.6'
+    // ✅ Dependency management plugin for Spring libraries
+    id 'io.spring.dependency-management' version '1.1.5'
+    // ✅ Java plugin
+    id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+// 📦 Gradle uses this as the package repository
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // ✅ Core Spring Boot Web for REST APIs
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // ✅ (Optional) Spring Boot Testing support
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+// ✅ Use JUnit Platform for tests
+tasks.named('test') {
+    useJUnitPlatform()
+}

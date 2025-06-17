@@ -30,7 +30,7 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
 
-  packages/node.js/express:
+  packages/typescriptlang.org/node.js/express:
     dependencies:
       express:
         specifier: 5.1.0
@@ -73,7 +73,7 @@ importers:
         specifier: 4.20.0
         version: 4.20.0
 
-  packages/node.js/fastify:
+  packages/typescriptlang.org/node.js/fastify:
     dependencies:
       fastify:
         specifier: 5.4.0
@@ -113,7 +113,7 @@ importers:
         specifier: 4.20.0
         version: 4.20.0
 
-  packages/node.js/hono:
+  packages/typescriptlang.org/node.js/hono:
     dependencies:
       hono:
         specifier: 4.7.11
@@ -150,7 +150,7 @@ importers:
         specifier: 4.20.0
         version: 4.20.0
 
-  packages/node.js/http:
+  packages/typescriptlang.org/node.js/http:
     devDependencies:
       '@eslint/js':
         specifier: 9.28.0
@@ -186,7 +186,7 @@ importers:
         specifier: 8.34.1
         version: 8.34.1(eslint@9.28.0)(typescript@5.8.3)
 
-  packages/node.js/nest:
+  packages/typescriptlang.org/node.js/nest:
     dependencies:
       '@nestjs/axios':
         specifier: 4.0.0

@@ -8,9 +8,13 @@
   - [🌐 Languages](#-languages)
     - [💻 C++](#-c)
     - [🐹 Go](#-go)
-    - [🟢 Node.js](#-nodejs)
+    - [☕ Java](#-java)
+    - [🧵 Kotlin](#-kotlin)
     - [🐍 Python](#-python)
     - [🦀 Rust](#-rust)
+    - [🟦 TypeScript](#-typescript)
+      - [🦕 Deno](#-deno)
+      - [🟢 Node.js](#-nodejs)
 
 ## 🚀 Demo
 
@@ -22,11 +26,11 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ## 🌐 Languages
 
-### 💻 C++
+### 💻 [C++](https://cplusplus.com/)
 
 - [Boost](https://www.boost.org/doc/libs/release/doc/html/boost_asio.html)
 
-### 🐹 Go
+### 🐹 [Go](https://go.dev/)
 
 - [Beego](https://beego.vip/)
 - [Echo](https://echo.labstack.com/)
@@ -34,24 +38,38 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 - [Gorilla](https://www.gorillatoolkit.org/)
 - [HTTP](https://pkg.go.dev/net/http)
 
-### 🟢 Node.js
+### ☕ [Java](https://www.java.com/en/)
 
-- [Express](https://expressjs.com/)
-- [Fastify](https://www.fastify.io/)
-- [Hono](https://hono.dev/)
-- [HTTP](https://nodejs.org/api/http.html)
-- [Nest](https://nestjs.com/)
+- [SpringBoot](https://spring.io/projects/spring-boot)
 
-### 🐍 Python
+### 🧵 [Kotlin](https://kotlinlang.org/)
+
+- [Ktor](https://ktor.io/)
+
+### 🐍 [Python](https://www.python.org/)
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Flask](https://flask.palletsprojects.com/)
 - [HTTP](https://docs.python.org/3/library/http.server.html)
 
-### 🦀 Rust
+### 🦀 [Rust](https://www.rust-lang.org/)
 
 - [Actix](https://actix.rs/)
 - [Gotham](https://gotham.rs/)
 - [Hyper](https://hyper.rs/)
 - [Rocket](https://rocket.rs/)
 - [Warp](https://github.com/seanmonstar/warp)
+
+### 🟦 [TypeScript](https://www.typescriptlang.org/)
+
+#### 🦕 [Deno](https://deno.com)
+
+- [HTTP](https://deno.land/std/http)
+
+#### 🟢 [Node.js](https://nodejs.org/en)
+
+- [Express](https://expressjs.com/)
+- [Fastify](https://www.fastify.io/)
+- [Hono](https://hono.dev/)
+- [HTTP](https://nodejs.org/api/http.html)
+- [Nest](https://nestjs.com/)
