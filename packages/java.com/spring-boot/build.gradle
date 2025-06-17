@@ -2,7 +2,7 @@ plugins {
     // ✅ Spring Boot plugin
     id 'org.springframework.boot' version '3.2.6'
     // ✅ Dependency management plugin for Spring libraries
-    id 'io.spring.dependency-management' version '1.1.5'
+    id 'io.spring.dependency-management' version '1.1.7'
     // ✅ Java plugin
     id 'java'
 }
