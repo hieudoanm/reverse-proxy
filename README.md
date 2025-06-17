@@ -6,13 +6,13 @@
   - [📑 Table of Contents](#-table-of-contents)
   - [🚀 Demo](#-demo)
   - [🌐 Languages](#-languages)
-    - [💻 C++](#-c)
-    - [🐹 Go](#-go)
-    - [☕ Java](#-java)
-    - [🧵 Kotlin](#-kotlin)
-    - [🐍 Python](#-python)
-    - [🦀 Rust](#-rust)
-    - [🟦 TypeScript](#-typescript)
+    - [1. 💻 C++](#1--c)
+    - [2. 🐹 Go](#2--go)
+    - [3. ☕ Java](#3--java)
+    - [4. 🧵 Kotlin](#4--kotlin)
+    - [5. 🐍 Python](#5--python)
+    - [6. 🦀 Rust](#6--rust)
+    - [7. 🟦 TypeScript](#7--typescript)
       - [🦕 Deno](#-deno)
       - [🟢 Node.js](#-nodejs)
 
@@ -28,13 +28,13 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ## 🌐 Languages
 
-### 💻 [C++](https://cplusplus.com/)
+### 1. 💻 [C++](https://cplusplus.com/)
 
 - [Boost](https://www.boost.org/doc/libs/release/doc/html/boost_asio.html)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 🐹 [Go](https://go.dev/)
+### 2. 🐹 [Go](https://go.dev/)
 
 - [Beego](https://beego.vip/)
 - [Echo](https://echo.labstack.com/)
@@ -44,19 +44,19 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### ☕ [Java](https://www.java.com/en/)
+### 3. ☕ [Java](https://www.java.com/en/)
 
 - [SpringBoot](https://spring.io/projects/spring-boot)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 🧵 [Kotlin](https://kotlinlang.org/)
+### 4. 🧵 [Kotlin](https://kotlinlang.org/)
 
 - [Ktor](https://ktor.io/)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 🐍 [Python](https://www.python.org/)
+### 5. 🐍 [Python](https://www.python.org/)
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Flask](https://flask.palletsprojects.com/)
@@ -64,7 +64,7 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 🦀 [Rust](https://www.rust-lang.org/)
+### 6. 🦀 [Rust](https://www.rust-lang.org/)
 
 - [Actix](https://actix.rs/)
 - [Gotham](https://gotham.rs/)
@@ -74,7 +74,7 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 🟦 [TypeScript](https://www.typescriptlang.org/)
+### 7. 🟦 [TypeScript](https://www.typescriptlang.org/)
 
 #### 🦕 [Deno](https://deno.com)
 
