@@ -13,8 +13,9 @@
     - [5. 🐍 Python](#5--python)
     - [6. 🦀 Rust](#6--rust)
     - [7. 🟦 TypeScript](#7--typescript)
-      - [🦕 Deno](#-deno)
-      - [🟢 Node.js](#-nodejs)
+      - [7.1 🥟 Bun](#71--bun)
+      - [7.2 🦕 Deno](#72--deno)
+      - [7.3 🟢 Node.js](#73--nodejs)
 
 ## 🚀 Demo
 
@@ -76,13 +77,17 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ### 7. 🟦 [TypeScript](https://www.typescriptlang.org/)
 
-#### 🦕 [Deno](https://deno.com)
+#### 7.1 🥟 [Bun](https://bun.sh/)
+
+- [HTTP](https://bun.sh/docs/api/http)
+
+#### 7.2 🦕 [Deno](https://deno.com)
 
 - [HTTP](https://deno.land/std/http)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-#### 🟢 [Node.js](https://nodejs.org/en)
+#### 7.3 🟢 [Node.js](https://nodejs.org/en)
 
 - [Express](https://expressjs.com/)
 - [Fastify](https://www.fastify.io/)
