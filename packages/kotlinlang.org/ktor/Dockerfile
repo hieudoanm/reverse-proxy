@@ -13,7 +13,7 @@ RUN ./gradlew clean build --no-daemon
 # ========================
 # Runtime Stage
 # ========================
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21.0.7_6-jre
 
 WORKDIR /app
 
