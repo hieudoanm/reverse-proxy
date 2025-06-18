@@ -23,9 +23,9 @@
     "fastify": "5.4.0"
   },
   "devDependencies": {
-    "@eslint/js": "9.28.0",
+    "@eslint/js": "9.29.0",
     "@types/node": "22.15.32",
-    "eslint": "9.28.0",
+    "eslint": "9.29.0",
     "globals": "16.2.0",
     "nodemon": "3.1.10",
     "prettier": "3.5.3",
