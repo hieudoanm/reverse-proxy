@@ -38,7 +38,7 @@ importers:
     devDependencies:
       '@types/bun':
         specifier: latest
-        version: 1.2.16
+        version: 1.2.17
 
   packages/typescriptlang.org/node.js/express:
     dependencies:
@@ -65,8 +65,8 @@ importers:
         specifier: 3.1.10
         version: 3.1.10
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.6.0
+        version: 3.6.0
       rimraf:
         specifier: 6.0.1
         version: 6.0.1
@@ -105,8 +105,8 @@ importers:
         specifier: 3.1.10
         version: 3.1.10
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.6.0
+        version: 3.6.0
       rimraf:
         specifier: 6.0.1
         version: 6.0.1
@@ -142,8 +142,8 @@ importers:
         specifier: 16.2.0
         version: 16.2.0
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.6.0
+        version: 3.6.0
       rimraf:
         specifier: 6.0.1
         version: 6.0.1
@@ -181,8 +181,8 @@ importers:
         specifier: 3.1.10
         version: 3.1.10
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.6.0
+        version: 3.6.0
       rimraf:
         specifier: 6.0.1
         version: 6.0.1
@@ -279,7 +279,7 @@ importers:
         version: 10.1.5(eslint@9.29.0)
       eslint-plugin-prettier:
         specifier: 5.5.0
-        version: 5.5.0(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.29.0))(eslint@9.29.0)(prettier@3.5.3)
+        version: 5.5.0(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.29.0))(eslint@9.29.0)(prettier@3.6.0)
       globals:
         specifier: 16.2.0
         version: 16.2.0
@@ -287,8 +287,8 @@ importers:
         specifier: 30.0.2
         version: 30.0.2(@types/node@22.15.32)(ts-node@10.9.2(@types/node@22.15.32)(typescript@5.8.3))
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.6.0
+        version: 3.6.0
       source-map-support:
         specifier: 0.5.21
         version: 0.5.21
@@ -1426,8 +1426,8 @@ packages:
   '@types/body-parser@1.19.6':
     resolution: {integrity: sha512-HLFeCYgz89uk22N5Qg3dvGvsv46B8GLvKKo1zKG4NybA8U2DiEO3w9lqGg29t/tfLRJpJ6iQxnVw4OnB7MoM9g==}
 
-  '@types/bun@1.2.16':
-    resolution: {integrity: sha512-1aCZJ/6nSiViw339RsaNhkNoEloLaPzZhxMOYEa7OzRzO41IGg5n/7I43/ZIAW/c+Q6cT12Vf7fOZOoVIzb5BQ==}
+  '@types/bun@1.2.17':
+    resolution: {integrity: sha512-l/BYs/JYt+cXA/0+wUhulYJB6a6p//GTPiJ7nV+QHa8iiId4HZmnu/3J/SowP5g0rTiERY2kfGKXEK5Ehltx4Q==}
 
   '@types/connect@3.4.38':
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
@@ -1953,8 +1953,8 @@ packages:
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
 
-  bun-types@1.2.16:
-    resolution: {integrity: sha512-ciXLrHV4PXax9vHvUrkvun9VPVGOVwbbbBF/Ev1cXz12lyEZMoJpIJABOfPcN9gDJRaiKF9MVbSygLg4NXu3/A==}
+  bun-types@1.2.17:
+    resolution: {integrity: sha512-ElC7ItwT3SCQwYZDYoAH+q6KT4Fxjl8DtZ6qDulUFBmXA8YB4xo+l54J9ZJN+k2pphfn9vk7kfubeSd5QfTVJQ==}
 
   busboy@1.6.0:
     resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
@@ -3731,8 +3731,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.6.0:
+    resolution: {integrity: sha512-ujSB9uXHJKzM/2GBuE0hBOUgC77CN3Bnpqa+g80bkv3T3A93wL/xlzDATHhnhkzifz/UE2SNOvmbTz5hSkDlHw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5801,9 +5801,9 @@ snapshots:
       '@types/connect': 3.4.38
       '@types/node': 22.15.32
 
-  '@types/bun@1.2.16':
+  '@types/bun@1.2.17':
     dependencies:
-      bun-types: 1.2.16
+      bun-types: 1.2.17
 
   '@types/connect@3.4.38':
     dependencies:
@@ -6402,7 +6402,7 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  bun-types@1.2.16:
+  bun-types@1.2.17:
     dependencies:
       '@types/node': 22.15.32
 
@@ -6894,10 +6894,10 @@ snapshots:
     dependencies:
       eslint: 9.29.0
 
-  eslint-plugin-prettier@5.5.0(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.29.0))(eslint@9.29.0)(prettier@3.5.3):
+  eslint-plugin-prettier@5.5.0(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.29.0))(eslint@9.29.0)(prettier@3.6.0):
     dependencies:
       eslint: 9.29.0
-      prettier: 3.5.3
+      prettier: 3.6.0
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.8
     optionalDependencies:
@@ -8406,7 +8406,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.5.3: {}
+  prettier@3.6.0: {}
 
   pretty-format@30.0.0:
     dependencies:
