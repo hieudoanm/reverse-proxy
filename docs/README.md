@@ -6,16 +6,17 @@
   - [📑 Table of Contents](#-table-of-contents)
   - [🚀 Demo](#-demo)
   - [🌐 Languages](#-languages)
-    - [1. 💻 C++](#1--c)
-    - [2. 🐹 Go](#2--go)
-    - [3. ☕ Java](#3--java)
-    - [4. 🧵 Kotlin](#4--kotlin)
-    - [5. 🐍 Python](#5--python)
-    - [6. 🦀 Rust](#6--rust)
-    - [7. 🟦 TypeScript](#7--typescript)
-      - [7.1 🥟 Bun](#71--bun)
-      - [7.2 🦕 Deno](#72--deno)
-      - [7.3 🟢 Node.js](#73--nodejs)
+    - [1. C#](#1-c)
+    - [2. 💻 C++](#2--c)
+    - [3. 🐹 Go](#3--go)
+    - [4. ☕ Java](#4--java)
+    - [5. 🧵 Kotlin](#5--kotlin)
+    - [6. 🐍 Python](#6--python)
+    - [7. 🦀 Rust](#7--rust)
+    - [8. 🟦 TypeScript](#8--typescript)
+      - [8.1 🥟 Bun](#81--bun)
+      - [8.2 🦕 Deno](#82--deno)
+      - [8.3 🟢 Node.js](#83--nodejs)
 
 ## 🚀 Demo
 
@@ -29,13 +30,19 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ## 🌐 Languages
 
-### 1. 💻 [C++](https://cplusplus.com/)
+### 1. [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
+
+- [.NET](https://dotnet.microsoft.com/en-us/)
+
+[⬆️ Back to Table of Contents](#-table-of-contents)
+
+### 2. 💻 [C++](https://cplusplus.com/)
 
 - [Boost](https://www.boost.org/doc/libs/release/doc/html/boost_asio.html)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 2. 🐹 [Go](https://go.dev/)
+### 3. 🐹 [Go](https://go.dev/)
 
 - [Beego](https://beego.vip/)
 - [Echo](https://echo.labstack.com/)
@@ -45,19 +52,19 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 3. ☕ [Java](https://www.java.com/en/)
+### 4. ☕ [Java](https://www.java.com/en/)
 
 - [SpringBoot](https://spring.io/projects/spring-boot)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 4. 🧵 [Kotlin](https://kotlinlang.org/)
+### 5. 🧵 [Kotlin](https://kotlinlang.org/)
 
 - [Ktor](https://ktor.io/)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 5. 🐍 [Python](https://www.python.org/)
+### 6. 🐍 [Python](https://www.python.org/)
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Flask](https://flask.palletsprojects.com/)
@@ -65,7 +72,7 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 6. 🦀 [Rust](https://www.rust-lang.org/)
+### 7. 🦀 [Rust](https://www.rust-lang.org/)
 
 - [Actix](https://actix.rs/)
 - [Gotham](https://gotham.rs/)
@@ -75,19 +82,19 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 7. 🟦 [TypeScript](https://www.typescriptlang.org/)
+### 8. 🟦 [TypeScript](https://www.typescriptlang.org/)
 
-#### 7.1 🥟 [Bun](https://bun.sh/)
+#### 8.1 🥟 [Bun](https://bun.sh/)
 
 - [HTTP](https://bun.sh/docs/api/http)
 
-#### 7.2 🦕 [Deno](https://deno.com)
+#### 8.2 🦕 [Deno](https://deno.com)
 
 - [HTTP](https://deno.land/std/http)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-#### 7.3 🟢 [Node.js](https://nodejs.org/en)
+#### 8.3 🟢 [Node.js](https://nodejs.org/en)
 
 - [Express](https://expressjs.com/)
 - [Fastify](https://www.fastify.io/)
