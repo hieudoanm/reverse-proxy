@@ -33,6 +33,7 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 ### 1. [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 
 - [.NET](https://dotnet.microsoft.com/en-us/)
+- [YARP (Yet Another Reverse Proxy)](https://dotnet.github.io/yarp/)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -44,41 +45,42 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ### 3. 🐹 [Go](https://go.dev/)
 
-- [Beego](https://beego.vip/)
-- [Echo](https://echo.labstack.com/)
-- [Gin](https://gin-gonic.com/)
-- [Gorilla](https://www.gorillatoolkit.org/)
-- [HTTP](https://pkg.go.dev/net/http)
+1. [Beego](https://beego.vip/)
+2. [Echo](https://echo.labstack.com/)
+3. [Gin](https://gin-gonic.com/)
+4. [Gorilla](https://www.gorillatoolkit.org/)
+5. [HTTP](https://pkg.go.dev/net/http)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 ### 4. ☕ [Java](https://www.java.com/en/)
 
-- [SpringBoot](https://spring.io/projects/spring-boot)
+1. [SpringBoot](https://spring.io/projects/spring-boot)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 ### 5. 🧵 [Kotlin](https://kotlinlang.org/)
 
-- [Ktor](https://ktor.io/)
+1. [Ktor](https://ktor.io/)
+2. [SpringBoot](https://spring.io/projects/spring-boot)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 ### 6. 🐍 [Python](https://www.python.org/)
 
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Flask](https://flask.palletsprojects.com/)
-- [HTTP](https://docs.python.org/3/library/http.server.html)
+1. [FastAPI](https://fastapi.tiangolo.com/)
+2. [Flask](https://flask.palletsprojects.com/)
+3. [HTTP](https://docs.python.org/3/library/http.server.html)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 ### 7. 🦀 [Rust](https://www.rust-lang.org/)
 
-- [Actix](https://actix.rs/)
-- [Gotham](https://gotham.rs/)
-- [Hyper](https://hyper.rs/)
-- [Rocket](https://rocket.rs/)
-- [Warp](https://github.com/seanmonstar/warp)
+1. [Actix](https://actix.rs/)
+2. [Gotham](https://gotham.rs/)
+3. [Hyper](https://hyper.rs/)
+4. [Rocket](https://rocket.rs/)
+5. [Warp](https://github.com/seanmonstar/warp)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -86,20 +88,20 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 #### 8.1 🥟 [Bun](https://bun.sh/)
 
-- [HTTP](https://bun.sh/docs/api/http)
+1. [HTTP](https://bun.sh/docs/api/http)
 
 #### 8.2 🦕 [Deno](https://deno.com)
 
-- [HTTP](https://deno.land/std/http)
+1. [HTTP](https://deno.land/std/http)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 #### 8.3 🟢 [Node.js](https://nodejs.org/en)
 
-- [Express](https://expressjs.com/)
-- [Fastify](https://www.fastify.io/)
-- [Hono](https://hono.dev/)
-- [HTTP](https://nodejs.org/api/http.html)
-- [Nest](https://nestjs.com/)
+1. [Express](https://expressjs.com/)
+2. [Fastify](https://www.fastify.io/)
+3. [Hono](https://hono.dev/)
+4. [HTTP](https://nodejs.org/api/http.html)
+5. [Nest](https://nestjs.com/)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
