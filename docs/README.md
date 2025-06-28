@@ -90,7 +90,8 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 1. [Express](https://expressjs.com/)
 2. [Fastify](https://www.fastify.io/)
-3. [HTTP](https://bun.sh/docs/api/http)
+3. [Hono](https://hono.dev/)
+4. [HTTP](https://bun.sh/docs/api/http)
 
 #### 8.2 🦕 [Deno](https://deno.com)
 
