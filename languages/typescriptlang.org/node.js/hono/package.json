@@ -23,9 +23,9 @@
     "hono": "4.8.3"
   },
   "devDependencies": {
-    "@eslint/js": "9.29.0",
+    "@eslint/js": "9.30.0",
     "@types/node": "24.0.6",
-    "eslint": "9.29.0",
+    "eslint": "9.30.0",
     "globals": "16.2.0",
     "prettier": "3.6.2",
     "rimraf": "6.0.1",
