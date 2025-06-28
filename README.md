@@ -95,7 +95,8 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 #### 8.2 🦕 [Deno](https://deno.com)
 
-1. [HTTP](https://deno.land/std/http)
+1. [Fresh](https://fresh.deno.dev/)
+2. [HTTP](https://deno.land/std/http)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
