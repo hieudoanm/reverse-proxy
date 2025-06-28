@@ -203,7 +203,7 @@ importers:
         version: 4.0.0(@nestjs/common@11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.10.0)(rxjs@7.8.2)
       '@nestjs/cache-manager':
         specifier: 3.0.1
-        version: 3.0.1(@nestjs/common@11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.3)(cache-manager@7.0.0)(keyv@5.3.4)(rxjs@7.8.2)
+        version: 3.0.1(@nestjs/common@11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.3)(cache-manager@7.0.1)(keyv@5.3.4)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: 11.1.3
         version: 11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -226,8 +226,8 @@ importers:
         specifier: 1.10.0
         version: 1.10.0
       cache-manager:
-        specifier: 7.0.0
-        version: 7.0.0
+        specifier: 7.0.1
+        version: 7.0.1
       compression:
         specifier: 1.8.0
         version: 1.8.0
@@ -1940,8 +1940,8 @@ packages:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
 
-  cache-manager@7.0.0:
-    resolution: {integrity: sha512-5HLGorfU4g2GyLTXd+bbq8RhZPwLRlVm7hfS1EssJx4Ujq1FjyQAjHND93sI6ByQTlUlCQ0jrHZqLI0qtBFyHA==}
+  cache-manager@7.0.1:
+    resolution: {integrity: sha512-Hd7FOyTtwhwLgkKeKQWEw6Ixj63VKuUWYwkGgL6g6Q7eISW6uxci5+DtUXlqI0gtbLCPPdhL1+HP9Zht27DbrA==}
 
   cacheable-request@6.1.0:
     resolution: {integrity: sha512-Oj3cAGPCqOZX7Rz64Uny2GYAZNliQSqfbePrgAQ1wKAihYmCUnraBtJtKcGR4xz7wF+LoJC+ssFZvv5BgF9Igg==}
@@ -5501,11 +5501,11 @@ snapshots:
       axios: 1.10.0
       rxjs: 7.8.2
 
-  '@nestjs/cache-manager@3.0.1(@nestjs/common@11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.3)(cache-manager@7.0.0)(keyv@5.3.4)(rxjs@7.8.2)':
+  '@nestjs/cache-manager@3.0.1(@nestjs/common@11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.3)(cache-manager@7.0.1)(keyv@5.3.4)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.3(@nestjs/common@11.1.3(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.1.3)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      cache-manager: 7.0.0
+      cache-manager: 7.0.1
       keyv: 5.3.4
       rxjs: 7.8.2
 
@@ -6329,7 +6329,7 @@ snapshots:
 
   bytes@3.1.2: {}
 
-  cache-manager@7.0.0:
+  cache-manager@7.0.1:
     dependencies:
       keyv: 5.3.4
 
