@@ -1,15 +1,13 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import Fastify from 'fastify';
 
-const fastify = Fastify({
-  logger: true,
-});
+const fastify = Fastify({ logger: true });
 
 // Declare a route
 fastify.get('/', async function handler(request) {
-  const targetUrl = (request.query as { target: string }).target; // Get target URL from query parameter
+  const url = (request.query as { url: string }).url; // Get target URL from query parameter
 
-  if (!targetUrl) {
+  if (!url) {
     return { error: 'Missing target URL' };
   }
 
@@ -26,20 +24,22 @@ fastify.get('/', async function handler(request) {
     };
 
     // Fetch the response from the target URL
-    const response = await fetch(targetUrl, fetchOptions).then((response) =>
-      response.json(),
-    );
+    const fetchResponse = await fetch(url, fetchOptions);
+    const data = await fetchResponse.json();
 
-    return response;
+    return data;
   } catch (error) {
     return { error: `Proxy Error: ${(error as Error).message}` };
   }
 });
 
+const PORT = 3000;
+
 // Run the server!
 const listen = async () => {
   try {
-    await fastify.listen({ port: 3000 });
+    await fastify.listen({ port: PORT });
+    console.info(`🚀 Reverse Proxy is running on http://localhost:${PORT}`);
   } catch (err) {
     fastify.log.error(err);
     process.exit(1);

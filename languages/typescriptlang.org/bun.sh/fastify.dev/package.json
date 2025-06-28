@@ -1,11 +1,14 @@
 {
-  "name": "@bun/http",
+  "name": "@bun/fastify.dev",
   "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
     "format": "prettier --cache --write .",
     "dev": "bun run --watch index.ts"
+  },
+  "dependencies": {
+    "fastify": "5.4.0"
   },
   "devDependencies": {
     "@types/bun": "1.2.17",

@@ -3,7 +3,7 @@ import express, { Request, Response } from 'express';
 const app = express();
 
 app.get('/', async (req: Request, res: Response) => {
-  const targetUrl: string = req.query.target as string;
+  const targetUrl: string = req.query.url as string;
 
   if (!targetUrl) {
     res.status(400).send('Missing target URL');
