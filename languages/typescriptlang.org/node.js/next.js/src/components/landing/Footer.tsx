@@ -1,5 +1,5 @@
-import { APP_NAME } from "@reverse-proxy/constants/app";
-import { FC } from "react";
+import { APP_NAME } from '@reverse-proxy/constants/app';
+import { FC } from 'react';
 
 export const Footer: FC = () => {
   return (

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { NextApiRequest, NextApiResponse } from "next";
+import type { NextApiRequest, NextApiResponse } from 'next';
 
 /**
  * @swagger
@@ -42,13 +42,13 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         ...req.headers,
         host: undefined,
       } as any,
-      body: ["GET", "HEAD"].includes(req.method || "") ? undefined : req.body,
+      body: ['GET', 'HEAD'].includes(req.method || '') ? undefined : req.body,
     });
 
-    const contentType = proxyRes.headers.get("content-type");
+    const contentType = proxyRes.headers.get('content-type');
     res.status(proxyRes.status);
 
-    if (contentType?.includes("application/json")) {
+    if (contentType?.includes('application/json')) {
       const data = await proxyRes.json();
       res.json(data);
     } else {
@@ -56,7 +56,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       res.send(text);
     }
   } catch (err: any) {
-    res.status(500).json({ error: "Proxy failed", details: err.message });
+    res.status(500).json({ error: 'Proxy failed', details: err.message });
   }
 };
 

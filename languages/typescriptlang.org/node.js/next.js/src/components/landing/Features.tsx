@@ -1,5 +1,5 @@
-import { Glass } from "@reverse-proxy/components/shared/Glass";
-import { FC } from "react";
+import { Glass } from '@reverse-proxy/components/shared/Glass';
+import { FC } from 'react';
 
 type Feature = { title: string; description: string };
 

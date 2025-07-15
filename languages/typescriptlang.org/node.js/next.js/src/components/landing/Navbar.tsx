@@ -1,6 +1,6 @@
-import { APP_NAME } from "@reverse-proxy/constants/app";
-import Link from "next/link";
-import { FC } from "react";
+import { APP_NAME } from '@reverse-proxy/constants/app';
+import Link from 'next/link';
+import { FC } from 'react';
 
 const links: { id: string; href: string; label: string }[] = [];
 
