@@ -1,4 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "pnpm install --legacy-peer-deps"
+  "installCommand": "pnpm install --strict-peer-dependencies=false"
 }
