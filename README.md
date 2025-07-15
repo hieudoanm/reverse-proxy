@@ -102,10 +102,11 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 #### 8.3 🟢 [Node.js](https://nodejs.org/en)
 
-1. [Express](https://expressjs.com/)
-2. [Fastify](https://www.fastify.io/)
-3. [Hono](https://hono.dev/)
+1. [Express](https://expressjs.com)
+2. [Fastify](https://www.fastify.io)
+3. [Hono](https://hono.dev)
 4. [HTTP](https://nodejs.org/api/http.html)
-5. [Nest](https://nestjs.com/)
+5. [Nest](https://nestjs.com)
+6. [Next](https://nextjs.org)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
