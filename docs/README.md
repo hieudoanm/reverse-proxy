@@ -45,12 +45,14 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ### 3. 🐹 [Go](https://go.dev/)
 
-1. [Beego](https://beego.vip/)
-2. [Chi](https://go-chi.io/) - [GitHub](https://github.com/go-chi/chi)
-3. [Echo](https://echo.labstack.com/) - [GitHub](https://github.com/labstack/echo)
-4. [Gin](https://gin-gonic.com/)
-5. [Gorilla](https://www.gorillatoolkit.org/)
-6. [HTTP](https://pkg.go.dev/net/http)
+| No  | Framework                                  | GitHub                                     |
+| --- | ------------------------------------------ | ------------------------------------------ |
+| 1   | [Beego](https://beego.vip/)                | [GitHub](https://github.com/beego/beego)   |
+| 2   | [Chi](https://go-chi.io/)                  | [GitHub](https://github.com/go-chi/chi)    |
+| 3   | [Echo](https://echo.labstack.com/)         | [GitHub](https://github.com/labstack/echo) |
+| 4   | [Gin](https://gin-gonic.com/)              | [GitHub](https://github.com/gin-gonic/gin) |
+| 5   | [Gorilla](https://www.gorillatoolkit.org/) | [GitHub](https://github.com/gorilla/mux)   |
+| 6   | [HTTP](https://pkg.go.dev/net/http)        |                                            |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -62,26 +64,32 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ### 5. 🧵 [Kotlin](https://kotlinlang.org/)
 
-1. [Ktor](https://ktor.io/)
-2. [SpringBoot](https://spring.io/projects/spring-boot)
+| No  | Framework                                            |
+| --- | ---------------------------------------------------- |
+| 1   | [Ktor](https://ktor.io/)                             |
+| 2   | [SpringBoot](https://spring.io/projects/spring-boot) |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 ### 6. 🐍 [Python](https://www.python.org/)
 
-1. [FastAPI](https://fastapi.tiangolo.com/)
-2. [Flask](https://flask.palletsprojects.com/)
-3. [HTTP](https://docs.python.org/3/library/http.server.html)
+| No  | Framework                                                  |
+| --- | ---------------------------------------------------------- |
+| 1   | [FastAPI](https://fastapi.tiangolo.com/)                   |
+| 2   | [Flask](https://flask.palletsprojects.com/)                |
+| 3   | [HTTP](https://docs.python.org/3/library/http.server.html) |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 ### 7. 🦀 [Rust](https://www.rust-lang.org/)
 
-1. [Actix](https://actix.rs/)
-2. [Gotham](https://gotham.rs/)
-3. [Hyper](https://hyper.rs/)
-4. [Rocket](https://rocket.rs/)
-5. [Warp](https://github.com/seanmonstar/warp)
+| No  | Framework                                   |
+| --- | ------------------------------------------- |
+| 1   | [Actix](https://actix.rs/)                  |
+| 2   | [Gotham](https://gotham.rs/)                |
+| 3   | [Hyper](https://hyper.rs/)                  |
+| 4   | [Rocket](https://rocket.rs/)                |
+| 5   | [Warp](https://github.com/seanmonstar/warp) |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -89,25 +97,31 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 #### 8.1 🥟 [Bun](https://bun.sh/)
 
-1. [Express](https://expressjs.com/)
-2. [Fastify](https://www.fastify.io/)
-3. [Hono](https://hono.dev/)
-4. [HTTP](https://bun.sh/docs/api/http)
+| No  | Framework                            |
+| --- | ------------------------------------ |
+| 1   | [Express](https://expressjs.com/)    |
+| 2   | [Fastify](https://www.fastify.io/)   |
+| 3   | [Hono](https://hono.dev/)            |
+| 4   | [HTTP](https://bun.sh/docs/api/http) |
 
 #### 8.2 🦕 [Deno](https://deno.com)
 
-1. [Fresh](https://fresh.deno.dev/)
-2. [HTTP](https://deno.land/std/http)
+| No  | Framework                          |
+| --- | ---------------------------------- |
+| 1   | [Fresh](https://fresh.deno.dev/)   |
+| 2   | [HTTP](https://deno.land/std/http) |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
 #### 8.3 🟢 [Node.js](https://nodejs.org/en)
 
-1. [Express](https://expressjs.com)
-2. [Fastify](https://www.fastify.io)
-3. [Hono](https://hono.dev)
-4. [HTTP](https://nodejs.org/api/http.html)
-5. [Nest](https://nestjs.com)
-6. [Next](https://nextjs.org)
+| No  | Framework                                |
+| --- | ---------------------------------------- |
+| 1   | [Express](https://expressjs.com)         |
+| 2   | [Fastify](https://www.fastify.io)        |
+| 3   | [Hono](https://hono.dev)                 |
+| 4   | [HTTP](https://nodejs.org/api/http.html) |
+| 5   | [Nest](https://nestjs.com)               |
+| 6   | [Next](https://nextjs.org)               |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
