@@ -1,5 +1,5 @@
 {
-  "name": "@bun/hono.dev",
+  "name": "@reverse-proxy/bun-hono",
   "module": "index.ts",
   "type": "module",
   "private": true,

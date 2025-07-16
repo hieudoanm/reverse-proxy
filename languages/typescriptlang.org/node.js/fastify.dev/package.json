@@ -1,7 +1,7 @@
 {
-  "name": "@nothing/reverse-proxy-fastify",
+  "name": "@reverse-proxy/node-fastify",
   "version": "0.0.1",
-  "description": "Reverse Proxy - Express.js",
+  "description": "Reverse Proxy - Fastify.js",
   "main": "dist/server.js",
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 {
-  "name": "@bun/fastify.dev",
+  "name": "@reverse-proxy/bun-fastify",
   "module": "index.ts",
   "type": "module",
   "private": true,
