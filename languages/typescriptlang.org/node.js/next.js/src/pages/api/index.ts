@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { logger } from '@reverse-proxy/utils/log';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 /**
@@ -29,7 +30,9 @@ import type { NextApiRequest, NextApiResponse } from 'next';
  */
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
-  const targetUrl = req.query.url as string;
+  const targetUrl: string = req.query.url as string;
+  const decodedUrl: string = decodeURI(targetUrl);
+  logger.info(`decodedUrl=${decodedUrl}`);
 
   if (!targetUrl) {
     return res.status(400).json({ error: "Missing 'url' query parameter" });
