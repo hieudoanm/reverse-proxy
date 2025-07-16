@@ -46,10 +46,11 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 ### 3. 🐹 [Go](https://go.dev/)
 
 1. [Beego](https://beego.vip/)
-2. [Echo](https://echo.labstack.com/)
-3. [Gin](https://gin-gonic.com/)
-4. [Gorilla](https://www.gorillatoolkit.org/)
-5. [HTTP](https://pkg.go.dev/net/http)
+2. [Chi](https://go-chi.io/) - [GitHub](https://github.com/go-chi/chi)
+3. [Echo](https://echo.labstack.com/) - [GitHub](https://github.com/labstack/echo)
+4. [Gin](https://gin-gonic.com/)
+5. [Gorilla](https://www.gorillatoolkit.org/)
+6. [HTTP](https://pkg.go.dev/net/http)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
