@@ -11,7 +11,7 @@ import (
 
 // ReverseProxy handles dynamic proxying
 func ReverseProxy(c echo.Context) error {
-	targetURL := c.QueryParam("target")
+	targetURL := c.QueryParam("url")
 
 	if targetURL == "" {
 		return c.String(http.StatusBadRequest, "Missing target query parameter")
@@ -47,6 +47,6 @@ func main() {
 	e.GET("/proxy", ReverseProxy)
 
 	// Start the server
-	log.Println("Starting server on :9000...")
-	log.Fatal(e.Start(":9000"))
+	log.Println("Starting server on :3000...")
+	log.Fatal(e.Start(":3000"))
 }

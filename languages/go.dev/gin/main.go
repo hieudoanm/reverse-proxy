@@ -11,7 +11,7 @@ import (
 
 // ReverseProxy handles dynamic proxying
 func ReverseProxy(c *gin.Context) {
-	targetURL := c.Query("target")
+	targetURL := c.Query("url")
 
 	if targetURL == "" {
 		c.String(http.StatusBadRequest, "Missing target query parameter")
@@ -47,6 +47,6 @@ func main() {
 	r.GET("/proxy", ReverseProxy)
 
 	// Start the server
-	log.Println("Starting Gin server on :9000...")
-	log.Fatal(r.Run(":9000"))
+	log.Println("Starting Gin server on :3000...")
+	log.Fatal(r.Run(":3000"))
 }

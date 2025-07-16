@@ -1,6 +1,6 @@
 module github.com/hieudoanm/reverse-proxy
 
-go 1.23.6
+go 1.24.5
 
 require github.com/beego/beego/v2 v2.3.8
 

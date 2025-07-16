@@ -16,7 +16,7 @@ type ReverseProxyController struct {
 
 // Get handles the GET request for reverse proxy
 func (c *ReverseProxyController) Get() {
-	targetURL := c.GetString("target")
+	targetURL := c.GetString("url")
 
 	if targetURL == "" {
 		c.Ctx.ResponseWriter.WriteHeader(http.StatusBadRequest)
@@ -52,6 +52,6 @@ func main() {
 	beego.Router("/proxy", &ReverseProxyController{})
 
 	// Start the Beego server
-	log.Println("Starting Beego server on :9000...")
-	beego.Run(":9000")
+	log.Println("Starting Beego server on :3000...")
+	beego.Run(":3000")
 }
