@@ -30,7 +30,7 @@
     "pino": "9.7.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "swagger-ui-react": "5.26.2"
+    "swagger-ui-react": "5.27.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.1",
