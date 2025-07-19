@@ -29,37 +29,47 @@ import type { NextApiRequest, NextApiResponse } from 'next';
  *         description: Internal server error while proxying
  */
 
-const handler = async (req: NextApiRequest, res: NextApiResponse) => {
-  const targetUrl: string = req.query.url as string;
+const handler = async (request: NextApiRequest, response: NextApiResponse) => {
+  // Set CORS headers
+  response.setHeader('Access-Control-Allow-Origin', '*');
+  response.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
+  response.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+  const { method = '' } = request;
+
+  // Handle CORS preflight request
+  if (method === 'OPTIONS') {
+    return response.status(200).end();
+  }
+
+  const targetUrl: string = request.query.url as string;
   const decodedUrl: string = decodeURI(targetUrl);
   logger.info(`decodedUrl=${decodedUrl}`);
 
   if (!targetUrl) {
-    return res.status(400).json({ error: "Missing 'url' query parameter" });
+    return response.status(400).json({ error: "Missing 'url' query parameter" });
   }
 
   try {
-    const proxyRes = await fetch(targetUrl, {
-      method: req.method,
-      headers: {
-        ...req.headers,
-        host: undefined,
-      } as any,
-      body: ['GET', 'HEAD'].includes(req.method || '') ? undefined : req.body,
+    const headers = { ...request.headers, host: undefined };
+    const proxyResponse = await fetch(targetUrl, {
+      method,
+      headers: headers as any,
+      body: ['GET', 'HEAD'].includes(method || '') ? undefined : request.body,
     });
 
-    const contentType = proxyRes.headers.get('content-type');
-    res.status(proxyRes.status);
+    const contentType = proxyResponse.headers.get('content-type');
+    response.status(proxyResponse.status);
 
     if (contentType?.includes('application/json')) {
-      const data = await proxyRes.json();
-      res.json(data);
+      const data = await proxyResponse.json();
+      response.json(data);
     } else {
-      const text = await proxyRes.text();
-      res.send(text);
+      const text = await proxyResponse.text();
+      response.send(text);
     }
   } catch (err: any) {
-    res.status(500).json({ error: 'Proxy failed', details: err.message });
+    response.status(500).json({ error: 'Proxy failed', details: err.message });
   }
 };
 
