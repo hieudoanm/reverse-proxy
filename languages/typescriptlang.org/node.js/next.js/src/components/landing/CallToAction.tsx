@@ -10,7 +10,7 @@ export const CallToAction: FC<CallToActionProps> = ({ title = '', subtitle = '',
       <h2 className="mb-4 text-center text-2xl font-semibold md:text-3xl">{title}</h2>
       <p className="mb-6 text-center text-neutral-300">{subtitle}</p>
       <div className="flex w-full items-center justify-center">
-        <Link href="/docs">
+        <Link href="/api">
           <Glass.Button>{action}</Glass.Button>
         </Link>
       </div>
