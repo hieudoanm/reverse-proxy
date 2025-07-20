@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { logger } from '@reverse-proxy/utils/log';
+import { tryCatch } from '@reverse-proxy/utils/try-catch';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 /**
@@ -50,26 +51,48 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
     return response.status(400).json({ error: "Missing 'url' query parameter" });
   }
 
-  try {
-    const headers = { ...request.headers, host: undefined };
-    const proxyResponse = await fetch(targetUrl, {
+  const headers = { ...request.headers, host: undefined };
+  const { data: proxyResponse, error } = await tryCatch(
+    fetch(targetUrl, {
       method,
       headers: headers as any,
       body: ['GET', 'HEAD'].includes(method || '') ? undefined : request.body,
-    });
+    })
+  );
 
-    const contentType = proxyResponse.headers.get('content-type');
-    response.status(proxyResponse.status);
+  if (error) {
+    logger.error(`Proxy request failed: ${error.message}`);
+    return response.status(500).json({ error: 'Proxy request failed', details: error.message });
+  }
 
-    if (contentType?.includes('application/json')) {
-      const data = await proxyResponse.json();
-      response.json(data);
-    } else {
-      const text = await proxyResponse.text();
-      response.send(text);
+  if (!proxyResponse || !proxyResponse.ok) {
+    logger.error(`Proxy response not ok: ${proxyResponse?.statusText}`);
+    return response.status(proxyResponse?.status || 500).json({ error: 'Proxy response not ok' });
+  }
+
+  const contentType = proxyResponse.headers.get('content-type');
+  response.status(proxyResponse.status);
+
+  if (contentType?.includes('application/json')) {
+    const { data, error } = await tryCatch(proxyResponse.json());
+    if (error) {
+      logger.error(`Failed to parse JSON response: ${error.message}`);
+      return response.status(500).json({ error: 'Failed to parse JSON response', details: error.message });
     }
-  } catch (err: any) {
-    response.status(500).json({ error: 'Proxy failed', details: err.message });
+    if (!data) {
+      return response.status(500).json({ error: 'No data returned from proxy' });
+    }
+    response.json(data);
+  } else {
+    const { data: text, error } = await tryCatch(proxyResponse.text());
+    if (error) {
+      logger.error(`Failed to read text response: ${error.message}`);
+      return response.status(500).json({ error: 'Failed to read text response', details: error.message });
+    }
+    if (!text) {
+      return response.status(500).json({ error: 'No text returned from proxy' });
+    }
+    response.send(text);
   }
 };
 
