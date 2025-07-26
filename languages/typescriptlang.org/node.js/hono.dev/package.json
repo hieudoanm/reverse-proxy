@@ -20,7 +20,7 @@
     "dev": "wrangler dev --minify ./src/index.ts"
   },
   "dependencies": {
-    "hono": "4.8.5"
+    "hono": "4.8.9"
   },
   "devDependencies": {
     "@eslint/js": "9.32.0",
