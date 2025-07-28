@@ -28,8 +28,8 @@
     "next": "15.4.4",
     "next-swagger-doc": "0.4.1",
     "pino": "9.7.0",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.1",
