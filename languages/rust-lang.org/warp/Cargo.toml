@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-warp = "=0.4.0"
+warp = "=0.4.1"
 tokio = { version = "=1.47.1", features = ["full"] }
 reqwest = { version = "=0.12.22", features = ["json"] }
 serde = { version = "=1.0.219", features = ["derive"] }
