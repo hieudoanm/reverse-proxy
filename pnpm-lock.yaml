@@ -37,8 +37,8 @@ importers:
         version: 5.1.0
     devDependencies:
       '@types/bun':
-        specifier: 1.2.19
-        version: 1.2.19(@types/react@19.1.8)
+        specifier: 1.2.20
+        version: 1.2.20(@types/react@19.1.8)
       '@types/express':
         specifier: 5.0.3
         version: 5.0.3
@@ -56,8 +56,8 @@ importers:
         version: 5.4.0
     devDependencies:
       '@types/bun':
-        specifier: 1.2.19
-        version: 1.2.19(@types/react@19.1.8)
+        specifier: 1.2.20
+        version: 1.2.20(@types/react@19.1.8)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -72,8 +72,8 @@ importers:
         version: 4.9.0
     devDependencies:
       '@types/bun':
-        specifier: 1.2.19
-        version: 1.2.19(@types/react@19.1.8)
+        specifier: 1.2.20
+        version: 1.2.20(@types/react@19.1.8)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -84,8 +84,8 @@ importers:
   languages/typescriptlang.org/bun.sh/http:
     devDependencies:
       '@types/bun':
-        specifier: 1.2.19
-        version: 1.2.19(@types/react@19.1.8)
+        specifier: 1.2.20
+        version: 1.2.20(@types/react@19.1.8)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -1470,8 +1470,8 @@ packages:
   '@types/body-parser@1.19.6':
     resolution: {integrity: sha512-HLFeCYgz89uk22N5Qg3dvGvsv46B8GLvKKo1zKG4NybA8U2DiEO3w9lqGg29t/tfLRJpJ6iQxnVw4OnB7MoM9g==}
 
-  '@types/bun@1.2.19':
-    resolution: {integrity: sha512-d9ZCmrH3CJ2uYKXQIUuZ/pUnTqIvLDS0SK7pFmbx8ma+ziH/FRMoAq5bYpRG7y+w1gl+HgyNZbtqgMq4W4e2Lg==}
+  '@types/bun@1.2.20':
+    resolution: {integrity: sha512-dX3RGzQ8+KgmMw7CsW4xT5ITBSCrSbfHc36SNT31EOUg/LA9JWq0VDdEXDRSe1InVWpd2yLUM1FUF/kEOyTzYA==}
 
   '@types/connect@3.4.38':
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
@@ -1997,8 +1997,8 @@ packages:
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
 
-  bun-types@1.2.19:
-    resolution: {integrity: sha512-uAOTaZSPuYsWIXRpj7o56Let0g/wjihKCkeRqUBhlLVM/Bt+Fj9xTo+LhC1OV1XDaGkz4hNC80et5xgy+9KTHQ==}
+  bun-types@1.2.20:
+    resolution: {integrity: sha512-pxTnQYOrKvdOwyiyd/7sMt9yFOenN004Y6O4lCcCUoKVej48FS5cvTw9geRaEcB9TsDZaJKAxPTVvi8tFsVuXA==}
     peerDependencies:
       '@types/react': ^19
 
@@ -5845,9 +5845,9 @@ snapshots:
       '@types/connect': 3.4.38
       '@types/node': 24.2.1
 
-  '@types/bun@1.2.19(@types/react@19.1.8)':
+  '@types/bun@1.2.20(@types/react@19.1.8)':
     dependencies:
-      bun-types: 1.2.19(@types/react@19.1.8)
+      bun-types: 1.2.20(@types/react@19.1.8)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -6446,7 +6446,7 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  bun-types@1.2.19(@types/react@19.1.8):
+  bun-types@1.2.20(@types/react@19.1.8):
     dependencies:
       '@types/node': 24.2.1
       '@types/react': 19.1.8
