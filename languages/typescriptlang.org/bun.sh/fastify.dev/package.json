@@ -8,7 +8,7 @@
     "dev": "bun run --watch index.ts"
   },
   "dependencies": {
-    "fastify": "5.4.0"
+    "fastify": "5.5.0"
   },
   "devDependencies": {
     "@types/bun": "1.2.19",
