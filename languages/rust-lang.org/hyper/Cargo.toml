@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 tokio = { version = "=1.47.1", features = ["full"] }
-hyper = { version = "=1.6.0", features = ["server", "client", "http1", "http2", "tcp"] }
+hyper = { version = "=1.7.0", features = ["server", "client", "http1", "http2", "tcp"] }
 url = "=2.5.4"  # For parsing URLs
