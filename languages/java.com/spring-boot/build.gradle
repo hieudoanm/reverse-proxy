@@ -1,15 +1,27 @@
 plugins {
+    // ✅ Java plugin
+    id 'java'
+    // ✅ CheckStyle
+    id 'checkstyle'
+    // ✅ PMD
+    id 'pmd'
     // ✅ Spring Boot plugin
     id 'org.springframework.boot' version '3.5.6'
     // ✅ Dependency management plugin for Spring libraries
     id 'io.spring.dependency-management' version '1.1.7'
-    // ✅ Java plugin
-    id 'java'
+    // ✅ Spotless
+    id 'com.diffplug.spotless' version '7.2.1'
 }
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+description = 'reverse-proxy'
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(21)
+  }
+}
 
 // 📦 Gradle uses this as the package repository
 repositories {
@@ -27,4 +39,56 @@ dependencies {
 // ✅ Use JUnit Platform for tests
 tasks.named('test') {
     useJUnitPlatform()
+}
+
+/**
+ * -------------------------
+ * Checkstyle Configuration
+ * -------------------------
+ */
+checkstyle {
+  toolVersion = '11.0.1' // Latest stable version
+  config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+  ignoreFailures = false  // Fail build if violations are found
+}
+
+tasks.withType(Checkstyle).configureEach {
+  reports {
+    xml.required = false
+    html.required = true
+    html.outputLocation = file("$buildDir/reports/checkstyle/checkstyle.html")
+  }
+}
+
+/**
+ * -------------------------
+ * PMD Configuration
+ * -------------------------
+ */
+pmd {
+  toolVersion = '7.17.0' // Latest PMD version
+  ruleSets = [] // We'll use a custom ruleset instead of defaults
+  ruleSetFiles = files('config/pmd/pmd-ruleset.xml')
+  ignoreFailures = true  // Fail build if PMD violations are found
+}
+
+tasks.withType(Pmd).configureEach {
+  exclude "**/avro/**"
+  reports {
+    xml.required = false
+    html.required = true
+    html.outputLocation = file("$buildDir/reports/pmd/pmd.html")
+  }
+}
+
+spotless {
+  java {
+    googleJavaFormat()  // auto-format according to Google Java Style
+  }
+}
+
+// Enable dependency locking for reproducible builds
+dependencyLocking {
+  // Lock all configurations (implementation, testImplementation, etc.)
+  lockAllConfigurations()
 }
