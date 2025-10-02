@@ -6,17 +6,7 @@
   - [📑 Table of Contents](#-table-of-contents)
   - [🚀 Demo](#-demo)
   - [🌐 Languages](#-languages)
-    - [1. C#](#1-c)
-    - [2. 💻 C++](#2--c)
-    - [3. 🐹 Go](#3--go)
-    - [4. ☕ Java](#4--java)
-    - [5. 🧵 Kotlin](#5--kotlin)
-    - [6. 🐍 Python](#6--python)
-    - [7. 🦀 Rust](#7--rust)
-    - [8. 🟦 TypeScript](#8--typescript)
-      - [8.1 🥟 Bun](#81--bun)
-      - [8.2 🦕 Deno](#82--deno)
-      - [8.3 🟢 Node.js](#83--nodejs)
+  - [🖼️ Frameworks](#️-frameworks)
 
 ## 🚀 Demo
 
@@ -30,98 +20,59 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ## 🌐 Languages
 
-### 1. [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
-
-- [.NET](https://dotnet.microsoft.com/en-us/)
-- [YARP (Yet Another Reverse Proxy)](https://dotnet.github.io/yarp/)
-
-[⬆️ Back to Table of Contents](#-table-of-contents)
-
-### 2. 💻 [C++](https://cplusplus.com/)
-
-- [Boost](https://www.boost.org/doc/libs/release/doc/html/boost_asio.html)
-
-[⬆️ Back to Table of Contents](#-table-of-contents)
-
-### 3. 🐹 [Go](https://go.dev/)
-
-| No  | Framework                                  | GitHub                                     |
-| --- | ------------------------------------------ | ------------------------------------------ |
-| 1   | [Beego](https://beego.vip/)                | [GitHub](https://github.com/beego/beego)   |
-| 2   | [Chi](https://go-chi.io/)                  | [GitHub](https://github.com/go-chi/chi)    |
-| 3   | [Echo](https://echo.labstack.com/)         | [GitHub](https://github.com/labstack/echo) |
-| 4   | [Gin](https://gin-gonic.com/)              | [GitHub](https://github.com/gin-gonic/gin) |
-| 5   | [Gorilla](https://www.gorillatoolkit.org/) | [GitHub](https://github.com/gorilla/mux)   |
-| 6   | [HTTP](https://pkg.go.dev/net/http)        |                                            |
+1. #️⃣ [C#][csharp]
+2. 💻 [C++][cplusplus]
+3. 🐹 [Go][go]
+4. ☕ [Java](https://www.java.com/en/)
+5. 🧵 [Kotlin](https://kotlinlang.org/)
+6. 🐍 [Python](https://www.python.org/)
+7. 🦀 [Rust](https://www.rust-lang.org/)
+8. 🟦 [TypeScript](https://www.typescriptlang.org/)
+   1. 🥟 [Bun](https://bun.sh/)
+   2. 🦕 [Deno](https://deno.com)
+   3. 🟢 [Node.js](https://nodejs.org/en)
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 4. ☕ [Java](https://www.java.com/en/)
+## 🖼️ Frameworks
 
-1. [SpringBoot](https://spring.io/projects/spring-boot)
-
-[⬆️ Back to Table of Contents](#-table-of-contents)
-
-### 5. 🧵 [Kotlin](https://kotlinlang.org/)
-
-| No  | Framework                                            |
-| --- | ---------------------------------------------------- |
-| 1   | [Ktor](https://ktor.io/)                             |
-| 2   | [SpringBoot](https://spring.io/projects/spring-boot) |
-
-[⬆️ Back to Table of Contents](#-table-of-contents)
-
-### 6. 🐍 [Python](https://www.python.org/)
-
-| No  | Framework                                                  |
-| --- | ---------------------------------------------------------- |
-| 1   | [FastAPI](https://fastapi.tiangolo.com/)                   |
-| 2   | [Flask](https://flask.palletsprojects.com/)                |
-| 3   | [HTTP](https://docs.python.org/3/library/http.server.html) |
-
-[⬆️ Back to Table of Contents](#-table-of-contents)
-
-### 7. 🦀 [Rust](https://www.rust-lang.org/)
-
-| No  | Framework                                   |
-| --- | ------------------------------------------- |
-| 1   | [Actix](https://actix.rs/)                  |
-| 2   | [Gotham](https://gotham.rs/)                |
-| 3   | [Hyper](https://hyper.rs/)                  |
-| 4   | [Rocket](https://rocket.rs/)                |
-| 5   | [Warp](https://github.com/seanmonstar/warp) |
-
-[⬆️ Back to Table of Contents](#-table-of-contents)
-
-### 8. 🟦 [TypeScript](https://www.typescriptlang.org/)
-
-#### 8.1 🥟 [Bun](https://bun.sh/)
-
-| No  | Framework                            |
-| --- | ------------------------------------ |
-| 1   | [Express](https://expressjs.com/)    |
-| 2   | [Fastify](https://www.fastify.io/)   |
-| 3   | [Hono](https://hono.dev/)            |
-| 4   | [HTTP](https://bun.sh/docs/api/http) |
-
-#### 8.2 🦕 [Deno](https://deno.com)
-
-| No  | Framework                          |
-| --- | ---------------------------------- |
-| 1   | [Fresh](https://fresh.deno.dev/)   |
-| 2   | [HTTP](https://deno.land/std/http) |
+| No  | Language         | Framework                                                  |                                             |
+| --- | ---------------- | ---------------------------------------------------------- | ------------------------------------------- |
+| 01  | [C#][csharp]     | [.NET][dotnet]                                             |                                             |
+| 02  | [C#][csharp]     | [YARP (Yet Another Reverse Proxy)][yarp]                   |                                             |
+| 03  | [C++][cplusplus] | [Boost][boost]                                             |                                             |
+| 04  | [Go][go]         | [Beego](https://beego.vip/)                                | [GitHub](https://github.com/beego/beego)    |
+| 05  | [Go][go]         | [Chi](https://go-chi.io/)                                  | [GitHub](https://github.com/go-chi/chi)     |
+| 06  | [Go][go]         | [Echo](https://echo.labstack.com/)                         | [GitHub](https://github.com/labstack/echo)  |
+| 07  | [Go][go]         | [Gin](https://gin-gonic.com/)                              | [GitHub](https://github.com/gin-gonic/gin)  |
+| 08  | [Go][go]         | [Gorilla](https://www.gorillatoolkit.org/)                 | [GitHub](https://github.com/gorilla/mux)    |
+| 09  | [Go][go]         | [HTTP](https://pkg.go.dev/net/http)                        |                                             |
+| 10  | Java             | [SpringBoot](https://spring.io/projects/spring-boot)       |                                             |
+| 11  | Kotlin           | [Ktor](https://ktor.io/)                                   |                                             |
+| 12  | Kotlin           | [SpringBoot](https://spring.io/projects/spring-boot)       |                                             |
+| 13  | Python           | [FastAPI](https://fastapi.tiangolo.com/)                   |                                             |
+| 14  | Python           | [Flask](https://flask.palletsprojects.com/)                |                                             |
+| 15  | Python           | [HTTP](https://docs.python.org/3/library/http.server.html) |                                             |
+| 16  | Rust             | [Actix](https://actix.rs/)                                 |                                             |
+| 17  | Rust             | [Gotham](https://gotham.rs/)                               |                                             |
+| 18  | Rust             | [Hyper](https://hyper.rs/)                                 |                                             |
+| 19  | Rust             | [Rocket](https://rocket.rs/)                               |                                             |
+| 20  | Rust             |                                                            | [Warp](https://github.com/seanmonstar/warp) |
+| 21  | TypeScript       | [Express](https://expressjs.com/)                          |                                             |
+| 22  | TypeScript       | [Fastify](https://www.fastify.io/)                         |                                             |
+| 23  | TypeScript       | [Fresh](https://fresh.deno.dev/)                           |                                             |
+| 24  | TypeScript       | [Hono](https://hono.dev/)                                  |                                             |
+| 25  | TypeScript       | [HTTP - Bun](https://bun.sh/docs/api/http)                 |                                             |
+| 26  | TypeScript       | [HTTP - Deno](https://deno.land/std/http)                  |                                             |
+| 27  | TypeScript       | [HTTP - Node.js](https://nodejs.org/api/http.html)         |                                             |
+| 28  | TypeScript       | [Nest](https://nestjs.com)                                 |                                             |
+| 29  | TypeScript       | [Next](https://nextjs.org)                                 |                                             |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-#### 8.3 🟢 [Node.js](https://nodejs.org/en)
-
-| No  | Framework                                |
-| --- | ---------------------------------------- |
-| 1   | [Express](https://expressjs.com)         |
-| 2   | [Fastify](https://www.fastify.io)        |
-| 3   | [Hono](https://hono.dev)                 |
-| 4   | [HTTP](https://nodejs.org/api/http.html) |
-| 5   | [Nest](https://nestjs.com)               |
-| 6   | [Next](https://nextjs.org)               |
-
-[⬆️ Back to Table of Contents](#-table-of-contents)
+[boost]: https://www.boost.org/doc/libs/release/doc/html/boost_asio.html
+[cplusplus]: https://cplusplus.com/
+[csharp]: https://dotnet.microsoft.com/en-us/languages/csharp
+[dotnet]: https://dotnet.microsoft.com/en-us/
+[go]: https://go.dev/
+[yarp]: https://dotnet.github.io/yarp/
