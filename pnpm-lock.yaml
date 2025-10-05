@@ -68,8 +68,8 @@ importers:
   languages/typescriptlang.org/bun.sh/hono.dev:
     dependencies:
       hono:
-        specifier: 4.9.9
-        version: 4.9.9
+        specifier: 4.9.10
+        version: 4.9.10
     devDependencies:
       '@types/bun':
         specifier: 1.2.23
@@ -179,8 +179,8 @@ importers:
   languages/typescriptlang.org/node.js/hono.dev:
     dependencies:
       hono:
-        specifier: 4.9.9
-        version: 4.9.9
+        specifier: 4.9.10
+        version: 4.9.10
     devDependencies:
       '@eslint/js':
         specifier: 9.37.0
@@ -2888,8 +2888,8 @@ packages:
     resolution: {integrity: sha512-jOiHyAZsmnr8LqoPGmCjYAaiuWwjAPLgY8ZX2XrmHawt99/u1y6RgrZMTeoPfpUbV96HOalYgz1qzkRbw54Pmg==}
     engines: {node: '>=18.0.0'}
 
-  hono@4.9.9:
-    resolution: {integrity: sha512-Hxw4wT6zjJGZJdkJzAx9PyBdf7ZpxaTSA0NfxqjLghwMrLBX8p33hJBzoETRakF3UJu6OdNQBZAlNSkGqKFukw==}
+  hono@4.9.10:
+    resolution: {integrity: sha512-AlI15ijFyKTXR7eHo7QK7OR4RoKIedZvBuRjO8iy4zrxvlY5oFCdiRG/V/lFJHCNXJ0k72ATgnyzx8Yqa5arug==}
     engines: {node: '>=16.9.0'}
 
   html-escaper@2.0.2:
@@ -7482,7 +7482,7 @@ snapshots:
 
   helmet@8.1.0: {}
 
-  hono@4.9.9: {}
+  hono@4.9.10: {}
 
   html-escaper@2.0.2: {}
 
