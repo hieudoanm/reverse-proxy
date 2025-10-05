@@ -44,29 +44,30 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 | 04  | [Go][go]         | [Beego](https://beego.vip/)                                | [GitHub](https://github.com/beego/beego)    |
 | 05  | [Go][go]         | [Chi](https://go-chi.io/)                                  | [GitHub](https://github.com/go-chi/chi)     |
 | 06  | [Go][go]         | [Echo](https://echo.labstack.com/)                         | [GitHub](https://github.com/labstack/echo)  |
-| 07  | [Go][go]         | [Gin](https://gin-gonic.com/)                              | [GitHub](https://github.com/gin-gonic/gin)  |
-| 08  | [Go][go]         | [Gorilla](https://www.gorillatoolkit.org/)                 | [GitHub](https://github.com/gorilla/mux)    |
-| 09  | [Go][go]         | [HTTP](https://pkg.go.dev/net/http)                        |                                             |
-| 10  | Java             | [SpringBoot](https://spring.io/projects/spring-boot)       |                                             |
-| 11  | Kotlin           | [Ktor](https://ktor.io/)                                   |                                             |
-| 12  | Kotlin           | [SpringBoot](https://spring.io/projects/spring-boot)       |                                             |
-| 13  | Python           | [FastAPI](https://fastapi.tiangolo.com/)                   |                                             |
-| 14  | Python           | [Flask](https://flask.palletsprojects.com/)                |                                             |
-| 15  | Python           | [HTTP](https://docs.python.org/3/library/http.server.html) |                                             |
-| 16  | Rust             | [Actix](https://actix.rs/)                                 |                                             |
-| 17  | Rust             | [Gotham](https://gotham.rs/)                               |                                             |
-| 18  | Rust             | [Hyper](https://hyper.rs/)                                 |                                             |
-| 19  | Rust             | [Rocket](https://rocket.rs/)                               |                                             |
-| 20  | Rust             |                                                            | [Warp](https://github.com/seanmonstar/warp) |
-| 21  | TypeScript       | [Express](https://expressjs.com/)                          |                                             |
-| 22  | TypeScript       | [Fastify](https://www.fastify.io/)                         |                                             |
-| 23  | TypeScript       | [Fresh](https://fresh.deno.dev/)                           |                                             |
-| 24  | TypeScript       | [Hono](https://hono.dev/)                                  |                                             |
-| 25  | TypeScript       | [HTTP - Bun](https://bun.sh/docs/api/http)                 |                                             |
-| 26  | TypeScript       | [HTTP - Deno](https://deno.land/std/http)                  |                                             |
-| 27  | TypeScript       | [HTTP - Node.js](https://nodejs.org/api/http.html)         |                                             |
-| 28  | TypeScript       | [Nest](https://nestjs.com)                                 |                                             |
-| 29  | TypeScript       | [Next](https://nextjs.org)                                 |                                             |
+| 07  | [Go][go]         | [Fiber](https://gofiber.io/)                               |                                             |
+| 08  | [Go][go]         | [Gin](https://gin-gonic.com/)                              | [GitHub](https://github.com/gin-gonic/gin)  |
+| 09  | [Go][go]         | [Gorilla](https://www.gorillatoolkit.org/)                 | [GitHub](https://github.com/gorilla/mux)    |
+| 10  | [Go][go]         | [net/http](https://pkg.go.dev/net/http)                    |                                             |
+| 11  | Java             | [SpringBoot](https://spring.io/projects/spring-boot)       |                                             |
+| 12  | Kotlin           | [Ktor](https://ktor.io/)                                   |                                             |
+| 13  | Kotlin           | [SpringBoot](https://spring.io/projects/spring-boot)       |                                             |
+| 14  | Python           | [FastAPI](https://fastapi.tiangolo.com/)                   |                                             |
+| 15  | Python           | [Flask](https://flask.palletsprojects.com/)                |                                             |
+| 16  | Python           | [HTTP](https://docs.python.org/3/library/http.server.html) |                                             |
+| 17  | Rust             | [Actix](https://actix.rs/)                                 |                                             |
+| 18  | Rust             | [Gotham](https://gotham.rs/)                               |                                             |
+| 19  | Rust             | [Hyper](https://hyper.rs/)                                 |                                             |
+| 20  | Rust             | [Rocket](https://rocket.rs/)                               |                                             |
+| 21  | Rust             |                                                            | [Warp](https://github.com/seanmonstar/warp) |
+| 22  | TypeScript       | [Express](https://expressjs.com/)                          |                                             |
+| 23  | TypeScript       | [Fastify](https://www.fastify.io/)                         |                                             |
+| 24  | TypeScript       | [Fresh](https://fresh.deno.dev/)                           |                                             |
+| 25  | TypeScript       | [Hono](https://hono.dev/)                                  |                                             |
+| 26  | TypeScript       | [HTTP - Bun](https://bun.sh/docs/api/http)                 |                                             |
+| 27  | TypeScript       | [HTTP - Deno](https://deno.land/std/http)                  |                                             |
+| 28  | TypeScript       | [HTTP - Node.js](https://nodejs.org/api/http.html)         |                                             |
+| 29  | TypeScript       | [Nest](https://nestjs.com)                                 |                                             |
+| 30  | TypeScript       | [Next](https://nextjs.org)                                 |                                             |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
