@@ -256,7 +256,7 @@ importers:
         version: 4.0.1(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.12.2)(rxjs@7.8.2)
       '@nestjs/cache-manager':
         specifier: 3.0.1
-        version: 3.0.1(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.6)(cache-manager@7.2.3)(keyv@5.5.3)(rxjs@7.8.2)
+        version: 3.0.1(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.6)(cache-manager@7.2.4)(keyv@5.5.3)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: 11.1.6
         version: 11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -279,8 +279,8 @@ importers:
         specifier: 1.12.2
         version: 1.12.2
       cache-manager:
-        specifier: 7.2.3
-        version: 7.2.3
+        specifier: 7.2.4
+        version: 7.2.4
       compression:
         specifier: 1.8.1
         version: 1.8.1
@@ -575,8 +575,8 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@cacheable/utils@2.0.3':
-    resolution: {integrity: sha512-m7Rce68cMHlAUjvWBy9Ru1Nmw5gU0SjGGtQDdhpe6E0xnbcvrIY0Epy//JU1VYYBUTzrG9jvgmTauULGKzOkWA==}
+  '@cacheable/utils@2.1.0':
+    resolution: {integrity: sha512-ZdxfOiaarMqMj+H7qwlt5EBKWaeGihSYVHdQv5lUsbn8MJJOTW82OIwirQ39U5tMZkNvy3bQE+ryzC+xTAb9/g==}
 
   '@cloudflare/kv-asset-handler@0.4.0':
     resolution: {integrity: sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA==}
@@ -2030,8 +2030,8 @@ packages:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
 
-  cache-manager@7.2.3:
-    resolution: {integrity: sha512-Wz4kXp589cKCBatEIYA3JYvzdklPAi6l6vVWcGdUrn3OdIOGUbtaj8qKNdAJpYbHsBo9RWerXakAgf1uEuk6OQ==}
+  cache-manager@7.2.4:
+    resolution: {integrity: sha512-skmhkqXjPCBmrb70ctEx4zwFk7vb0RdFXlVGYWnFZ8pKvkzdFrFFKSJ1IaKduGfkryHOJvb7q2PkGmonmL+UGw==}
 
   cacheable-request@6.1.0:
     resolution: {integrity: sha512-Oj3cAGPCqOZX7Rz64Uny2GYAZNliQSqfbePrgAQ1wKAihYmCUnraBtJtKcGR4xz7wF+LoJC+ssFZvv5BgF9Igg==}
@@ -4955,7 +4955,9 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@cacheable/utils@2.0.3': {}
+  '@cacheable/utils@2.1.0':
+    dependencies:
+      keyv: 5.5.3
 
   '@cloudflare/kv-asset-handler@0.4.0':
     dependencies:
@@ -5644,11 +5646,11 @@ snapshots:
       axios: 1.12.2
       rxjs: 7.8.2
 
-  '@nestjs/cache-manager@3.0.1(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.6)(cache-manager@7.2.3)(keyv@5.5.3)(rxjs@7.8.2)':
+  '@nestjs/cache-manager@3.0.1(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.6)(cache-manager@7.2.4)(keyv@5.5.3)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.6(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.1.6)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      cache-manager: 7.2.3
+      cache-manager: 7.2.4
       keyv: 5.5.3
       rxjs: 7.8.2
 
@@ -6498,9 +6500,9 @@ snapshots:
 
   bytes@3.1.2: {}
 
-  cache-manager@7.2.3:
+  cache-manager@7.2.4:
     dependencies:
-      '@cacheable/utils': 2.0.3
+      '@cacheable/utils': 2.1.0
       keyv: 5.5.3
 
   cacheable-request@6.1.0:
