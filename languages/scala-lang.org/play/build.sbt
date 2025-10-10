@@ -1,6 +1,6 @@
 name := "reverse-proxy"
 version := "1.0"
-scalaVersion := "2.13.14"
+scalaVersion := "2.13.17"
 
 libraryDependencies ++= Seq(
   guice,

@@ -1,6 +1,6 @@
 name := "akka-reverse-proxy"
 version := "0.1.0"
-scalaVersion := "2.13.14"
+scalaVersion := "2.13.17"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % "2.8.8",
