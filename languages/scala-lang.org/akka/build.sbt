@@ -1,0 +1,14 @@
+name := "akka-reverse-proxy"
+version := "0.1.0"
+scalaVersion := "2.13.14"
+
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor-typed" % "2.8.5",
+  "com.typesafe.akka" %% "akka-stream" % "2.8.5",
+  "com.typesafe.akka" %% "akka-http" % "10.5.3"  // ✅ use 10.5.3 (latest on Maven Central)
+)
+
+ThisBuild / resolvers ++= Seq(
+  "Akka library repository" at "https://repo.akka.io/maven",
+  Resolver.sonatypeRepo("public")
+)

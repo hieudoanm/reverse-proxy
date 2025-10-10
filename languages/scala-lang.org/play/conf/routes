@@ -1,0 +1,5 @@
+GET     /proxy     controllers.ReverseProxyController.proxy()
+POST    /proxy     controllers.ReverseProxyController.proxy()
+PUT     /proxy     controllers.ReverseProxyController.proxy()
+PATCH   /proxy     controllers.ReverseProxyController.proxy()
+DELETE  /proxy     controllers.ReverseProxyController.proxy()
