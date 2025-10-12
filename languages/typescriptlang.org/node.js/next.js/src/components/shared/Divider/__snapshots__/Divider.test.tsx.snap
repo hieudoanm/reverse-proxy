@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Divider renders correctly 1`] = `
+<div>
+  <div
+    class="w-full border-t border-neutral-800 "
+  />
+</div>
+`;

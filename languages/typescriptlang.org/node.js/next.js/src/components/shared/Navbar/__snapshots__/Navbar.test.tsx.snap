@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Navbar renders correctly 1`] = `
+<div>
+  <nav>
+    <div
+      class="container mx-auto px-4 py-2 md:px-8 md:py-4"
+    >
+      <div
+        class="flex items-center justify-between"
+      >
+        <div
+          class="text-xl font-bold"
+        >
+          <a
+            href="/"
+          >
+            Reverse Proxy
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

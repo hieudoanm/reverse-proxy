@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">chess</string>
+    <string name="title_activity_main">chess</string>
+    <string name="package_name">io.github.hieudoanm.chess</string>
+    <string name="custom_url_scheme">io.github.hieudoanm.chess</string>
+</resources>
