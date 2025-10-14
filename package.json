@@ -2,7 +2,7 @@
   "name": "@reverse-proxy/serverless",
   "version": "0.0.1",
   "description": "Reverse Proxy",
-  "packageManager": "pnpm@10.18.2",
+  "packageManager": "pnpm@10.18.3",
   "keywords": [
     "reverse",
     "proxy"
