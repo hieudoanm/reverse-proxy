@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hieudoanm/reverse-proxy#readme",
   "scripts": {
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "format": "turbo run format",
     "prepare": "husky || true",
     "prebuild": "rimraf docs",
