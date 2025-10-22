@@ -376,11 +376,11 @@ importers:
   languages/typescriptlang.org/node.js/next.js:
     dependencies:
       '@capacitor/android':
-        specifier: 7.4.3
-        version: 7.4.3(@capacitor/core@7.4.3)
+        specifier: 7.4.4
+        version: 7.4.4(@capacitor/core@7.4.3)
       '@capacitor/ios':
-        specifier: 7.4.3
-        version: 7.4.3(@capacitor/core@7.4.3)
+        specifier: 7.4.4
+        version: 7.4.4(@capacitor/core@7.4.3)
       next:
         specifier: 16.0.0
         version: 16.0.0(@babel/core@7.28.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -395,8 +395,8 @@ importers:
         version: 19.2.0(react@19.2.0)
     devDependencies:
       '@capacitor/cli':
-        specifier: 7.4.3
-        version: 7.4.3
+        specifier: 7.4.4
+        version: 7.4.4
       '@eslint/eslintrc':
         specifier: 3.3.1
         version: 3.3.1
@@ -683,21 +683,21 @@ packages:
   '@cacheable/utils@2.1.0':
     resolution: {integrity: sha512-ZdxfOiaarMqMj+H7qwlt5EBKWaeGihSYVHdQv5lUsbn8MJJOTW82OIwirQ39U5tMZkNvy3bQE+ryzC+xTAb9/g==}
 
-  '@capacitor/android@7.4.3':
-    resolution: {integrity: sha512-VpjvnOcmYGPLgvXRhe3CGLs62Cg7sxOyp77NddCr+Y06qqgnoaj6OGeBVTc2DZlqZ6bSmh15JvFu82pkvmdgfQ==}
+  '@capacitor/android@7.4.4':
+    resolution: {integrity: sha512-y8knfV1JXNrd6XZZLZireGT+EBCN0lvOo+HZ/s7L8LkrPBu4nY5UZn0Wxz4yOezItEII9rqYJSHsS5fMJG9gdw==}
     peerDependencies:
       '@capacitor/core': ^7.4.0
 
-  '@capacitor/cli@7.4.3':
-    resolution: {integrity: sha512-SWozpdDgrbQ/ry1nIapugDFvE9z+l22BmU/+fpgL2Zv5487hGdXvCX5+1SluuFBP3IPpx6b4LjsKnBigyJoUWg==}
+  '@capacitor/cli@7.4.4':
+    resolution: {integrity: sha512-J7ciBE7GlJ70sr2s8oz1+H4ZdNk4MGG41fsakUlDHWva5UWgFIZYMiEdDvGbYazAYTaxN3lVZpH9zil9FfZj+Q==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
   '@capacitor/core@7.4.3':
     resolution: {integrity: sha512-wCWr8fQ9Wxn0466vPg7nMn0tivbNVjNy1yL4GvDSIZuZx7UpU2HeVGNe9QjN/quEd+YLRFeKEBLBw619VqUiNg==}
 
-  '@capacitor/ios@7.4.3':
-    resolution: {integrity: sha512-VNm7cHODgh3KK/4ZC2rXU9gBlvHii/mYFLI+XMXwq24nhB679QxHhz+pUuI7PatYoM2q4MAL0NR/dRgehKCaSA==}
+  '@capacitor/ios@7.4.4':
+    resolution: {integrity: sha512-Xp3bGWlSQAwsZGngRMWTdoD2agdMV12Whnm+/xsYPxfQSj+Tksbr7r/8Mso7VWkpnTKO4iMlx762g3PjW+wi4w==}
     peerDependencies:
       '@capacitor/core': ^7.4.0
 
@@ -6610,11 +6610,11 @@ snapshots:
     dependencies:
       keyv: 5.5.3
 
-  '@capacitor/android@7.4.3(@capacitor/core@7.4.3)':
+  '@capacitor/android@7.4.4(@capacitor/core@7.4.3)':
     dependencies:
       '@capacitor/core': 7.4.3
 
-  '@capacitor/cli@7.4.3':
+  '@capacitor/cli@7.4.4':
     dependencies:
       '@ionic/cli-framework-output': 2.2.8
       '@ionic/utils-subprocess': 3.0.1
@@ -6640,7 +6640,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@capacitor/ios@7.4.3(@capacitor/core@7.4.3)':
+  '@capacitor/ios@7.4.4(@capacitor/core@7.4.3)':
     dependencies:
       '@capacitor/core': 7.4.3
 
