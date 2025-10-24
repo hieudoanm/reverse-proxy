@@ -1,16 +1,14 @@
 plugins {
-    // ✅ Java plugin
-    id 'java'
-    // ✅ CheckStyle
-    id 'checkstyle'
-    // ✅ PMD
-    id 'pmd'
-    // ✅ Spotless
-    id 'com.diffplug.spotless' version '8.0.0'
-    // ✅ Spring Boot plugin
-    id 'org.springframework.boot' version '3.5.7'
-    // ✅ Dependency management plugin for Spring libraries
-    id 'io.spring.dependency-management' version '1.1.7'
+  // ✅ Java plugin
+  id 'java'
+  // ✅ CheckStyle
+  id 'checkstyle'
+  // ✅ PMD
+  id 'pmd'
+  // ✅ Spotless
+  id 'com.diffplug.spotless' version '8.0.0'
+  // ✅ Quarkus
+  id 'io.quarkus' version '3.14.2'
 }
 
 group = 'com.proxy.reverse'
@@ -24,30 +22,43 @@ java {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+  sourceCompatibility = JavaVersion.VERSION_21
+  targetCompatibility = JavaVersion.VERSION_21
 }
 
 tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
+  options.encoding = 'UTF-8'
 }
 
 // 📦 Gradle uses this as the package repository
 repositories {
-    mavenCentral()
+  mavenCentral()
 }
 
 dependencies {
-    // ✅ Core Spring Boot Web for REST APIs
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+  // RESTEasy Reactive (JAX-RS)
+  implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.14.2")
 
-    // ✅ (Optional) Spring Boot Testing support
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+  // Vert.x HTTP + WebClient
+  implementation 'io.quarkus:quarkus-arc'
+  implementation 'io.quarkus:quarkus-resteasy-reactive'
+  implementation 'io.quarkus:quarkus-vertx-http'
+
+  // 🌐 Vert.x Mutiny Web Client (use Vert.x version aligned with Quarkus)
+  implementation 'io.vertx:vertx-web-client:4.5.10'
+
+  // SmallRye Mutiny bindings for the Vert.x Web Client (provides io.vertx.mutiny.ext.web.client.*)
+  implementation 'io.smallrye.reactive:smallrye-mutiny-vertx-web-client:3.12.0'
+
+
+  // Logging (already included by default)
+  testImplementation 'io.quarkus:quarkus-junit5'
+  testImplementation 'io.rest-assured:rest-assured'
 }
 
 // ✅ Use JUnit Platform for tests
 tasks.named('test') {
-    useJUnitPlatform()
+  useJUnitPlatform()
 }
 
 /**
