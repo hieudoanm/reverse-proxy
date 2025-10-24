@@ -49,29 +49,30 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 | 08  | [Go][go]                 | [Gin](https://gin-gonic.com/)                      | [GitHub](https://github.com/gin-gonic/gin)  |
 | 09  | [Go][go]                 | [Gorilla](https://www.gorillatoolkit.org/)         | [GitHub](https://github.com/gorilla/mux)    |
 | 10  | [Go][go]                 | [net/http](https://pkg.go.dev/net/http)            |                                             |
-| 11  | [Java][java]             | [SpringBoot][spring-boot]                          |                                             |
+| 11  | [Java][java]             | [Micronaut][micronaut]                             |                                             |
 | 12  | [Java][java]             | [Quarkus][quarkus]                                 |                                             |
-| 13  | [Kotlin][kotlin]         | [Ktor](https://ktor.io/)                           |                                             |
-| 14  | [Kotlin][kotlin]         | [SpringBoot][spring-boot]                          |                                             |
-| 15  | [Python][python]         | [FastAPI](https://fastapi.tiangolo.com/)           |                                             |
-| 16  | [Python][python]         | [Flask](https://flask.palletsprojects.com/)        |                                             |
-| 17  | [Python][python]         | [HTTP][python-http]                                |                                             |
-| 18  | [Rust][rust]             | [Actix](https://actix.rs/)                         |                                             |
-| 19  | [Rust][rust]             | [Gotham](https://gotham.rs/)                       |                                             |
-| 20  | [Rust][rust]             | [Hyper](https://hyper.rs/)                         |                                             |
-| 21  | [Rust][rust]             | [Rocket](https://rocket.rs/)                       |                                             |
-| 22  | [Rust][rust]             |                                                    | [Warp](https://github.com/seanmonstar/warp) |
-| 23  | [Scala][scala]           | [Akka HTTP][akka-http]                             |                                             |
-| 24  | [Scala][scala]           | [Play](https://www.playframework.com/)             |                                             |
-| 25  | [TypeScript][typescript] | [Express](https://expressjs.com/)                  |                                             |
-| 26  | [TypeScript][typescript] | [Fastify](https://www.fastify.io/)                 |                                             |
-| 27  | [TypeScript][typescript] | [Fresh](https://fresh.deno.dev/)                   |                                             |
-| 28  | [TypeScript][typescript] | [Hono](https://hono.dev/)                          |                                             |
-| 29  | [TypeScript][typescript] | [HTTP - Bun](https://bun.sh/docs/api/http)         |                                             |
-| 30  | [TypeScript][typescript] | [HTTP - Deno](https://deno.land/std/http)          |                                             |
-| 31  | [TypeScript][typescript] | [HTTP - Node.js](https://nodejs.org/api/http.html) |                                             |
-| 32  | [TypeScript][typescript] | [Nest](https://nestjs.com)                         |                                             |
-| 33  | [TypeScript][typescript] | [Next](https://nextjs.org)                         |                                             |
+| 13  | [Java][java]             | [SpringBoot][spring-boot]                          |                                             |
+| 14  | [Kotlin][kotlin]         | [Ktor](https://ktor.io/)                           |                                             |
+| 15  | [Kotlin][kotlin]         | [SpringBoot][spring-boot]                          |                                             |
+| 16  | [Python][python]         | [FastAPI](https://fastapi.tiangolo.com/)           |                                             |
+| 17  | [Python][python]         | [Flask](https://flask.palletsprojects.com/)        |                                             |
+| 18  | [Python][python]         | [HTTP][python-http]                                |                                             |
+| 19  | [Rust][rust]             | [Actix](https://actix.rs/)                         |                                             |
+| 20  | [Rust][rust]             | [Gotham](https://gotham.rs/)                       |                                             |
+| 21  | [Rust][rust]             | [Hyper](https://hyper.rs/)                         |                                             |
+| 22  | [Rust][rust]             | [Rocket](https://rocket.rs/)                       |                                             |
+| 23  | [Rust][rust]             |                                                    | [Warp](https://github.com/seanmonstar/warp) |
+| 24  | [Scala][scala]           | [Akka HTTP][akka-http]                             |                                             |
+| 25  | [Scala][scala]           | [Play](https://www.playframework.com/)             |                                             |
+| 26  | [TypeScript][typescript] | [Express](https://expressjs.com/)                  |                                             |
+| 27  | [TypeScript][typescript] | [Fastify](https://www.fastify.io/)                 |                                             |
+| 28  | [TypeScript][typescript] | [Fresh](https://fresh.deno.dev/)                   |                                             |
+| 29  | [TypeScript][typescript] | [Hono](https://hono.dev/)                          |                                             |
+| 30  | [TypeScript][typescript] | [HTTP - Bun](https://bun.sh/docs/api/http)         |                                             |
+| 31  | [TypeScript][typescript] | [HTTP - Deno](https://deno.land/std/http)          |                                             |
+| 32  | [TypeScript][typescript] | [HTTP - Node.js](https://nodejs.org/api/http.html) |                                             |
+| 33  | [TypeScript][typescript] | [Nest](https://nestjs.com)                         |                                             |
+| 34  | [TypeScript][typescript] | [Next](https://nextjs.org)                         |                                             |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -83,6 +84,7 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 [go]: https://go.dev/
 [java]: https://www.java.com/en/
 [kotlin]: https://kotlinlang.org/
+[micronaut]: https://micronaut.io/
 [python]: https://www.python.org/
 [python-http]: https://docs.python.org/3/library/http.server.html
 [quarkus]: https://quarkus.io/
