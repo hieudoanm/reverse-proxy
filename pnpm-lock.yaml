@@ -133,8 +133,8 @@ importers:
         specifier: 8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       wrangler:
-        specifier: 4.44.0
-        version: 4.44.0
+        specifier: 4.45.0
+        version: 4.45.0
 
   languages/typescriptlang.org/node.js/fastify.dev:
     dependencies:
@@ -173,8 +173,8 @@ importers:
         specifier: 8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       wrangler:
-        specifier: 4.44.0
-        version: 4.44.0
+        specifier: 4.45.0
+        version: 4.45.0
 
   languages/typescriptlang.org/node.js/hono.dev:
     dependencies:
@@ -210,8 +210,8 @@ importers:
         specifier: 8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       wrangler:
-        specifier: 4.44.0
-        version: 4.44.0
+        specifier: 4.45.0
+        version: 4.45.0
 
   languages/typescriptlang.org/node.js/http:
     devDependencies:
@@ -4658,8 +4658,8 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
-  miniflare@4.20251011.0:
-    resolution: {integrity: sha512-DlZ7vR5q/RE9eLsxsrXzfSZIF2f6O5k0YsFrSKhWUtdefyGtJt4sSpR6V+Af/waaZ6+zIFy9lsknHBCm49sEYA==}
+  miniflare@4.20251011.1:
+    resolution: {integrity: sha512-Qbw1Z8HTYM1adWl6FAtzhrj34/6dPRDPwdYOx21dkae8a/EaxbMzRIPbb4HKVGMVvtqbK1FaRCgDLVLolNzGHg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -6189,8 +6189,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@4.44.0:
-    resolution: {integrity: sha512-BLOUigckcWZ0r4rm7b5PuaTpb9KP9as0XeCRSJ8kqcNgXcKoUD3Ij8FlPvN25KybLnFnetaO0ZdfRYUPWle4qw==}
+  wrangler@4.45.0:
+    resolution: {integrity: sha512-2qM6bHw8l7r89Z9Y5A7Wn4L9U+dFoLjYgEUVpqy7CcmXpppL3QIYqU6rU5lre7/SRzBuPu/H93Vwfh538gZ3iw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -9360,7 +9360,7 @@ snapshots:
       eslint: 9.38.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))
-      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1)(eslint@9.38.0(jiti@2.6.1))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.38.0(jiti@2.6.1))
       eslint-plugin-react: 7.37.5(eslint@9.38.0(jiti@2.6.1))
       eslint-plugin-react-hooks: 7.0.0(eslint@9.38.0(jiti@2.6.1))
@@ -9397,7 +9397,7 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1)(eslint@9.38.0(jiti@2.6.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -9411,7 +9411,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1)):
+  eslint-plugin-import@2.32.0(eslint-import-resolver-typescript@3.10.1)(eslint@9.38.0(jiti@2.6.1)):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -11008,7 +11008,7 @@ snapshots:
 
   min-indent@1.0.1: {}
 
-  miniflare@4.20251011.0:
+  miniflare@4.20251011.1:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.14.0
@@ -12704,13 +12704,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20251011.0
       '@cloudflare/workerd-windows-64': 1.20251011.0
 
-  wrangler@4.44.0:
+  wrangler@4.45.0:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.7.8(unenv@2.0.0-rc.21)(workerd@1.20251011.0)
       blake3-wasm: 2.1.5
       esbuild: 0.25.4
-      miniflare: 4.20251011.0
+      miniflare: 4.20251011.1
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.21
       workerd: 1.20251011.0
