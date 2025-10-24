@@ -45,7 +45,7 @@ dependencies {
   implementation 'io.quarkus:quarkus-vertx-http'
 
   // 🌐 Vert.x Mutiny Web Client (use Vert.x version aligned with Quarkus)
-  implementation 'io.vertx:vertx-web-client:4.5.10'
+  implementation 'io.vertx:vertx-web-client:4.5.22'
 
   // SmallRye Mutiny bindings for the Vert.x Web Client (provides io.vertx.mutiny.ext.web.client.*)
   implementation 'io.smallrye.reactive:smallrye-mutiny-vertx-web-client:3.12.0'
