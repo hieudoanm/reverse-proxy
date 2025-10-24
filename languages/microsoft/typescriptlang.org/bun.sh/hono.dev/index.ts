@@ -28,7 +28,7 @@ app.all('*', async (context) => {
   } catch (error) {
     return context.json(
       { error: `Proxy Error: ${(error as Error).message}` },
-      500,
+      500
     );
   }
 });

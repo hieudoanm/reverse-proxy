@@ -5,7 +5,7 @@ const PORT: number = parseInt(process.env.PORT ?? '3000', 10) ?? 3000; // Port w
 const server = http.createServer((request, response) => {
   const parsedUrl: URL = new URL(
     request.url ?? '',
-    `http://${request.headers.host}`,
+    `http://${request.headers.host}`
   );
   const targetUrl: string | null = parsedUrl.searchParams.get('url'); // Extract target URL from query param
   console.info('Target URL: ', targetUrl);
@@ -35,7 +35,7 @@ const server = http.createServer((request, response) => {
       // Copy response headers from target
       response.writeHead(
         targetResponse.statusCode ?? 500,
-        targetResponse.headers,
+        targetResponse.headers
       );
       // Pipe the response from the target to the client
       targetResponse.pipe(response);

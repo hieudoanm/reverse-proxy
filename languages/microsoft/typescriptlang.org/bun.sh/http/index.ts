@@ -22,7 +22,7 @@ Bun.serve({
     if (!target) {
       return new Response(
         JSON.stringify({ error: 'Missing ?url= parameter' }),
-        { status: 400, headers: { 'Content-Type': 'application/json' } },
+        { status: 400, headers: { 'Content-Type': 'application/json' } }
       );
     }
 
@@ -33,7 +33,7 @@ Bun.serve({
         method: req.method,
         body:
           req.method !== 'GET' && req.method !== 'HEAD' ? req.body : undefined,
-      }),
+      })
     );
 
     if (error) {
@@ -69,5 +69,5 @@ Bun.serve({
 });
 
 console.log(
-  `✅ Reverse proxy server is running at http://localhost:${port}/api`,
+  `✅ Reverse proxy server is running at http://localhost:${port}/api`
 );
