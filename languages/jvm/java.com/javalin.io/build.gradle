@@ -33,7 +33,7 @@ dependencies {
     implementation 'io.javalin:javalin:6.1.3'
 
     // ⚙️ Jetty server (already included, but explicitly pinned for stability)
-    implementation 'org.eclipse.jetty:jetty-server:11.0.24'
+    implementation 'org.eclipse.jetty:jetty-server:11.0.26'
 
     // 🧠 Logging (SLF4J + Simple)
     implementation 'org.slf4j:slf4j-simple:2.0.16'
