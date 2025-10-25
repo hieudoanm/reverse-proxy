@@ -48,7 +48,7 @@ dependencies {
   implementation 'io.vertx:vertx-web-client:4.5.22'
 
   // SmallRye Mutiny bindings for the Vert.x Web Client (provides io.vertx.mutiny.ext.web.client.*)
-  implementation 'io.smallrye.reactive:smallrye-mutiny-vertx-web-client:3.12.0'
+  implementation 'io.smallrye.reactive:smallrye-mutiny-vertx-web-client:3.20.0'
 
 
   // Logging (already included by default)
