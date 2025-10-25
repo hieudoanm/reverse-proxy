@@ -30,6 +30,16 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
 
+  languages/jvm/java.com/helidon.io: {}
+
+  languages/jvm/java.com/javalin.io: {}
+
+  languages/jvm/java.com/micronaut.io: {}
+
+  languages/jvm/java.com/quarkus.io: {}
+
+  languages/jvm/java.com/spring.io: {}
+
   languages/microsoft/typescriptlang.org/bun.sh/express.js:
     dependencies:
       express:

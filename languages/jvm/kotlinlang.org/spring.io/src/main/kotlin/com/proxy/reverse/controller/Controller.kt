@@ -15,7 +15,7 @@ class Controller(
         webClientBuilder.build() // no baseUrl; dynamic per request
     }
 
-    @RequestMapping("/api", method = [RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.PATCH])
+    @RequestMapping("/proxy", method = [RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.PATCH])
     fun proxy(
         @RequestParam("url") targetUrl: String,
         request: ServerHttpRequest,

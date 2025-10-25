@@ -1,17 +1,23 @@
 plugins {
     application
     kotlin("jvm") version "2.2.21"
+
     checkstyle
     pmd
     id("com.diffplug.spotless") version "6.25.0"
+}
+
+version = "0.0.1"
+group = "com.proxy.reverse"
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
 }
 
 application {
     mainClass.set("com.proxy.reverse.ApplicationKt")
 }
 
-version = "0.0.1"
-group = "com.proxy.reverse"
 
 repositories {
     mavenCentral()

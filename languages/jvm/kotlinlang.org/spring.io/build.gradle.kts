@@ -1,16 +1,25 @@
 plugins {
+    application
+    kotlin("jvm") version "2.2.21"
+
+    checkstyle
+    pmd
+    id("com.diffplug.spotless") version "6.25.0"
+
     id("org.springframework.boot") version "3.5.7"
     id("io.spring.dependency-management") version "1.1.7"
-    kotlin("jvm") version "2.2.21"
     kotlin("plugin.spring") version "2.2.21"
-    application
 }
 
 group = "com.proxy.reverse"
 version = "0.0.1-SNAPSHOT"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+}
+
+repositories {
+    mavenCentral()
 }
 
 application {
@@ -30,13 +39,38 @@ dependencies {
     testImplementation("io.projectreactor:reactor-test")
 }
 
-tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-    kotlinOptions {
-        freeCompilerArgs = listOf("-Xjsr305=strict")
-        jvmTarget = "17"
-    }
-}
-
 tasks.test {
     useJUnitPlatform()
+}
+
+/**
+ * -------------------------
+ * Checkstyle Configuration
+ * -------------------------
+ */
+checkstyle {
+  toolVersion = "12.1.0" // Latest stable version
+  config = resources.text.fromFile("config/checkstyle/checkstyle.xml")
+}
+
+/**
+ * -------------------------
+ * PMD Configuration
+ * -------------------------
+ */
+pmd {
+  toolVersion = "7.17.0" // Latest PMD version
+  ruleSetFiles = files("config/pmd/pmd-ruleset.xml")
+}
+
+spotless {
+  java {
+    googleJavaFormat()  // auto-format according to Google Java Style
+  }
+}
+
+// Enable dependency locking for reproducible builds
+dependencyLocking {
+  // Lock all configurations (implementation, testImplementation, etc.)
+  lockAllConfigurations()
 }

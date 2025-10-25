@@ -1,0 +1,12 @@
+{
+  "name": "@reverse-proxy/micronaut.io",
+  "version": "0.0.1",
+  "description": "micronaut.io",
+  "scripts": {
+    "format": "./gradlew spotlessApply"
+  },
+  "keywords": [],
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "packageManager": "pnpm@10.19.0"
+}
