@@ -7,7 +7,7 @@ plugins {
 }
 
 application {
-    mainClass.set("com.reverse.proxy.ApplicationKt")
+    mainClass.set("com.proxy.reverse.ApplicationKt")
 }
 
 version = "0.0.1"
@@ -21,8 +21,10 @@ dependencies {
     implementation("io.ktor:ktor-server-core-jvm:3.3.1")
     implementation("io.ktor:ktor-server-netty-jvm:3.3.1")
     implementation("io.ktor:ktor-client-core-jvm:3.3.1")
-    implementation("io.ktor:ktor-client-cio-jvm:3.3.1")
     implementation("io.ktor:ktor-server-call-logging:3.3.1")
+    implementation("io.ktor:ktor-client-cio-jvm:3.3.1")
+    implementation("io.ktor:ktor-client-encoding:3.3.1")
+
     testImplementation(kotlin("test"))
 }
 
