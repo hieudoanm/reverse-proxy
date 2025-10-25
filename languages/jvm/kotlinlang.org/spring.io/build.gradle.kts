@@ -11,7 +11,7 @@ plugins {
     kotlin("plugin.spring") version "2.2.21"
 }
 
-group = "com.proxy.reverse"
+group = "io.proxy.reverse"
 version = "0.0.1-SNAPSHOT"
 
 java {
@@ -23,7 +23,7 @@ repositories {
 }
 
 application {
-    mainClass.set("com.proxy.reverse.ApplicationKt") // Ensure this matches your main class
+    mainClass.set("io.proxy.reverse.ApplicationKt") // Ensure this matches your main class
 }
 
 repositories {

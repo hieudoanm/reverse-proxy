@@ -12,11 +12,11 @@ plugins {
 }
 
 application {
-  mainClass.set("com.proxy.reverse.Application")
+  mainClass.set("io.proxy.reverse.Application")
 }
 
 version = "0.0.1"
-group = "com.proxy.reverse"
+group = "io.proxy.reverse"
 
 repositories {
   mavenCentral()
@@ -28,7 +28,7 @@ micronaut {
   testRuntime("junit5")
   processing {
     incremental(true)
-    annotations("com.proxy.reverse.*")
+    annotations("io.proxy.reverse.*")
   }
 }
 
@@ -104,8 +104,4 @@ spotless {
 dependencyLocking {
   // Lock all configurations (implementation, testImplementation, etc.)
   lockAllConfigurations()
-}
-
-application {
-  mainClass = "com.proxy.reverse.Application"
 }

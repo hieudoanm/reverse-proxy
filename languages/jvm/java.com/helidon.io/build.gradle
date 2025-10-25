@@ -11,11 +11,11 @@ plugins {
   id 'application'
 }
 
-group = 'com.proxy.reverse'
+group = 'io.proxy.reverse'
 version = '0.0.1'
 
 application {
-    mainClass = 'com.proxy.reverse.Application'
+    mainClass = 'io.proxy.reverse.Application'
 }
 
 repositories {
@@ -88,8 +88,4 @@ spotless {
 dependencyLocking {
   // Lock all configurations (implementation, testImplementation, etc.)
   lockAllConfigurations()
-}
-
-application {
-  mainClass = "com.proxy.reverse.Application"
 }

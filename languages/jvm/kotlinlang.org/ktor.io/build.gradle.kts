@@ -8,14 +8,14 @@ plugins {
 }
 
 version = "0.0.1"
-group = "com.proxy.reverse"
+group = "io.proxy.reverse"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_21
 }
 
 application {
-    mainClass.set("com.proxy.reverse.ApplicationKt")
+    mainClass.set("io.proxy.reverse.ApplicationKt")
 }
 
 
