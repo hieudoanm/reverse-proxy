@@ -1,11 +1,10 @@
 package com.proxy.reverse;
 
+import io.helidon.webclient.api.HttpClientResponse;
+import io.helidon.webclient.api.WebClient;
 import io.helidon.webserver.WebServer;
 import io.helidon.webserver.http.ServerRequest;
 import io.helidon.webserver.http.ServerResponse;
-import io.helidon.webclient.api.WebClient;
-import io.helidon.webclient.api.HttpClientResponse;
-
 import java.io.InputStream;
 import java.io.OutputStream;
 
@@ -13,11 +12,12 @@ public class Application {
   public static void main(String[] args) {
     WebClient client = WebClient.builder().build();
 
-    WebServer server = WebServer.builder()
-      .port(8080)
-      .routing(r -> r.get("/proxy", (req, res) -> handleProxy(req, res, client)))
-      .build()
-      .start();
+    WebServer server =
+        WebServer.builder()
+            .port(8080)
+            .routing(r -> r.get("/proxy", (req, res) -> handleProxy(req, res, client)))
+            .build()
+            .start();
 
     System.out.println("✅ Helidon Reverse Proxy running at http://localhost:" + server.port());
   }

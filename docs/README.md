@@ -7,8 +7,10 @@
   - [🚀 Demo](#-demo)
   - [🌐 Languages](#-languages)
   - [🖼️ Frameworks](#️-frameworks)
-    - [🐹 Go](#-go)
-    - [🦀 Rust](#-rust)
+    - [Compiled](#compiled)
+      - [🐹 Go](#-go)
+      - [🦀 Rust](#-rust)
+    - [☕ Java](#-java)
     - [🟦 TypeScript](#-typescript)
     - [Other](#other)
 
@@ -41,21 +43,31 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ## 🖼️ Frameworks
 
-### 🐹 [Go][go]
+### Compiled
 
-| No  | Framework                                  | GitHub                                     |
-| --- | ------------------------------------------ | ------------------------------------------ |
-| 01  | [Beego](https://beego.vip/)                | [GitHub](https://github.com/beego/beego)   |
-| 02  | [Chi](https://go-chi.io/)                  | [GitHub](https://github.com/go-chi/chi)    |
-| 03  | [Echo](https://echo.labstack.com/)         | [GitHub](https://github.com/labstack/echo) |
-| 04  | [Fiber](https://gofiber.io/)               |                                            |
-| 05  | [Gin](https://gin-gonic.com/)              | [GitHub](https://github.com/gin-gonic/gin) |
-| 06  | [Gorilla](https://www.gorillatoolkit.org/) | [GitHub](https://github.com/gorilla/mux)   |
-| 07  | [net/http](https://pkg.go.dev/net/http)    |                                            |
+#### 🐹 [Go][go]
+
+| No  | Framework           | GitHub                                     |
+| --- | ------------------- | ------------------------------------------ |
+| 01  | [Beego][beego]      | [GitHub](https://github.com/beego/beego)   |
+| 02  | [Chi][chi]          | [GitHub](https://github.com/go-chi/chi)    |
+| 03  | [Echo][echo]        | [GitHub](https://github.com/labstack/echo) |
+| 04  | [Fiber][fiber]      |                                            |
+| 05  | [Gin][gin]          | [GitHub](https://github.com/gin-gonic/gin) |
+| 06  | [Gorilla][gorilla]  | [GitHub](https://github.com/gorilla/mux)   |
+| 07  | [net/http][http-go] |                                            |
+
+[beego]: https://beego.vip/
+[chi]: https://go-chi.io/
+[echo]: https://echo.labstack.com/
+[fiber]: https://gofiber.io/
+[gin]: https://gin-gonic.com/
+[gorilla]: https://www.gorillatoolkit.org/
+[http-go]: https://pkg.go.dev/net/http
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 🦀 [Rust][rust]
+#### 🦀 [Rust][rust]
 
 | No  | Framework        | GitHub       |
 | --- | ---------------- | ------------ |
@@ -70,6 +82,24 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 [hyper]: https://hyper.rs/
 [rocket]: https://rocket.rs/
 [warp]: https://github.com/seanmonstar/warp
+
+[⬆️ Back to Table of Contents](#-table-of-contents)
+
+### ☕ [Java][java]
+
+| No  | Framework                 |
+| --- | ------------------------- |
+| 01  | [Helidon][helidon]        |
+| 02  | [Javalin][javalin]        |
+| 03  | [Micronaut][micronaut]    |
+| 04  | [Quarkus][quarkus]        |
+| 05  | [SpringBoot][spring-boot] |
+
+[helidon]: https://helidon.io/
+[javalin]: https://javalin.io/
+[micronaut]: https://micronaut.io/
+[quarkus]: https://quarkus.io/
+[spring-boot]: https://spring.io/projects/spring-boot
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -101,22 +131,18 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ### Other
 
-| No  | Language         | Framework                                   |
-| --- | ---------------- | ------------------------------------------- |
-| 01  | [C#][csharp]     | [.NET][dotnet]                              |
-| 02  | [C#][csharp]     | [YARP (Yet Another Reverse Proxy)][yarp]    |
-| 03  | [C++][cplusplus] | [Boost][boost]                              |
-| 04  | [Java][java]     | [Helidon](https://helidon.io/)              |
-| 05  | [Java][java]     | [Micronaut][micronaut]                      |
-| 06  | [Java][java]     | [Quarkus][quarkus]                          |
-| 07  | [Java][java]     | [SpringBoot][spring-boot]                   |
-| 08  | [Kotlin][kotlin] | [Ktor](https://ktor.io/)                    |
-| 09  | [Kotlin][kotlin] | [SpringBoot][spring-boot]                   |
-| 10  | [Python][python] | [FastAPI](https://fastapi.tiangolo.com/)    |
-| 11  | [Python][python] | [Flask](https://flask.palletsprojects.com/) |
-| 12  | [Python][python] | [HTTP][python-http]                         |
-| 13  | [Scala][scala]   | [Akka HTTP][akka-http]                      |
-| 14  | [Scala][scala]   | [Play](https://www.playframework.com/)      |
+| No  | Group     | Language         | Framework                                   |
+| --- | --------- | ---------------- | ------------------------------------------- |
+| 01  | Compiled  | [C++][cplusplus] | [Boost][boost]                              |
+| 02  | Microsoft | [C#][csharp]     | [.NET][dotnet]                              |
+| 03  | Microsoft | [C#][csharp]     | [YARP (Yet Another Reverse Proxy)][yarp]    |
+| 08  | JVM       | [Kotlin][kotlin] | [Ktor](https://ktor.io/)                    |
+| 09  | JVM       | [Kotlin][kotlin] | [SpringBoot][spring-boot]                   |
+| 10  | JVM       | [Scala][scala]   | [Akka HTTP][akka-http]                      |
+| 11  | JVM       | [Scala][scala]   | [Play](https://www.playframework.com/)      |
+| 12  |           | [Python][python] | [FastAPI](https://fastapi.tiangolo.com/)    |
+| 13  |           | [Python][python] | [Flask](https://flask.palletsprojects.com/) |
+| 14  |           | [Python][python] | [HTTP][python-http]                         |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -128,12 +154,9 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 [go]: https://go.dev/
 [java]: https://www.java.com/en/
 [kotlin]: https://kotlinlang.org/
-[micronaut]: https://micronaut.io/
 [python]: https://www.python.org/
 [python-http]: https://docs.python.org/3/library/http.server.html
-[quarkus]: https://quarkus.io/
 [rust]: https://www.rust-lang.org/
 [scala]: https://www.scala-lang.org/
-[spring-boot]: https://spring.io/projects/spring-boot
 [typescript]: https://www.typescriptlang.org/
 [yarp]: https://dotnet.github.io/yarp/
