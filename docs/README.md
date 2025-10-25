@@ -7,6 +7,10 @@
   - [🚀 Demo](#-demo)
   - [🌐 Languages](#-languages)
   - [🖼️ Frameworks](#️-frameworks)
+    - [🐹 Go](#-go)
+    - [🦀 Rust](#-rust)
+    - [🟦 TypeScript](#-typescript)
+    - [Other](#other)
 
 ## 🚀 Demo
 
@@ -37,42 +41,82 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 ## 🖼️ Frameworks
 
-| No  | Language                 | Framework                                          |                                             |
-| --- | ------------------------ | -------------------------------------------------- | ------------------------------------------- |
-| 01  | [C#][csharp]             | [.NET][dotnet]                                     |                                             |
-| 02  | [C#][csharp]             | [YARP (Yet Another Reverse Proxy)][yarp]           |                                             |
-| 03  | [C++][cplusplus]         | [Boost][boost]                                     |                                             |
-| 04  | [Go][go]                 | [Beego](https://beego.vip/)                        | [GitHub](https://github.com/beego/beego)    |
-| 05  | [Go][go]                 | [Chi](https://go-chi.io/)                          | [GitHub](https://github.com/go-chi/chi)     |
-| 06  | [Go][go]                 | [Echo](https://echo.labstack.com/)                 | [GitHub](https://github.com/labstack/echo)  |
-| 07  | [Go][go]                 | [Fiber](https://gofiber.io/)                       |                                             |
-| 08  | [Go][go]                 | [Gin](https://gin-gonic.com/)                      | [GitHub](https://github.com/gin-gonic/gin)  |
-| 09  | [Go][go]                 | [Gorilla](https://www.gorillatoolkit.org/)         | [GitHub](https://github.com/gorilla/mux)    |
-| 10  | [Go][go]                 | [net/http](https://pkg.go.dev/net/http)            |                                             |
-| 11  | [Java][java]             | [Micronaut][micronaut]                             |                                             |
-| 12  | [Java][java]             | [Quarkus][quarkus]                                 |                                             |
-| 13  | [Java][java]             | [SpringBoot][spring-boot]                          |                                             |
-| 14  | [Kotlin][kotlin]         | [Ktor](https://ktor.io/)                           |                                             |
-| 15  | [Kotlin][kotlin]         | [SpringBoot][spring-boot]                          |                                             |
-| 16  | [Python][python]         | [FastAPI](https://fastapi.tiangolo.com/)           |                                             |
-| 17  | [Python][python]         | [Flask](https://flask.palletsprojects.com/)        |                                             |
-| 18  | [Python][python]         | [HTTP][python-http]                                |                                             |
-| 19  | [Rust][rust]             | [Actix](https://actix.rs/)                         |                                             |
-| 20  | [Rust][rust]             | [Gotham](https://gotham.rs/)                       |                                             |
-| 21  | [Rust][rust]             | [Hyper](https://hyper.rs/)                         |                                             |
-| 22  | [Rust][rust]             | [Rocket](https://rocket.rs/)                       |                                             |
-| 23  | [Rust][rust]             |                                                    | [Warp](https://github.com/seanmonstar/warp) |
-| 24  | [Scala][scala]           | [Akka HTTP][akka-http]                             |                                             |
-| 25  | [Scala][scala]           | [Play](https://www.playframework.com/)             |                                             |
-| 26  | [TypeScript][typescript] | [Express](https://expressjs.com/)                  |                                             |
-| 27  | [TypeScript][typescript] | [Fastify](https://www.fastify.io/)                 |                                             |
-| 28  | [TypeScript][typescript] | [Fresh](https://fresh.deno.dev/)                   |                                             |
-| 29  | [TypeScript][typescript] | [Hono](https://hono.dev/)                          |                                             |
-| 30  | [TypeScript][typescript] | [HTTP - Bun](https://bun.sh/docs/api/http)         |                                             |
-| 31  | [TypeScript][typescript] | [HTTP - Deno](https://deno.land/std/http)          |                                             |
-| 32  | [TypeScript][typescript] | [HTTP - Node.js](https://nodejs.org/api/http.html) |                                             |
-| 33  | [TypeScript][typescript] | [Nest](https://nestjs.com)                         |                                             |
-| 34  | [TypeScript][typescript] | [Next](https://nextjs.org)                         |                                             |
+### 🐹 [Go][go]
+
+| No  | Framework                                  | GitHub                                     |
+| --- | ------------------------------------------ | ------------------------------------------ |
+| 01  | [Beego](https://beego.vip/)                | [GitHub](https://github.com/beego/beego)   |
+| 02  | [Chi](https://go-chi.io/)                  | [GitHub](https://github.com/go-chi/chi)    |
+| 03  | [Echo](https://echo.labstack.com/)         | [GitHub](https://github.com/labstack/echo) |
+| 04  | [Fiber](https://gofiber.io/)               |                                            |
+| 05  | [Gin](https://gin-gonic.com/)              | [GitHub](https://github.com/gin-gonic/gin) |
+| 06  | [Gorilla](https://www.gorillatoolkit.org/) | [GitHub](https://github.com/gorilla/mux)   |
+| 07  | [net/http](https://pkg.go.dev/net/http)    |                                            |
+
+[⬆️ Back to Table of Contents](#-table-of-contents)
+
+### 🦀 [Rust][rust]
+
+| No  | Framework        | GitHub       |
+| --- | ---------------- | ------------ |
+| 01  | [Actix][actix]   |              |
+| 02  | [Gotham][gotham] |              |
+| 03  | [Hyper][hyper]   |              |
+| 04  | [Rocket][rocket] |              |
+| 05  |                  | [Warp][warp] |
+
+[actix]: https://actix.rs/
+[gotham]: https://gotham.rs/
+[hyper]: https://hyper.rs/
+[rocket]: https://rocket.rs/
+[warp]: https://github.com/seanmonstar/warp
+
+[⬆️ Back to Table of Contents](#-table-of-contents)
+
+### 🟦 [TypeScript][typescript]
+
+| No  | Framework                   |
+| --- | --------------------------- |
+| 01  | [Express][express]          |
+| 02  | [Fastify][fastify]          |
+| 03  | [Fresh][fresh]              |
+| 04  | [Hono][hono]                |
+| 05  | [HTTP - Bun][http-bun]      |
+| 06  | [HTTP - Deno][http-deno]    |
+| 07  | [HTTP - Node.js][http-node] |
+| 08  | [Nest][nest]                |
+| 09  | [Next][next]                |
+
+[express]: https://expressjs.com/
+[fastify]: https://www.fastify.io/
+[fresh]: https://fresh.deno.dev/
+[hono]: https://hono.dev/
+[http-bun]: https://bun.sh/docs/api/http
+[http-deno]: https://deno.land/std/http
+[http-node]: https://nodejs.org/api/http.html
+[nest]: https://nestjs.com
+[next]: https://nextjs.org
+
+[⬆️ Back to Table of Contents](#-table-of-contents)
+
+### Other
+
+| No  | Language         | Framework                                   |
+| --- | ---------------- | ------------------------------------------- |
+| 01  | [C#][csharp]     | [.NET][dotnet]                              |
+| 02  | [C#][csharp]     | [YARP (Yet Another Reverse Proxy)][yarp]    |
+| 03  | [C++][cplusplus] | [Boost][boost]                              |
+| 04  | [Java][java]     | [Helidon](https://helidon.io/)              |
+| 05  | [Java][java]     | [Micronaut][micronaut]                      |
+| 06  | [Java][java]     | [Quarkus][quarkus]                          |
+| 07  | [Java][java]     | [SpringBoot][spring-boot]                   |
+| 08  | [Kotlin][kotlin] | [Ktor](https://ktor.io/)                    |
+| 09  | [Kotlin][kotlin] | [SpringBoot][spring-boot]                   |
+| 10  | [Python][python] | [FastAPI](https://fastapi.tiangolo.com/)    |
+| 11  | [Python][python] | [Flask](https://flask.palletsprojects.com/) |
+| 12  | [Python][python] | [HTTP][python-http]                         |
+| 13  | [Scala][scala]   | [Akka HTTP][akka-http]                      |
+| 14  | [Scala][scala]   | [Play](https://www.playframework.com/)      |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 

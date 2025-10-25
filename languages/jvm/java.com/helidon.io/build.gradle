@@ -1,0 +1,95 @@
+plugins {
+  // ✅ Java plugin
+    id 'java'
+  // ✅ CheckStyle
+  id 'checkstyle'
+  // ✅ PMD
+  id 'pmd'
+  // ✅ Spotless
+  id 'com.diffplug.spotless' version '8.0.0'
+  // ✅ Application
+  id 'application'
+}
+
+application {
+    mainClass = 'com.proxy.reverse.Application'
+}
+
+version = "0.0.1"
+group = "com.proxy.reverse"
+
+repositories {
+  mavenCentral()
+}
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(21)
+  }
+}
+
+dependencies {
+    implementation 'io.helidon.webserver:helidon-webserver:4.0.6'
+    implementation 'io.helidon.webclient:helidon-webclient:4.0.6'
+    implementation 'io.helidon.config:helidon-config-yaml:4.0.6'
+}
+
+test {
+  useJUnitPlatform()
+}
+
+/**
+ * -------------------------
+ * Checkstyle Configuration
+ * -------------------------
+ */
+checkstyle {
+  toolVersion = '12.1.0' // Latest stable version
+  config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+  ignoreFailures = false  // Fail build if violations are found
+}
+
+tasks.withType(Checkstyle).configureEach {
+  reports {
+    xml.required = false
+    html.required = true
+    html.outputLocation = file("$buildDir/reports/checkstyle/checkstyle.html")
+  }
+}
+
+/**
+ * -------------------------
+ * PMD Configuration
+ * -------------------------
+ */
+pmd {
+  toolVersion = '7.17.0' // Latest PMD version
+  ruleSets = [] // We'll use a custom ruleset instead of defaults
+  ruleSetFiles = files('config/pmd/pmd-ruleset.xml')
+  ignoreFailures = true  // Fail build if PMD violations are found
+}
+
+tasks.withType(Pmd).configureEach {
+  exclude "**/avro/**"
+  reports {
+    xml.required = false
+    html.required = true
+    html.outputLocation = file("$buildDir/reports/pmd/pmd.html")
+  }
+}
+
+spotless {
+  java {
+    googleJavaFormat()  // auto-format according to Google Java Style
+  }
+}
+
+// Enable dependency locking for reproducible builds
+dependencyLocking {
+  // Lock all configurations (implementation, testImplementation, etc.)
+  lockAllConfigurations()
+}
+
+application {
+  mainClass = "com.proxy.reverse.Application"
+}

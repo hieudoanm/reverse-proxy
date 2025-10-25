@@ -1,0 +1,69 @@
+# ================================
+# Java / Gradle / Spring Boot
+# ================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Gradle build output
+/build/
+/out/
+
+# Gradle Wrapper JAR (DO NOT IGNORE wrapper scripts!)
+/.gradle/
+/**/build/
+
+# Eclipse / IDEA / NetBeans
+.idea/
+*.iml
+*.ipr
+*.iws
+*.class
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+*.project
+*.classpath
+.settings/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# ================================
+# ✅ KEEP THE WRAPPER SCRIPTS:
+#   ✔ gradlew
+#   ✔ gradlew.bat
+#   ✔ gradle/wrapper/gradle-wrapper.jar
+#   ✔ gradle/wrapper/gradle-wrapper.properties
+#
+# These MUST be versioned to guarantee everyone
+# builds with the same Gradle version!
+# ================================
+
+# Node.js (if you ever add a frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+*.env
