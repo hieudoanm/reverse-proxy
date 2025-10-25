@@ -4,7 +4,7 @@ import { tryCatch } from '@next.js/utils/try-catch';
 import { NextPage } from 'next';
 import { useState } from 'react';
 
-const PROXY_BASE_URL: string = 'https://micro24.vercel.app';
+const PROXY_BASE_URL: string = 'https://hieudoanm-reverse-proxy.vercel.app';
 
 const urlToCurl = (
   options: { url: string; method: string; headers: Record<string, string> } = {
