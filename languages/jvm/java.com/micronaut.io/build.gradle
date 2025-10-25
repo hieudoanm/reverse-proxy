@@ -8,7 +8,7 @@ plugins {
   // ✅ Spotless
   id 'com.diffplug.spotless' version '8.0.0'
   // ✅ Micronaut
-  id "io.micronaut.application" version "4.3.6"
+  id "io.micronaut.application" version "4.6.0"
 }
 
 application {
