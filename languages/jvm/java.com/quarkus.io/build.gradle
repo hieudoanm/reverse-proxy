@@ -41,7 +41,7 @@ dependencies {
 
   // Vert.x HTTP + WebClient
   implementation 'io.quarkus:quarkus-arc'
-  implementation 'io.quarkus:quarkus-resteasy-reactive:3.13.1'
+  implementation 'io.quarkus:quarkus-resteasy-reactive:3.15.7'
   implementation 'io.quarkus:quarkus-vertx-http'
 
   // 🌐 Vert.x Mutiny Web Client (use Vert.x version aligned with Quarkus)
