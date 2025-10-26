@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hieudoanm/reverse-proxy#readme",
   "scripts": {
+    "lock": "turbo run lock",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "format": "turbo run format",

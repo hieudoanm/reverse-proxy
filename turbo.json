@@ -7,6 +7,7 @@
     "check": { "cache": true, "dependsOn": ["^check"] },
     "lint": { "cache": true, "dependsOn": ["^lint"] },
     "test": { "cache": true, "dependsOn": ["^test"] },
+    "lock": { "cache": true, "dependsOn": ["^lock"] },
     "dev": { "cache": true, "dependsOn": ["^dev"] }
   }
 }

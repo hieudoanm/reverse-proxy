@@ -1,7 +1,7 @@
 {
-  "name": "@reverse-proxy/quarkus.io",
+  "name": "@reverse-proxy/ktor.io",
   "version": "0.0.1",
-  "description": "quarkus.io",
+  "description": "ktor.io",
   "scripts": {
     "format": "./gradlew spotlessApply",
     "lock": "./gradlew dependencies --write-locks"

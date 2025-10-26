@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "micronaut.io",
   "scripts": {
-    "format": "./gradlew spotlessApply"
+    "format": "./gradlew spotlessApply",
+    "lock": "./gradlew dependencies --write-locks"
   },
   "keywords": [],
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
