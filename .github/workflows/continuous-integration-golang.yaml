@@ -15,6 +15,10 @@ jobs:
     name: Continuous Integration (Golang)
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: languages/compiled/go.dev
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
