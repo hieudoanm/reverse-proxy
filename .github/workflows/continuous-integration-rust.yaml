@@ -1,0 +1,44 @@
+name: Continuous Integration (Rust)
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - hotfix/**
+      - feature/**
+      - renovate/**
+      - dependabot/**
+
+jobs:
+  ci:
+    name: Continuous Integration (Rust)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: languages/compiled/rust-lang.org
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+          override: true
+      - name: Cache cargo registry
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+      - name: Check formatting
+        run: cargo fmt -- --check
+      - name: Run clippy (linter)
+        run: cargo clippy -- -D warning
+      - name: Build release
+        run: cargo build --release

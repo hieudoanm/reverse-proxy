@@ -1,0 +1,15 @@
+[package]
+name = "reverse-proxy-actix"
+version = "0.0.1"
+description = "A Reverse Proxy Server"
+authors = ["hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)"]
+license = "GPL-3.0"
+repository = "git+ssh://git@github.com/hieudoanm/reverse-proxy.git"
+edition = "2024"
+rust-version = "1.85.0"
+publish = false
+
+[dependencies]
+actix-web = "=4.11.0"
+reqwest = { version = "=0.12.24", features = ["json"] }
+tokio = { version = "=1.48.0", features = ["full"] }

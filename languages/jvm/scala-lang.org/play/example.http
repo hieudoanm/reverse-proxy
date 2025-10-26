@@ -1,1 +1,0 @@
-GET http://localhost:9000/proxy?target=http://jsonplaceholder.typicode.com/todos/1

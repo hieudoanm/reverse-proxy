@@ -1,9 +1,9 @@
 [workspace]
 resolver = "2"
 members = [
-    "actix",
-    "gotham",
-    "hyper",
-    "rocket",
-    "warp"
+    "server/actix.rs",
+    "server/gotham.rs",
+    "server/hyper.rs",
+    "server/rocket.rs",
+    "server/warp"
 ]

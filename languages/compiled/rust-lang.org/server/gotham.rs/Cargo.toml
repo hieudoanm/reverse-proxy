@@ -1,0 +1,14 @@
+[package]
+name = "reverse-proxy-gotham"
+version = "0.0.1"
+description = "A Reverse Proxy Server"
+authors = ["hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)"]
+license = "GPL-3.0"
+repository = "git+ssh://git@github.com/hieudoanm/reverse-proxy.git"
+edition = "2024"
+rust-version = "1.85.0"
+publish = false
+
+[dependencies]
+gotham = "=0.7.4"
+uuid = { version = "=1.18.1", features = ["v4"]}

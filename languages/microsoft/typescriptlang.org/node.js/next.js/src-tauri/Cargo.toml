@@ -1,12 +1,12 @@
 [package]
-name = "app"
-version = "0.1.0"
-description = "A Tauri App"
+name = "reverse-proxy-tauri"
+version = "0.0.1"
+description = "A Reverse Proxy App"
 authors = ["you"]
-license = ""
-repository = ""
-edition = "2021"
-rust-version = "1.77.2"
+license = "GPL-3.0"
+repository = "git+ssh://git@github.com/hieudoanm/reverse-proxy.git"
+edition = "2024"
+rust-version = "1.85.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

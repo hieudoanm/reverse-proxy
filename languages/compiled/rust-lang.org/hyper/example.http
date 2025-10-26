@@ -1,1 +1,0 @@
-GET http://localhost:8080/?target=http://jsonplaceholder.typicode.com/todos/1
