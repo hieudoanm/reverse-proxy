@@ -3,7 +3,7 @@ name: Continuous Integration (Golang)
 on:
   push:
     branches:
-      - main
+      - master
       - develop
       - hotfix/**
       - feature/**
