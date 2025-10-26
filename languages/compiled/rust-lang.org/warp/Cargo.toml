@@ -1,10 +1,11 @@
 [package]
-name = "warp_proxy"
+name = "reverse-proxy-warp"
 version = "0.1.0"
 edition = "2021"
+publish = false
 
 [dependencies]
-warp = "=0.4.2"
+warp = { version = "=0.4.2", features = ["server"]}
 tokio = { version = "=1.48.0", features = ["full"] }
 reqwest = { version = "=0.12.24", features = ["json"] }
 serde = { version = "=1.0.228", features = ["derive"] }
