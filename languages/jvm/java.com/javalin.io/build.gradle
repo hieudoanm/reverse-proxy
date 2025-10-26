@@ -30,7 +30,7 @@ java {
 
 dependencies {
     // 🌐 Javalin core (web framework)
-    implementation 'io.javalin:javalin:6.1.3'
+    implementation 'io.javalin:javalin:6.7.0'
 
     // ⚙️ Jetty server (already included, but explicitly pinned for stability)
     implementation 'org.eclipse.jetty:jetty-server:12.1.3'
