@@ -52,6 +52,6 @@ func main() {
 	beego.Router("/proxy", &ReverseProxyController{})
 
 	// Start the Beego server
-	log.Println("Starting Beego server on :3000...")
-	beego.Run(":3000")
+	log.Println("Starting Beego server on :8080...")
+	beego.Run(":8080")
 }

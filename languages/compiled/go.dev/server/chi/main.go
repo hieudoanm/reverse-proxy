@@ -53,6 +53,6 @@ func main() {
 		io.Copy(w, resp.Body)
 	})
 
-	log.Println("Listening on http://localhost:3000")
-	http.ListenAndServe(":3000", r)
+	log.Println("Listening on http://localhost:8080")
+	http.ListenAndServe(":8080", r)
 }

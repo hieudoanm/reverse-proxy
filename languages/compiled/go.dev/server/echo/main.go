@@ -6,23 +6,21 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/gorilla/mux"
+	"github.com/labstack/echo/v4"
 )
 
 // ReverseProxy handles dynamic proxying
-func ReverseProxy(w http.ResponseWriter, r *http.Request) {
-	targetURL := r.URL.Query().Get("url")
+func ReverseProxy(c echo.Context) error {
+	targetURL := c.QueryParam("url")
 
 	if targetURL == "" {
-		http.Error(w, "Missing target query parameter", http.StatusBadRequest)
-		return
+		return c.String(http.StatusBadRequest, "Missing target query parameter")
 	}
 
 	// Parse the target URL
 	parsedURL, err := url.Parse(targetURL)
 	if err != nil {
-		http.Error(w, "Invalid target URL", http.StatusBadRequest)
-		return
+		return c.String(http.StatusBadRequest, "Invalid target URL: "+err.Error())
 	}
 
 	// Create a reverse proxy
@@ -37,13 +35,18 @@ func ReverseProxy(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Serve the proxied request
-	proxy.ServeHTTP(w, r)
+	proxy.ServeHTTP(c.Response(), c.Request())
+
+	return nil
 }
 
 func main() {
-	r := mux.NewRouter()
-	r.HandleFunc("/proxy", ReverseProxy).Methods("GET")
+	e := echo.New()
 
-	log.Println("Starting server on :3000...")
-	log.Fatal(http.ListenAndServe(":3000", r))
+	// Define the reverse proxy route
+	e.GET("/proxy", ReverseProxy)
+
+	// Start the server
+	log.Println("Starting server on :8080...")
+	log.Fatal(e.Start(":8080"))
 }

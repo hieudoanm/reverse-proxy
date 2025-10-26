@@ -6,22 +6,22 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/gin-gonic/gin"
+	"github.com/gorilla/mux"
 )
 
 // ReverseProxy handles dynamic proxying
-func ReverseProxy(c *gin.Context) {
-	targetURL := c.Query("url")
+func ReverseProxy(w http.ResponseWriter, r *http.Request) {
+	targetURL := r.URL.Query().Get("url")
 
 	if targetURL == "" {
-		c.String(http.StatusBadRequest, "Missing target query parameter")
+		http.Error(w, "Missing target query parameter", http.StatusBadRequest)
 		return
 	}
 
 	// Parse the target URL
 	parsedURL, err := url.Parse(targetURL)
 	if err != nil {
-		c.String(http.StatusBadRequest, "Invalid target URL: "+err.Error())
+		http.Error(w, "Invalid target URL", http.StatusBadRequest)
 		return
 	}
 
@@ -37,16 +37,13 @@ func ReverseProxy(c *gin.Context) {
 	}
 
 	// Serve the proxied request
-	proxy.ServeHTTP(c.Writer, c.Request)
+	proxy.ServeHTTP(w, r)
 }
 
 func main() {
-	r := gin.Default()
+	r := mux.NewRouter()
+	r.HandleFunc("/proxy", ReverseProxy).Methods("GET")
 
-	// Define the reverse proxy route
-	r.GET("/proxy", ReverseProxy)
-
-	// Start the server
-	log.Println("Starting Gin server on :3000...")
-	log.Fatal(r.Run(":3000"))
+	log.Println("Starting server on :8080...")
+	log.Fatal(http.ListenAndServe(":8080", r))
 }

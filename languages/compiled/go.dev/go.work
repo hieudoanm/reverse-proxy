@@ -1,0 +1,10 @@
+go 1.25.2
+
+use (
+	./server/beego
+	./server/chi
+	./server/echo
+	./server/gin
+	./server/gorilla
+	./server/http
+)

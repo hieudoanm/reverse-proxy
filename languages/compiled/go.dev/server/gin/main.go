@@ -6,21 +6,23 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/labstack/echo/v4"
+	"github.com/gin-gonic/gin"
 )
 
 // ReverseProxy handles dynamic proxying
-func ReverseProxy(c echo.Context) error {
-	targetURL := c.QueryParam("url")
+func ReverseProxy(c *gin.Context) {
+	targetURL := c.Query("url")
 
 	if targetURL == "" {
-		return c.String(http.StatusBadRequest, "Missing target query parameter")
+		c.String(http.StatusBadRequest, "Missing target query parameter")
+		return
 	}
 
 	// Parse the target URL
 	parsedURL, err := url.Parse(targetURL)
 	if err != nil {
-		return c.String(http.StatusBadRequest, "Invalid target URL: "+err.Error())
+		c.String(http.StatusBadRequest, "Invalid target URL: "+err.Error())
+		return
 	}
 
 	// Create a reverse proxy
@@ -35,18 +37,16 @@ func ReverseProxy(c echo.Context) error {
 	}
 
 	// Serve the proxied request
-	proxy.ServeHTTP(c.Response(), c.Request())
-
-	return nil
+	proxy.ServeHTTP(c.Writer, c.Request)
 }
 
 func main() {
-	e := echo.New()
+	r := gin.Default()
 
 	// Define the reverse proxy route
-	e.GET("/proxy", ReverseProxy)
+	r.GET("/proxy", ReverseProxy)
 
 	// Start the server
-	log.Println("Starting server on :3000...")
-	log.Fatal(e.Start(":3000"))
+	log.Println("Starting Gin server on :8080...")
+	log.Fatal(r.Run(":8080"))
 }
