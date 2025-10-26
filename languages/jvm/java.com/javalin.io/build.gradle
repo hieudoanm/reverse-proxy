@@ -39,13 +39,8 @@ dependencies {
     implementation 'org.slf4j:slf4j-simple:2.0.17'
 
     // 🧪 Testing (JUnit 5)
-<<<<<<< HEAD
     testImplementation 'org.junit.jupiter:junit-jupiter-api:6.0.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:6.0.0'
-=======
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.14.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.14.0'
->>>>>>> d5c20a4 (Update junit-framework monorepo to v5.14.0)
 }
 
 test {
