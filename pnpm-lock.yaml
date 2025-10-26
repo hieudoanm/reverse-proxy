@@ -21,15 +21,6 @@ importers:
         specifier: 2.5.8
         version: 2.5.8
 
-  languages/compiled/go.dev/server/http:
-    devDependencies:
-      docsify-cli:
-        specifier: 4.4.4
-        version: 4.4.4
-      rimraf:
-        specifier: 6.0.1
-        version: 6.0.1
-
   languages/jvm/java.com/helidon.io: {}
 
   languages/jvm/java.com/javalin.io: {}
