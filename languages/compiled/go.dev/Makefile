@@ -3,9 +3,9 @@
 # -----------------------------------------
 MODULES := $(shell find server -mindepth 1 -maxdepth 1 -type d -exec test -e "{}/go.mod" ';' -print)
 
-.PHONY: all fmt vet lint
+.PHONY: ci fmt vet lint
 
-all: fmt vet lint
+ci: fmt vet lint
 
 fmt:
 	@echo "🧹 Running go fmt on all modules..."

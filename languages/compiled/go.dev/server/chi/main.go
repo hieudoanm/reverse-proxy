@@ -50,9 +50,16 @@ func main() {
 		}
 
 		// Copy body
-		io.Copy(w, resp.Body)
+		_, err = io.Copy(w, resp.Body)
+		if err != nil {
+			// Handle the error, e.g., log it and return a 500 status
+			http.Error(w, "Failed to copy response body", http.StatusInternalServerError)
+			return
+		}
 	})
 
 	log.Println("Listening on http://localhost:8080")
-	http.ListenAndServe(":8080", r)
+	if err := http.ListenAndServe(":8080", r); err != nil {
+		log.Fatalf("Server failed: %v", err)
+	}
 }
