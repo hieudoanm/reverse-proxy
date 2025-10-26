@@ -1,5 +1,5 @@
-name := "akka-reverse-proxy"
-version := "0.1.0"
+name := "reverse-proxy-akka"
+version := "0.0.1"
 scalaVersion := "2.13.17"
 
 libraryDependencies ++= Seq(

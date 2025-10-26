@@ -1,5 +1,5 @@
-name := "reverse-proxy"
-version := "1.0"
+name := "reverse-proxy-play"
+version := "0.0.1"
 scalaVersion := "2.13.17"
 
 libraryDependencies ++= Seq(

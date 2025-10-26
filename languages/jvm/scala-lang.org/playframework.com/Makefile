@@ -1,0 +1,2 @@
+dev:
+	sbt run

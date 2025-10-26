@@ -140,10 +140,11 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 | 08  | JVM       | [Kotlin][kotlin] | [Ktor](https://ktor.io/)                    |
 | 09  | JVM       | [Kotlin][kotlin] | [SpringBoot][spring-boot]                   |
 | 10  | JVM       | [Scala][scala]   | [Akka HTTP][akka-http]                      |
-| 11  | JVM       | [Scala][scala]   | [Play](https://www.playframework.com/)      |
-| 12  |           | [Python][python] | [FastAPI](https://fastapi.tiangolo.com/)    |
-| 13  |           | [Python][python] | [Flask](https://flask.palletsprojects.com/) |
-| 14  |           | [Python][python] | [HTTP][python-http]                         |
+| 11  | JVM       | [Scala][scala]   | [http4s](https://http4s.org/)               |
+| 12  | JVM       | [Scala][scala]   | [Play](https://www.playframework.com/)      |
+| 13  |           | [Python][python] | [FastAPI](https://fastapi.tiangolo.com/)    |
+| 14  |           | [Python][python] | [Flask](https://flask.palletsprojects.com/) |
+| 15  |           | [Python][python] | [HTTP][python-http]                         |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
