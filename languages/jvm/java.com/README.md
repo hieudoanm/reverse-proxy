@@ -3,3 +3,4 @@
 - Build Tool: [Gradle](https://gradle.org/)
 - Format: Spotless
 - Lint: Checkstyle
+- PMD

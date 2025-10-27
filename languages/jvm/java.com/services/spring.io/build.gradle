@@ -1,16 +1,18 @@
 plugins {
-    // ✅ Java plugin
-    id 'java'
-    // ✅ CheckStyle
-    id 'checkstyle'
-    // ✅ PMD
-    id 'pmd'
-    // ✅ Spotless
-    id 'com.diffplug.spotless' version '8.0.0'
-    // ✅ Spring Boot plugin
-    id 'org.springframework.boot' version '3.5.7'
-    // ✅ Dependency management plugin for Spring libraries
-    id 'io.spring.dependency-management' version '1.1.7'
+  // ✅ Java plugin
+  id 'java'
+  // ✅ CheckStyle
+  id 'checkstyle'
+  // ✅ PMD
+  id 'pmd'
+  // ✅ Spotbugs
+  id 'com.github.spotbugs' version '6.0.18'
+  // ✅ Spotless
+  id 'com.diffplug.spotless' version '8.0.0'
+  // ✅ Spring Boot plugin
+  id 'org.springframework.boot' version '3.5.7'
+  // ✅ Dependency management plugin for Spring libraries
+  id 'io.spring.dependency-management' version '1.1.7'
 }
 
 group = 'io.proxy.reverse'
@@ -24,30 +26,29 @@ java {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+  sourceCompatibility = JavaVersion.VERSION_21
+  targetCompatibility = JavaVersion.VERSION_21
 }
 
 tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
+  options.encoding = 'UTF-8'
 }
 
 // 📦 Gradle uses this as the package repository
 repositories {
-    mavenCentral()
+  mavenCentral()
 }
 
 dependencies {
-    // ✅ Core Spring Boot Web for REST APIs
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-
-    // ✅ (Optional) Spring Boot Testing support
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+  // ✅ Core Spring Boot Web for REST APIs
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  // ✅ (Optional) Spring Boot Testing support
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 // ✅ Use JUnit Platform for tests
 tasks.named('test') {
-    useJUnitPlatform()
+  useJUnitPlatform()
 }
 
 /**
@@ -88,6 +89,15 @@ tasks.withType(Pmd).configureEach {
     html.required = true
     html.outputLocation = file("$buildDir/reports/pmd/pmd.html")
   }
+}
+
+// --- SpotBugs configuration ---
+spotbugs {
+  toolVersion = '4.8.3'       // SpotBugs engine version
+  ignoreFailures = false      // fail build on violations
+  effort = 'max'              // min | default | max
+  reportLevel = 'low'         // low | medium | high
+  showProgress = true
 }
 
 spotless {

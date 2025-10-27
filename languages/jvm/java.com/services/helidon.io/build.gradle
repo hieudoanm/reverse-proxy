@@ -5,6 +5,8 @@ plugins {
   id 'checkstyle'
   // ✅ PMD
   id 'pmd'
+  // ✅ Spotbugs
+  id 'com.github.spotbugs' version '6.0.18'
   // ✅ Spotless
   id 'com.diffplug.spotless' version '8.0.0'
   // ✅ Application
@@ -15,7 +17,7 @@ group = 'io.proxy.reverse'
 version = '0.0.1'
 
 application {
-    mainClass = 'io.proxy.reverse.Application'
+  mainClass = 'io.proxy.reverse.Application'
 }
 
 repositories {
@@ -76,6 +78,15 @@ tasks.withType(Pmd).configureEach {
     html.required = true
     html.outputLocation = file("$buildDir/reports/pmd/pmd.html")
   }
+}
+
+// --- SpotBugs configuration ---
+spotbugs {
+  toolVersion = '4.8.3'       // SpotBugs engine version
+  ignoreFailures = false      // fail build on violations
+  effort = 'max'              // min | default | max
+  reportLevel = 'low'         // low | medium | high
+  showProgress = true
 }
 
 spotless {

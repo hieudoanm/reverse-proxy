@@ -37,5 +37,5 @@ jobs:
         working-directory: languages/jvm/java.com
 
       - name: Run static analysis (Checkstyle + PMD)
-        run: ./gradlew checkstyleMain checkstyleTest pmdMain pmdTest --no-daemon
+        run: ./gradlew checkstyleMain checkstyleTest pmdMain pmdTest spotbugsMain spotbugsTest --no-daemon
         working-directory: languages/jvm/java.com

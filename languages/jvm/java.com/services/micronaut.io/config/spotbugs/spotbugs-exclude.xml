@@ -1,0 +1,16 @@
+<FindBugsFilter>
+  <!-- Ignore Micronaut-generated bean definition classes -->
+  <Match>
+    <Class name="~.*\$.+\$Definition"/>
+  </Match>
+
+  <!-- Ignore Micronaut proxy/intercepted classes -->
+  <Match>
+    <Class name="~.*\$.+\$Intercepted"/>
+  </Match>
+
+  <!-- Optional: ignore other synthetic helper classes -->
+  <Match>
+    <Class name="~.*\$\d+"/>
+  </Match>
+</FindBugsFilter>

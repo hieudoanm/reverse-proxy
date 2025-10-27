@@ -1,31 +1,44 @@
 plugins {
-    // ✅ Java plugin
-    id 'java'
-    // ✅ CheckStyle
-    id 'checkstyle'
-    // ✅ PMD
-    id 'pmd'
-    // ✅ Spotless
-    id 'com.diffplug.spotless' version '8.0.0'
+  // ✅ Java plugin
+  id 'java'
+  // ✅ CheckStyle
+  id 'checkstyle'
+  // ✅ PMD
+  id 'pmd'
+  // ✅ Spotless
+  id 'com.diffplug.spotless' version '8.0.0'
+  // ✅ Spotbugs
+  id 'com.github.spotbugs' version '6.0.18'
 }
 
 subprojects {
-    group = 'io.proxy.reverse'
-    version = '0.0.1-SNAPSHOT'
-    description = 'reverse-proxy'
+  group = 'io.proxy.reverse'
+  version = '0.0.1-SNAPSHOT'
+  description = 'reverse-proxy'
 
-    repositories {
-        mavenCentral()
-    }
+  apply plugin: 'checkstyle'
+  apply plugin: 'pmd'
+  apply plugin: 'com.diffplug.spotless'
+  apply plugin: 'com.github.spotbugs'
 
-    // Common compiler settings
-    tasks.withType(JavaCompile) {
-        options.encoding = 'UTF-8'
-        sourceCompatibility = '17'
-        targetCompatibility = '17'
-    }
+  repositories {
+    mavenCentral()
+  }
 
-    test {
-        useJUnitPlatform()
-    }
+  // Common compiler settings
+  tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+  }
+
+  test {
+    useJUnitPlatform()
+  }
+
+  // Enable dependency locking for reproducible builds
+  dependencyLocking {
+    // Lock all configurations (implementation, testImplementation, etc.)
+    lockAllConfigurations()
+  }
 }
