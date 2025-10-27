@@ -34,8 +34,8 @@ jobs:
 
       - name: Build and test
         run: ./gradlew clean build --no-daemon
-        working-directory: languages/compiled/go.dev
+        working-directory: languages/jvm/java.com
 
       - name: Run static analysis (Checkstyle + PMD)
         run: ./gradlew checkstyleMain checkstyleTest pmdMain pmdTest --no-daemon
-        working-directory: languages/compiled/go.dev
+        working-directory: languages/jvm/java.com
