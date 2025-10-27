@@ -1,0 +1,51 @@
+name: Continuous Integration (Python)
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - hotfix/**
+      - feature/**
+      - renovate/**
+      - dependabot/**
+    paths:
+      - "languages/python.org/**"
+
+jobs:
+  ci:
+    name: Continuous Integration (Python)
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: languages/python.org
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: languages/python.org/.python-version
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install black ruff
+
+      - name: Install Make
+        run: sudo apt-get update && sudo apt-get install -y make
+
+      - name: Run CI pipeline via Makefile
+        run: make ci
+        working-directory: languages/python.org

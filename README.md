@@ -14,6 +14,7 @@
       - [☕ Java](#-java)
     - [Microsoft](#microsoft)
       - [🟦 TypeScript](#-typescript)
+    - [🐍 Python](#-python)
     - [Other](#other)
 
 ## 🚀 Demo
@@ -136,21 +137,34 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
+### 🐍 [Python][python]
+
+| No  | Framework           |
+| --- | ------------------- |
+| 01  | [FastAPI][fastapi]  |
+| 02  | [Flask][flask]      |
+| 03  | [HTTP][python-http] |
+| 04  | [Pyramid][pyramid]  |
+| 05  | [Tornado][tornado]  |
+
+[fastapi]: https://fastapi.tiangolo.com/
+[flask]: https://flask.palletsprojects.com/
+[python-http]: https://docs.python.org/3/library/http.server.html
+[pyramid]: https://trypyramid.com/
+[tornado]: https://www.tornadoweb.org/en/stable/
+
 ### Other
 
-| No  | Group     | Language         | Framework                                   |
-| --- | --------- | ---------------- | ------------------------------------------- |
-| 01  | Compiled  | [C++][cplusplus] | [Boost][boost]                              |
-| 02  | Microsoft | [C#][csharp]     | [.NET][dotnet]                              |
-| 03  | Microsoft | [C#][csharp]     | [YARP (Yet Another Reverse Proxy)][yarp]    |
-| 08  | JVM       | [Kotlin][kotlin] | [Ktor](https://ktor.io/)                    |
-| 09  | JVM       | [Kotlin][kotlin] | [SpringBoot][spring-boot]                   |
-| 10  | JVM       | [Scala][scala]   | [Akka HTTP][akka-http]                      |
-| 11  | JVM       | [Scala][scala]   | [http4s](https://http4s.org/)               |
-| 12  | JVM       | [Scala][scala]   | [Play](https://www.playframework.com/)      |
-| 13  |           | [Python][python] | [FastAPI](https://fastapi.tiangolo.com/)    |
-| 14  |           | [Python][python] | [Flask](https://flask.palletsprojects.com/) |
-| 15  |           | [Python][python] | [HTTP][python-http]                         |
+| No  | Group     | Language         | Framework                                |
+| --- | --------- | ---------------- | ---------------------------------------- |
+| 01  | Compiled  | [C++][cplusplus] | [Boost][boost]                           |
+| 02  | Microsoft | [C#][csharp]     | [.NET][dotnet]                           |
+| 03  | Microsoft | [C#][csharp]     | [YARP (Yet Another Reverse Proxy)][yarp] |
+| 04  | JVM       | [Kotlin][kotlin] | [Ktor](https://ktor.io/)                 |
+| 05  | JVM       | [Kotlin][kotlin] | [SpringBoot][spring-boot]                |
+| 06  | JVM       | [Scala][scala]   | [Akka HTTP][akka-http]                   |
+| 07  | JVM       | [Scala][scala]   | [http4s](https://http4s.org/)            |
+| 08  | JVM       | [Scala][scala]   | [Play][play]                             |
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
@@ -162,8 +176,8 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 [go]: https://go.dev/
 [java]: https://www.java.com/en/
 [kotlin]: https://kotlinlang.org/
+[play]: https://www.playframework.com/
 [python]: https://www.python.org/
-[python-http]: https://docs.python.org/3/library/http.server.html
 [rust]: https://www.rust-lang.org/
 [scala]: https://www.scala-lang.org/
 [typescript]: https://www.typescriptlang.org/

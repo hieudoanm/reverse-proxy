@@ -4,5 +4,5 @@ format:
 lint:
 	ruff check
 
-start:
+dev:
 	python3 main.py
