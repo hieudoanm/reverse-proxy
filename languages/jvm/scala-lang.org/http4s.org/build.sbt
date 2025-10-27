@@ -1,6 +1,6 @@
 name := "reverse-proxy-http4s"
 version := "0.0.1"
-scalaVersion := "3.3.1"
+scalaVersion := "3.3.7"
 
 libraryDependencies ++= Seq(
   "org.http4s" %% "http4s-ember-server" % "0.23.25",
