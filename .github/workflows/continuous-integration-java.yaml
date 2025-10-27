@@ -1,0 +1,43 @@
+name: Continuous Integration (Java)
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - hotfix/**
+      - feature/**
+      - renovate/**
+      - dependabot/**
+
+jobs:
+  ci:
+    name: Continuous Integration (Java)
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: languages/jvm/java.com
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v2
+
+      - name: Grant execute permission for Gradle wrapper
+        run: chmod +x gradlew
+
+      - name: Build and test
+        run: ./gradlew clean build --no-daemon
+
+      - name: Run static analysis (Checkstyle + PMD)
+        run: ./gradlew checkstyleMain checkstyleTest pmdMain pmdTest --no-daemon

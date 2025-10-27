@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21">
+      <module name="reverse-proxy-java.helidon.io.main" target="17" />
+      <module name="reverse-proxy-java.helidon.io.test" target="17" />
+      <module name="reverse-proxy-java.javalin.io.main" target="17" />
+      <module name="reverse-proxy-java.javalin.io.test" target="17" />
+      <module name="reverse-proxy-java.micronaut.io.main" target="17" />
+      <module name="reverse-proxy-java.micronaut.io.test" target="17" />
+      <module name="reverse-proxy-java.quarkus.io.integrationTest" target="17" />
+      <module name="reverse-proxy-java.quarkus.io.main" target="17" />
+      <module name="reverse-proxy-java.quarkus.io.native-test" target="17" />
+      <module name="reverse-proxy-java.quarkus.io.quarkus-generated-sources" target="17" />
+      <module name="reverse-proxy-java.quarkus.io.quarkus-test-generated-sources" target="17" />
+      <module name="reverse-proxy-java.quarkus.io.test" target="17" />
+      <module name="reverse-proxy-java.spring.io.main" target="17" />
+      <module name="reverse-proxy-java.spring.io.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="reverse-proxy-java.micronaut.io.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=io.proxy.reverse.* -Amicronaut.processing.group=io.proxy.reverse -Amicronaut.processing.module=micronaut.io" />
+      <module name="reverse-proxy-java.micronaut.io.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=io.proxy.reverse.* -Amicronaut.processing.group=io.proxy.reverse -Amicronaut.processing.module=micronaut.io" />
+      <module name="reverse-proxy-java.spring.io.main" options="-parameters" />
+      <module name="reverse-proxy-java.spring.io.test" options="-parameters" />
+    </option>
+  </component>
+</project>
