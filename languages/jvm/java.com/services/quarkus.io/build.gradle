@@ -6,7 +6,7 @@ plugins {
   // ✅ PMD
   id 'pmd'
   // ✅ Spotbugs
-  id 'com.github.spotbugs' version '6.0.18'
+  id 'com.github.spotbugs' version '6.4.4'
   // ✅ Spotless
   id 'com.diffplug.spotless' version '8.0.0'
   // ✅ Quarkus
