@@ -29,17 +29,13 @@ jobs:
         uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: 17
+          java-version: 21
           cache: gradle
-
-      - name: Validate Gradle wrapper
-        uses: gradle/wrapper-validation-action@v2
-
-      - name: Grant execute permission for Gradle wrapper
-        run: chmod +x gradlew
 
       - name: Build and test
         run: ./gradlew clean build --no-daemon
+        working-directory: languages/compiled/go.dev
 
       - name: Run static analysis (Checkstyle + PMD)
         run: ./gradlew checkstyleMain checkstyleTest pmdMain pmdTest --no-daemon
+        working-directory: languages/compiled/go.dev
