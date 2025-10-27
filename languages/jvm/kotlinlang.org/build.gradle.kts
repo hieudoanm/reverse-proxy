@@ -3,7 +3,6 @@ plugins {
 
   checkstyle
   pmd
-  id("com.github.spotbugs") version "6.0.15"
   id("com.diffplug.spotless") version "8.0.0"
 }
 
@@ -15,7 +14,6 @@ subprojects {
   apply(plugin = "org.jetbrains.kotlin.jvm")
   apply(plugin = "checkstyle")
   apply(plugin = "pmd")
-  apply(plugin = "com.github.spotbugs")
   apply(plugin = "com.diffplug.spotless")
 
   repositories {

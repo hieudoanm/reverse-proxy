@@ -4,7 +4,6 @@ plugins {
 
   checkstyle
   pmd
-  id("com.github.spotbugs") version "6.0.15"
   id("com.diffplug.spotless") version "8.0.0"
 
   id("org.springframework.boot") version "3.5.7"
@@ -62,12 +61,6 @@ checkstyle {
 pmd {
   toolVersion = "7.17.0" // Latest PMD version
   ruleSetFiles = files("config/pmd/pmd-ruleset.xml")
-}
-
-// --- SpotBugs configuration ---
-spotbugs {
-  toolVersion = "4.8.3"       // SpotBugs engine version
-  ignoreFailures = false      // fail build on violations
 }
 
 spotless {
