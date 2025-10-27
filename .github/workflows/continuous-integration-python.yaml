@@ -28,7 +28,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version-file: languages/python.org/.python-version
+          python-version: "3.13.9"
 
       - name: Cache pip dependencies
         uses: actions/cache@v4
