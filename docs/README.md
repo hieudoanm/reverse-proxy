@@ -10,8 +10,10 @@
     - [Compiled](#compiled)
       - [🐹 Go](#-go)
       - [🦀 Rust](#-rust)
-    - [☕ Java](#-java)
-    - [🟦 TypeScript](#-typescript)
+    - [JVM (Java Virtual Machine)](#jvm-java-virtual-machine)
+      - [☕ Java](#-java)
+    - [Microsoft](#microsoft)
+      - [🟦 TypeScript](#-typescript)
     - [Other](#other)
 
 ## 🚀 Demo
@@ -82,7 +84,9 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### ☕ [Java][java]
+### JVM (Java Virtual Machine)
+
+#### ☕ [Java][java]
 
 | No  | Framework                 |
 | --- | ------------------------- |
@@ -100,7 +104,9 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
-### 🟦 [TypeScript][typescript]
+### Microsoft
+
+#### 🟦 [TypeScript][typescript]
 
 1. 🥟 [Bun](https://bun.sh/)
 2. 🦕 [Deno](https://deno.com)
