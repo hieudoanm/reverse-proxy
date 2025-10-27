@@ -8,7 +8,7 @@ plugins {
   // ✅ Spotless
   id 'com.diffplug.spotless' version '8.0.0'
   // ✅ Spotbugs
-  id 'com.github.spotbugs' version '6.0.18'
+  id 'com.github.spotbugs' version '6.4.4'
 }
 
 subprojects {
