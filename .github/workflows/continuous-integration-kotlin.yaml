@@ -1,0 +1,41 @@
+name: Continuous Integration (Kotlin)
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - hotfix/**
+      - feature/**
+      - renovate/**
+      - dependabot/**
+    paths:
+      - "languages/jvm/kotlinlang.org/**"
+
+jobs:
+  ci:
+    name: Continuous Integration (Kotlin)
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: languages/jvm/kotlinlang.org
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Kotlin
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - name: Build and test
+        run: ./gradlew clean build --no-daemon
+        working-directory: languages/jvm/kotlinlang.org
+
+      - name: Run static analysis (Checkstyle + PMD)
+        run: ./gradlew checkstyleMain checkstyleTest pmdMain pmdTest --no-daemon
+        working-directory: languages/jvm/kotlinlang.org
