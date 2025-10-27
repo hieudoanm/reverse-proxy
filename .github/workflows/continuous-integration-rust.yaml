@@ -9,6 +9,8 @@ on:
       - feature/**
       - renovate/**
       - dependabot/**
+    paths:
+      - "languages/compiled/rust-lang.org/**"
 
 jobs:
   ci:

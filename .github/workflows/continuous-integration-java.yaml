@@ -9,6 +9,8 @@ on:
       - feature/**
       - renovate/**
       - dependabot/**
+    paths:
+      - "languages/jvm/java.com/**"
 
 jobs:
   ci:
