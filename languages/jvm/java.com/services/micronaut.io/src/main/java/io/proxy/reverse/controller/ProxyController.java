@@ -7,14 +7,13 @@ import io.micronaut.http.client.annotation.Client;
 import io.micronaut.scheduling.TaskExecutors;
 import io.micronaut.scheduling.annotation.ExecuteOn;
 import jakarta.inject.Inject;
+import java.net.URI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.net.URI;
-
 /**
- * A simple proxy controller that retrieves the content of a given URL.
- * Runs on a blocking thread pool to avoid blocking the event loop.
+ * A simple proxy controller that retrieves the content of a given URL. Runs on a blocking thread
+ * pool to avoid blocking the event loop.
  */
 @Controller("/proxy")
 public class ProxyController {
@@ -38,8 +37,8 @@ public class ProxyController {
     try {
       // ✅ Validate and sanitize the provided URL
       URI targetUri = URI.create(url);
-      if (!("http".equalsIgnoreCase(targetUri.getScheme()) ||
-        "https".equalsIgnoreCase(targetUri.getScheme()))) {
+      if (!("http".equalsIgnoreCase(targetUri.getScheme())
+          || "https".equalsIgnoreCase(targetUri.getScheme()))) {
         return HttpResponse.badRequest("Invalid URL scheme — only http/https allowed");
       }
 
