@@ -2,7 +2,6 @@ package io.proxy.reverse;
 
 import io.javalin.Javalin;
 import io.javalin.http.Context;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -25,10 +24,7 @@ public class Application {
     }
 
     try {
-      var request = HttpRequest.newBuilder()
-        .uri(URI.create(url))
-        .GET()
-        .build();
+      var request = HttpRequest.newBuilder().uri(URI.create(url)).GET().build();
 
       var response = client.send(request, HttpResponse.BodyHandlers.ofString());
       ctx.status(response.statusCode()).result(response.body());
