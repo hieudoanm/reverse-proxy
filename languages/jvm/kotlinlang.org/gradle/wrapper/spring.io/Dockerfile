@@ -1,7 +1,7 @@
 # ========================
 # Build Stage
 # ========================
-FROM gradle:9.1-jdk21 AS builder
+FROM gradle:9.2-jdk21 AS builder
 
 WORKDIR /app
 
