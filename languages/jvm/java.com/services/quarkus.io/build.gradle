@@ -39,7 +39,7 @@ repositories {
 
 dependencies {
   // RESTEasy Reactive (JAX-RS)
-  implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.28.5")
+  implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.29.0")
 
   // Vert.x HTTP + WebClient
   implementation 'io.quarkus:quarkus-arc'
