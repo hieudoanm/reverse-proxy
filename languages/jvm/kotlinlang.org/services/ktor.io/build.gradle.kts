@@ -54,7 +54,7 @@ checkstyle {
  * -------------------------
  */
 pmd {
-  toolVersion = "7.17.0" // Latest PMD version
+  toolVersion = "7.18.0" // Latest PMD version
   ruleSetFiles = files("config/pmd/pmd-ruleset.xml")
 }
 
