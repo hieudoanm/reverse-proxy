@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.14.0"
+requires-python = "==3.14.0"
 
 [[package]]
 name = "black"
@@ -226,11 +226,11 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "black", specifier = ">=25.9.0" },
-    { name = "pyramid", specifier = ">=2.0.2" },
-    { name = "requests", specifier = ">=2.32.5" },
-    { name = "ruff", specifier = ">=0.14.3" },
-    { name = "waitress", specifier = ">=3.0.2" },
+    { name = "black", specifier = "==25.9.0" },
+    { name = "pyramid", specifier = "==2.0.2" },
+    { name = "requests", specifier = "==2.32.5" },
+    { name = "ruff", specifier = "==0.14.3" },
+    { name = "waitress", specifier = "==3.0.2" },
 ]
 
 [[package]]

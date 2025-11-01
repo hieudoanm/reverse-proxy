@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.14.0"
+requires-python = "==3.14.0"
 
 [[package]]
 name = "black"
@@ -222,7 +222,7 @@ wheels = [
 
 [[package]]
 name = "reverse-proxy-flask"
-version = "0.1.0"
+version = "0.0.1"
 source = { virtual = "." }
 dependencies = [
     { name = "black" },
@@ -233,10 +233,10 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "black", specifier = ">=25.9.0" },
-    { name = "flask", specifier = ">=3.1.2" },
-    { name = "requests", specifier = ">=2.32.5" },
-    { name = "ruff", specifier = ">=0.14.3" },
+    { name = "black", specifier = "==25.9.0" },
+    { name = "flask", specifier = "==3.1.2" },
+    { name = "requests", specifier = "==2.32.5" },
+    { name = "ruff", specifier = "==0.14.3" },
 ]
 
 [[package]]
