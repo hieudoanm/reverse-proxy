@@ -1,0 +1,10 @@
+[project]
+name = "reverse-proxy-tonardo"
+version = "0.0.1"
+description = "Reverse Proxy implemented with Tonardo"
+readme = "README.md"
+requires-python = ">=3.14.0"
+dependencies = [
+    "httpx>=0.28.1",
+    "tornado>=6.5.2",
+]
