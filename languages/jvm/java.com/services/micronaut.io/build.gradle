@@ -81,7 +81,7 @@ tasks.withType(Checkstyle).configureEach {
  * -------------------------
  */
 pmd {
-  toolVersion = '7.17.0' // Latest PMD version
+  toolVersion = '7.18.0' // Latest PMD version
   ruleSets = [] // We'll use a custom ruleset instead of defaults
   ruleSetFiles = files('config/pmd/pmd-ruleset.xml')
   ignoreFailures = true  // Fail build if PMD violations are found

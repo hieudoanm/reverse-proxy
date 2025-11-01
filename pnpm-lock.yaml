@@ -15,8 +15,8 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
       rimraf:
-        specifier: 6.0.1
-        version: 6.0.1
+        specifier: 6.1.0
+        version: 6.1.0
       turbo:
         specifier: 2.6.0
         version: 2.6.0
@@ -114,8 +114,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       rimraf:
-        specifier: 6.0.1
-        version: 6.0.1
+        specifier: 6.1.0
+        version: 6.1.0
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@24.9.2)(typescript@5.9.3)
@@ -126,8 +126,8 @@ importers:
         specifier: 8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       wrangler:
-        specifier: 4.45.2
-        version: 4.45.2
+        specifier: 4.45.3
+        version: 4.45.3
 
   languages/microsoft/typescriptlang.org/node.js/fastify.dev:
     dependencies:
@@ -154,8 +154,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       rimraf:
-        specifier: 6.0.1
-        version: 6.0.1
+        specifier: 6.1.0
+        version: 6.1.0
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@24.9.2)(typescript@5.9.3)
@@ -166,8 +166,8 @@ importers:
         specifier: 8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       wrangler:
-        specifier: 4.45.2
-        version: 4.45.2
+        specifier: 4.45.3
+        version: 4.45.3
 
   languages/microsoft/typescriptlang.org/node.js/hono.dev:
     dependencies:
@@ -191,8 +191,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       rimraf:
-        specifier: 6.0.1
-        version: 6.0.1
+        specifier: 6.1.0
+        version: 6.1.0
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@24.9.2)(typescript@5.9.3)
@@ -203,8 +203,8 @@ importers:
         specifier: 8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       wrangler:
-        specifier: 4.45.2
-        version: 4.45.2
+        specifier: 4.45.3
+        version: 4.45.3
 
   languages/microsoft/typescriptlang.org/node.js/http:
     devDependencies:
@@ -230,8 +230,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       rimraf:
-        specifier: 6.0.1
-        version: 6.0.1
+        specifier: 6.1.0
+        version: 6.1.0
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@24.9.2)(typescript@5.9.3)
@@ -442,8 +442,8 @@ importers:
         specifier: 0.7.1
         version: 0.7.1(prettier@3.6.2)
       rimraf:
-        specifier: 6.0.1
-        version: 6.0.1
+        specifier: 6.1.0
+        version: 6.1.0
       tailwindcss:
         specifier: 4.1.16
         version: 4.1.16
@@ -5263,8 +5263,8 @@ packages:
   rfdc@1.4.1:
     resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
 
-  rimraf@6.0.1:
-    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
+  rimraf@6.1.0:
+    resolution: {integrity: sha512-DxdlA1bdNzkZK7JiNWH+BAx1x4tEJWoTofIopFo6qWUU94jYrFZ0ubY05TqH3nWPJ1nKa1JWVFDINZ3fnrle/A==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -6116,8 +6116,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@4.45.2:
-    resolution: {integrity: sha512-+G24gD+Rh7iBus5QiVBhNgSLzyAiyuZSm+3Ih5li8+PEA+gosAXfDSZlNZwsVmXd8VJTjq+BR4vhUiruQRWgTw==}
+  wrangler@4.45.3:
+    resolution: {integrity: sha512-0ddEA9t4HeBgSVTVTcqtBHl7Z5CorWZ8tGgTQCP5XuL+9E1TJRwS6t/zzG51Ruwjb17SZYCaLchoM8V629S8cw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -6564,7 +6564,7 @@ snapshots:
       open: 8.4.2
       plist: 3.1.0
       prompts: 2.4.2
-      rimraf: 6.0.1
+      rimraf: 6.1.0
       semver: 7.7.3
       tar: 6.2.1
       tslib: 2.8.1
@@ -11520,7 +11520,7 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rimraf@6.0.1:
+  rimraf@6.1.0:
     dependencies:
       glob: 11.0.3
       package-json-from-dist: 1.0.1
@@ -12574,7 +12574,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20251011.0
       '@cloudflare/workerd-windows-64': 1.20251011.0
 
-  wrangler@4.45.2:
+  wrangler@4.45.3:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.7.8(unenv@2.0.0-rc.21)(workerd@1.20251011.0)
