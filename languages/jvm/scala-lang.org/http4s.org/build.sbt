@@ -4,8 +4,8 @@ scalaVersion := "3.7.3"
 
 libraryDependencies ++= Seq(
   "org.http4s" %% "http4s-ember-server" % "0.23.33",
-  "org.http4s" %% "http4s-ember-client" % "0.23.32",
-  "org.http4s" %% "http4s-dsl" % "0.23.32",
+  "org.http4s" %% "http4s-ember-client" % "0.23.33",
+  "org.http4s" %% "http4s-dsl" % "0.23.33",
   "org.typelevel" %% "cats-effect" % "3.7-4972921"
 )
 
