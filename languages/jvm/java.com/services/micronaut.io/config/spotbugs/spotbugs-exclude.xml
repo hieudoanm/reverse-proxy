@@ -8,9 +8,4 @@
   <Match>
     <Class name="~.*\$.+\$Intercepted"/>
   </Match>
-
-  <!-- Optional: ignore other synthetic helper classes -->
-  <Match>
-    <Class name="~.*\$\d+"/>
-  </Match>
 </FindBugsFilter>
