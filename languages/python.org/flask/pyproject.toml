@@ -8,5 +8,5 @@ dependencies = [
     "black==25.9.0",
     "flask==3.1.2",
     "requests==2.32.5",
-    "ruff==0.14.3",
+    "ruff==0.14.4",
 ]
