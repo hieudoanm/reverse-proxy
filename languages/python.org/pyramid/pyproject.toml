@@ -5,7 +5,7 @@ description = "Reverse Proxy implemented with Pyramid"
 readme = "README.md"
 requires-python = "==3.14.0"
 dependencies = [
-    "black==25.9.0",
+    "black==25.11.0",
     "pyramid==2.0.2",
     "requests==2.32.5",
     "ruff==0.14.4",
