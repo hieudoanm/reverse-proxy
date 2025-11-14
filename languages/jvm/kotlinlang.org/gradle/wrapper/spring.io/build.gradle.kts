@@ -49,7 +49,7 @@ tasks.test {
  * -------------------------
  */
 checkstyle {
-  toolVersion = "12.1.1" // Latest stable version
+  toolVersion = "12.1.2" // Latest stable version
   config = resources.text.fromFile("config/checkstyle/checkstyle.xml")
 }
 
