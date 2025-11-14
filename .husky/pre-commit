@@ -1,4 +1,0 @@
-pnpm run lint
-pnpm run build
-pnpm run format
-git add -A
