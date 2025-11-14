@@ -1,0 +1,5 @@
+py_binary(
+    name = "reverse_proxy_flask",
+    srcs = ["main.py"],
+    main = "main.py"
+)

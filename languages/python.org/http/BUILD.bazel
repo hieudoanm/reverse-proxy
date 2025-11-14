@@ -1,0 +1,5 @@
+py_binary(
+    name = "reverse_proxy_http",
+    srcs = ["main.py"],
+    main = "main.py"
+)

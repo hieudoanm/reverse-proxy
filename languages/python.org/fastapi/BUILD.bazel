@@ -1,0 +1,5 @@
+py_binary(
+    name = "reverse_proxy_fastapi",
+    srcs = ["main.py"],
+    main = "main.py"
+)
