@@ -10,6 +10,7 @@ export const Navbar: FC = () => {
           <div className="text-xl font-bold">
             <Link href="/">{APP_NAME}</Link>
           </div>
+          <Link href="/openapi/postmanv2">OpenAPI to PostmanV2</Link>
         </div>
       </div>
     </nav>
