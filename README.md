@@ -109,22 +109,24 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 
 #### 🟦 [TypeScript][typescript]
 
-1. 🥟 [Bun](https://bun.sh/)
-2. 🦕 [Deno](https://deno.com)
-3. 🟢 [Node.js](https://nodejs.org/en)
+1. 🥟 [Bun][bun]
+2. 🦕 [Deno][deno]
+3. 🟢 [Node.js][node]
 
-| No  | Group   | Framework          |
-| --- | ------- | ------------------ |
-| 01  | All     | [Express][express] |
-| 02  | All     | [Fastify][fastify] |
-| 03  | All     | [Hono][hono]       |
-| 04  | All     | [Nest][nest]       |
-| 05  | All     | [Next][next]       |
-| 06  | Bun     | [HTTP][http-bun]   |
-| 07  | Deno    | [Fresh][fresh]     |
-| 08  | Deno    | [HTTP][http-deno]  |
-| 09  | Node.js | [HTTP][http-node]  |
+| No  | Group           | Framework          |
+| --- | --------------- | ------------------ |
+| 01  | All             | [Express][express] |
+| 02  | All             | [Fastify][fastify] |
+| 03  | All             | [Hono][hono]       |
+| 04  | All             | [Nest][nest]       |
+| 05  | All             | [Next][next]       |
+| 06  | [Bun][bun]      | [HTTP][http-bun]   |
+| 07  | [Deno][deno]    | [Fresh][fresh]     |
+| 08  | [Deno][deno]    | [HTTP][http-deno]  |
+| 09  | [Node.js][node] | [HTTP][http-node]  |
 
+[bun]: https://bun.sh/
+[deno]: https://deno.com
 [express]: https://expressjs.com/
 [fastify]: https://www.fastify.io/
 [fresh]: https://fresh.deno.dev/
@@ -134,6 +136,7 @@ curl -i "https://hieudoanm-reverse-proxy.vercel.app/api?url=https%3A%2F%2Fexampl
 [http-node]: https://nodejs.org/api/http.html
 [nest]: https://nestjs.com
 [next]: https://nextjs.org
+[node]: https://nodejs.org/en
 
 [⬆️ Back to Table of Contents](#-table-of-contents)
 
