@@ -13,7 +13,7 @@
   "homepage": "https://github.com/hieudoanm/hieudoanm.github.io#readme",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "license": "GPL-3.0",
-  "packageManager": "pnpm@10.21.0",
+  "packageManager": "pnpm@10.22.0",
   "private": true,
   "scripts": {
     "build": "rimraf dist && tsc",
