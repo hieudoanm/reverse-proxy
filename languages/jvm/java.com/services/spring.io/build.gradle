@@ -6,7 +6,7 @@ plugins {
   // ✅ PMD
   id 'pmd'
   // ✅ Spotbugs
-  id 'com.github.spotbugs' version '6.4.4'
+  id 'com.github.spotbugs' version '6.4.5'
   // ✅ Spotless
   id 'com.diffplug.spotless' version '8.0.0'
   // ✅ Spring Boot plugin
