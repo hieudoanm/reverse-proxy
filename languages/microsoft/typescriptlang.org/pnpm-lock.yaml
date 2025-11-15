@@ -84,43 +84,7 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
 
-  node.js/http:
-    devDependencies:
-      '@eslint/js':
-        specifier: 9.39.1
-        version: 9.39.1
-      '@types/node':
-        specifier: 24.10.0
-        version: 24.10.0
-      eslint:
-        specifier: 9.39.1
-        version: 9.39.1(jiti@2.6.1)
-      globals:
-        specifier: 16.5.0
-        version: 16.5.0
-      kill-port:
-        specifier: 2.0.1
-        version: 2.0.1
-      nodemon:
-        specifier: 3.1.11
-        version: 3.1.11
-      prettier:
-        specifier: 3.6.2
-        version: 3.6.2
-      rimraf:
-        specifier: 6.1.0
-        version: 6.1.0
-      ts-node:
-        specifier: 10.9.2
-        version: 10.9.2(@types/node@24.10.0)(typescript@5.9.3)
-      typescript:
-        specifier: 5.9.3
-        version: 5.9.3
-      typescript-eslint:
-        specifier: 8.46.3
-        version: 8.46.3(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
-
-  node.js/nest.js:
+  bun.sh/nest.js:
     dependencies:
       '@nestjs/axios':
         specifier: 4.0.1
@@ -244,7 +208,7 @@ importers:
         specifier: 2.8.1
         version: 2.8.1
 
-  node.js/next.js:
+  bun.sh/next.js:
     dependencies:
       '@capacitor/android':
         specifier: 7.4.4
@@ -331,6 +295,42 @@ importers:
       typescript:
         specifier: 5.9.3
         version: 5.9.3
+
+  node.js/http:
+    devDependencies:
+      '@eslint/js':
+        specifier: 9.39.1
+        version: 9.39.1
+      '@types/node':
+        specifier: 24.10.0
+        version: 24.10.0
+      eslint:
+        specifier: 9.39.1
+        version: 9.39.1(jiti@2.6.1)
+      globals:
+        specifier: 16.5.0
+        version: 16.5.0
+      kill-port:
+        specifier: 2.0.1
+        version: 2.0.1
+      nodemon:
+        specifier: 3.1.11
+        version: 3.1.11
+      prettier:
+        specifier: 3.6.2
+        version: 3.6.2
+      rimraf:
+        specifier: 6.1.0
+        version: 6.1.0
+      ts-node:
+        specifier: 10.9.2
+        version: 10.9.2(@types/node@24.10.0)(typescript@5.9.3)
+      typescript:
+        specifier: 5.9.3
+        version: 5.9.3
+      typescript-eslint:
+        specifier: 8.46.3
+        version: 8.46.3(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
 
 packages:
 
@@ -8499,7 +8499,7 @@ snapshots:
       eslint: 9.39.1(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))
-      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-react: 7.37.5(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-react-hooks: 7.0.1(eslint@9.39.1(jiti@2.6.1))
@@ -8536,7 +8536,7 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.1(jiti@2.6.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -8550,7 +8550,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1)):
+  eslint-plugin-import@2.32.0(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.1(jiti@2.6.1)):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
