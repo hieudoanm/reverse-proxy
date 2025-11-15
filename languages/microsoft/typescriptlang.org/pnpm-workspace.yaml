@@ -1,2 +1,4 @@
 packages:
-  - languages/**
+  - bun.sh/**
+  - deno.com/**
+  - node.js/**
