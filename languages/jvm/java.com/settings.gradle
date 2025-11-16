@@ -6,8 +6,8 @@ include 'reverse-proxy-java-micronaut'
 include 'reverse-proxy-java-quarkus'
 include 'reverse-proxy-java-spring'
 
-project(':reverse-proxy-java-helidon').projectDir = file('services/helidon.io')
-project(':reverse-proxy-java-javalin').projectDir = file('services/javalin.io')
-project(':reverse-proxy-java-micronaut').projectDir = file('services/micronaut.io')
-project(':reverse-proxy-java-quarkus').projectDir = file('services/quarkus.io')
-project(':reverse-proxy-java-spring').projectDir = file('services/spring.io')
+project(':reverse-proxy-java-helidon').projectDir = file('server/helidon.io')
+project(':reverse-proxy-java-javalin').projectDir = file('server/javalin.io')
+project(':reverse-proxy-java-micronaut').projectDir = file('server/micronaut.io')
+project(':reverse-proxy-java-quarkus').projectDir = file('server/quarkus.io')
+project(':reverse-proxy-java-spring').projectDir = file('server/spring.io')
