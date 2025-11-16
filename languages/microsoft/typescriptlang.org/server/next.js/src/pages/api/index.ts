@@ -3,44 +3,21 @@ import { logger } from '@next.js/utils/log';
 import { tryCatch } from '@next.js/utils/try-catch';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-/**
- * @swagger
- * /api:
- *   get:
- *     summary: Reverse proxy to a target URL
- *     description: Forwards the request to the URL specified in the `url` query parameter and returns the response.
- *     parameters:
- *       - in: query
- *         name: url
- *         schema:
- *           type: string
- *         required: true
- *         description: The full URL to proxy the request to.
- *     responses:
- *       200:
- *         description: Successful response from the proxied URL
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               additionalProperties: true
- *       400:
- *         description: Missing or invalid `url` query parameter
- *       500:
- *         description: Internal server error while proxying
- */
-
-const handler = async (request: NextApiRequest, response: NextApiResponse) => {
-  // Set CORS headers
+const enableCors = (response: NextApiResponse) => {
   response.setHeader('Access-Control-Allow-Origin', '*');
   response.setHeader(
     'Access-Control-Allow-Methods',
-    'GET,POST,PUT,DELETE,OPTIONS'
+    'GET, POST, PUT, DELETE, OPTIONS'
   );
   response.setHeader(
     'Access-Control-Allow-Headers',
     'Content-Type, Authorization'
   );
+};
+
+const handler = async (request: NextApiRequest, response: NextApiResponse) => {
+  // Always set CORS headers
+  enableCors(response);
 
   const { method = '' } = request;
 
