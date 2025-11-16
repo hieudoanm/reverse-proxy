@@ -58,7 +58,7 @@ const HomePage: NextPage = () => {
     setState((previous) => ({ ...previous, loading: true }));
     const urlSearchParams = new URLSearchParams();
     urlSearchParams.set('url', url);
-    const proxyUrl: string = `/api/reverse/proxy?${urlSearchParams.toString()}`;
+    const proxyUrl: string = `/api?${urlSearchParams.toString()}`;
     const { data: response, error } = await tryCatch(fetch(proxyUrl));
     if (error) {
       setState((previous) => ({
@@ -194,7 +194,7 @@ const HomePage: NextPage = () => {
             rows={5}
             className="textarea w-full whitespace-nowrap"
             value={urlToCurl({
-              url: `${PROXY_BASE_URL}/api/reverse/proxy?url=${encodeURIComponent(url)}`,
+              url: `${PROXY_BASE_URL}/api?url=${encodeURIComponent(url)}`,
               method,
               headers,
             })}
