@@ -1,6 +1,6 @@
 name := "reverse-proxy-play"
 version := "0.0.1"
-scalaVersion := "2.13.17"
+scalaVersion := "2.13.18"
 
 libraryDependencies ++= Seq(
   guice,
