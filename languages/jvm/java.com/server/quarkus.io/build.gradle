@@ -10,7 +10,7 @@ plugins {
   // ✅ Spotless
   id 'com.diffplug.spotless' version '8.1.0'
   // ✅ Quarkus
-  id 'io.quarkus' version '3.29.3'
+  id 'io.quarkus' version '3.30.0'
 }
 
 group = 'io.proxy.reverse'
