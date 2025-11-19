@@ -6,7 +6,7 @@ plugins {
   // ✅ PMD
   id 'pmd'
   // ✅ Spotless
-  id 'com.diffplug.spotless' version '8.0.0'
+  id 'com.diffplug.spotless' version '8.1.0'
   // ✅ Spotbugs
   id 'com.github.spotbugs' version '6.4.5'
 }

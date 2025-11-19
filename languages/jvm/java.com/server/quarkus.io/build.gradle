@@ -8,7 +8,7 @@ plugins {
   // ✅ Spotbugs
   id 'com.github.spotbugs' version '6.4.5'
   // ✅ Spotless
-  id 'com.diffplug.spotless' version '8.0.0'
+  id 'com.diffplug.spotless' version '8.1.0'
   // ✅ Quarkus
   id 'io.quarkus' version '3.29.3'
 }
