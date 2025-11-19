@@ -8,7 +8,7 @@ plugins {
   // ✅ Spotbugs
   id 'com.github.spotbugs' version '6.4.5'
   // ✅ Spotless
-  id 'com.diffplug.spotless' version '8.0.0'
+  id 'com.diffplug.spotless' version '8.1.0'
   // ✅ Spring Boot plugin
   id 'org.springframework.boot' version '3.5.7'
   // ✅ Dependency management plugin for Spring libraries

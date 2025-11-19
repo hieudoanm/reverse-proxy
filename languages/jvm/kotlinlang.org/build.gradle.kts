@@ -3,7 +3,7 @@ plugins {
 
   checkstyle
   pmd
-  id("com.diffplug.spotless") version "8.0.0"
+  id("com.diffplug.spotless") version "8.1.0"
 }
 
 subprojects {
