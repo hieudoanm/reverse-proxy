@@ -1,6 +1,6 @@
-import { Divider } from '@next.js/components/shared/Divider';
-import { Navbar } from '@next.js/components/shared/Navbar';
-import { tryCatch } from '@next.js/utils/try-catch';
+import { Divider } from '@reverse-proxy/components/Divider';
+import { Navbar } from '@reverse-proxy/components/Navbar';
+import { tryCatch } from '@reverse-proxy/utils/try-catch';
 import { NextPage } from 'next';
 import { useState } from 'react';
 

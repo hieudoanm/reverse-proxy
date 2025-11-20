@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Divider } from '@next.js/components/shared/Divider';
-import { Navbar } from '@next.js/components/shared/Navbar';
+import { Divider } from '@reverse-proxy/components/Divider';
+import { Navbar } from '@reverse-proxy/components/Navbar';
 import { NextPage } from 'next';
 import { useState } from 'react';
 

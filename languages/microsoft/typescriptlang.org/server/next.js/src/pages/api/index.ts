@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { logger } from '@next.js/utils/log';
-import { tryCatch } from '@next.js/utils/try-catch';
+import { logger } from '@reverse-proxy/utils/log';
+import { tryCatch } from '@reverse-proxy/utils/try-catch';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 const enableCors = (response: NextApiResponse) => {
@@ -13,6 +13,7 @@ const enableCors = (response: NextApiResponse) => {
     'Access-Control-Allow-Headers',
     'Content-Type, Authorization'
   );
+  response.setHeader('Access-Control-Expose-Headers', '*');
 };
 
 const handler = async (request: NextApiRequest, response: NextApiResponse) => {
