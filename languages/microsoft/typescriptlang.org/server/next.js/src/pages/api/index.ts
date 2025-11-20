@@ -41,7 +41,7 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
     ? undefined
     : request.body;
   const { data: fetchResponse, error } = await tryCatch(
-    fetch(targetUrl, { method, body })
+    fetch(decodedUrl, { method, body })
   );
 
   if (error) {
