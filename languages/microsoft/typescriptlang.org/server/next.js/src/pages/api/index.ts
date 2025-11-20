@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { logger } from '@reverse-proxy/utils/log';
 import { tryCatch } from '@reverse-proxy/utils/try-catch';
 import type { NextApiRequest, NextApiResponse } from 'next';
