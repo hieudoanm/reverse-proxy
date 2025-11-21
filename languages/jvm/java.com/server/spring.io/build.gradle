@@ -10,7 +10,7 @@ plugins {
   // ✅ Spotless
   id 'com.diffplug.spotless' version '8.1.0'
   // ✅ Spring Boot plugin
-  id 'org.springframework.boot' version '3.5.7'
+  id 'org.springframework.boot' version '4.0.0'
   // ✅ Dependency management plugin for Spring libraries
   id 'io.spring.dependency-management' version '1.1.7'
 }
