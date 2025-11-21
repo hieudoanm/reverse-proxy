@@ -21,7 +21,7 @@ jobs:
         working-directory: languages/compiled/rust-lang.org
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Set up Rust
         uses: actions-rs/toolchain@v1
         with:
