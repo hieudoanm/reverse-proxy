@@ -1,4 +1,4 @@
-module reverse-proxy-gorilla
+module proxy-gorilla
 
 go 1.25.2
 

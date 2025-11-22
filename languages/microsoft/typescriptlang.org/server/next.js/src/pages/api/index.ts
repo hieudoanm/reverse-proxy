@@ -1,5 +1,5 @@
-import { logger } from '@reverse-proxy/utils/log';
-import { tryCatch } from '@reverse-proxy/utils/try-catch';
+import { logger } from '@proxy/utils/log';
+import { tryCatch } from '@proxy/utils/try-catch';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 const enableCors = (response: NextApiResponse) => {

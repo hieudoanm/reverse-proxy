@@ -1,5 +1,5 @@
 {
-  "name": "@reverse-proxy/bun-express",
+  "name": "@proxy/bun-express",
   "module": "index.ts",
   "type": "module",
   "private": true,

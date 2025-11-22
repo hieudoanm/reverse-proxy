@@ -71,7 +71,7 @@ wheels = [
 ]
 
 [[package]]
-name = "reverse-proxy-tonardo"
+name = "proxy-tonardo"
 version = "0.0.1"
 source = { virtual = "." }
 dependencies = [

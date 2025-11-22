@@ -1,5 +1,5 @@
 [project]
-name = "reverse-proxy-flask"
+name = "proxy-flask"
 version = "0.0.1"
 description = "Reverse Proxy implemented with Flask"
 readme = "README.md"

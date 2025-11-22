@@ -1,4 +1,4 @@
-module reverse-proxy-chi
+module proxy-chi
 
 go 1.25.2
 

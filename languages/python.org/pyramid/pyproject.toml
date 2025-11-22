@@ -1,5 +1,5 @@
 [project]
-name = "reverse-proxy-pyramid"
+name = "proxy-pyramid"
 version = "0.0.1"
 description = "Reverse Proxy implemented with Pyramid"
 readme = "README.md"

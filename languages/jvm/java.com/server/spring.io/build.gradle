@@ -17,7 +17,7 @@ plugins {
 
 group = 'io.proxy.reverse'
 version = '0.0.1-SNAPSHOT'
-description = 'reverse-proxy'
+description = 'proxy'
 
 java {
   toolchain {

@@ -1,10 +1,10 @@
-rootProject.name = "reverse-proxy-kotlin"
+rootProject.name = "proxy-kotlin"
 
-include("reverse-proxy-kotlin-ktor")
-include("reverse-proxy-kotlin-spring")
+include("proxy-kotlin-ktor")
+include("proxy-kotlin-spring")
 
-project(":reverse-proxy-kotlin-ktor").projectDir = file("services/ktor.io")
-project(":reverse-proxy-kotlin-spring").projectDir = file("services/spring.io")
+project(":proxy-kotlin-ktor").projectDir = file("services/ktor.io")
+project(":proxy-kotlin-spring").projectDir = file("services/spring.io")
 
 pluginManagement {
   repositories {

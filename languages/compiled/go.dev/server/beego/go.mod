@@ -1,4 +1,4 @@
-module reverse-proxy-beego
+module proxy-beego
 
 go 1.25.2
 

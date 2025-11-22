@@ -1,5 +1,5 @@
 [project]
-name = "reverse-proxy-fastapi"
+name = "proxy-fastapi"
 version = "0.0.1"
 description = "Reverse Proxy implemented with FastAPI"
 readme = "README.md"

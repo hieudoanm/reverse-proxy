@@ -1,4 +1,4 @@
-module reverse-proxy-echo
+module proxy-echo
 
 go 1.25.2
 

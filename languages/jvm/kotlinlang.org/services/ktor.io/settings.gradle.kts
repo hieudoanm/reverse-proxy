@@ -1,1 +1,1 @@
-rootProject.name = "reverse-proxy-kotlin-ktor"
+rootProject.name = "proxy-kotlin-ktor"

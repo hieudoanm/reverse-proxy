@@ -1,5 +1,5 @@
 [project]
-name = "reverse-proxy-tonardo"
+name = "proxy-tonardo"
 version = "0.0.1"
 description = "Reverse Proxy implemented with Tonardo"
 readme = "README.md"

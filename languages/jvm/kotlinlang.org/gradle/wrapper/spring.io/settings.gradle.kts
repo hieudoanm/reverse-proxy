@@ -1,1 +1,1 @@
-rootProject.name = "reverse-proxy-kotlin-spring-boot"
+rootProject.name = "proxy-kotlin-spring-boot"

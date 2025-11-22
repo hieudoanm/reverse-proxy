@@ -1,10 +1,10 @@
 [package]
-name = "reverse-proxy-tauri"
+name = "proxy-tauri"
 version = "0.0.1"
 description = "A Reverse Proxy App"
 authors = ["you"]
 license = "GPL-3.0"
-repository = "git+ssh://git@github.com/hieudoanm/reverse-proxy.git"
+repository = "git+ssh://git@github.com/hieudoanm/proxy.git"
 edition = "2024"
 rust-version = "1.85.0"
 

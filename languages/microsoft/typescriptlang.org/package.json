@@ -1,5 +1,5 @@
 {
-  "name": "@reverse-proxy/serverless",
+  "name": "@proxy/serverless",
   "version": "0.0.1",
   "description": "Reverse Proxy",
   "packageManager": "pnpm@10.23.0",
@@ -11,12 +11,12 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/reverse-proxy.git"
+    "url": "git+ssh://git@github.com/hieudoanm/proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/hieudoanm/reverse-proxy/issues"
+    "url": "https://github.com/hieudoanm/proxy/issues"
   },
-  "homepage": "https://github.com/hieudoanm/reverse-proxy#readme",
+  "homepage": "https://github.com/hieudoanm/proxy#readme",
   "scripts": {
     "lock": "turbo run lock",
     "lint": "turbo run lint",

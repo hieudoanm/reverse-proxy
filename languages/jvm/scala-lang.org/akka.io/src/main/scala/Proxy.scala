@@ -8,7 +8,7 @@ import scala.concurrent.duration._
 
 object ProxyServer extends App {
 
-  implicit val system: ActorSystem = ActorSystem("reverse-proxy")
+  implicit val system: ActorSystem = ActorSystem("proxy")
   implicit val materializer: Materializer = Materializer(system)
   implicit val executionContext: ExecutionContextExecutor = system.dispatcher
 

@@ -1,5 +1,5 @@
 {
-  "name": "@reverse-proxy/node-nest",
+  "name": "@proxy/node-nest",
   "version": "0.0.1",
   "description": "Reverse Proxy - Node.js - Nest.js",
   "main": "dist/main",

@@ -14,7 +14,7 @@ plugins {
 subprojects {
   group = 'io.proxy.reverse'
   version = '0.0.1-SNAPSHOT'
-  description = 'reverse-proxy'
+  description = 'proxy'
 
   apply plugin: 'checkstyle'
   apply plugin: 'pmd'

@@ -1,4 +1,4 @@
-name := "reverse-proxy-play"
+name := "proxy-play"
 version := "0.0.1"
 scalaVersion := "2.13.18"
 

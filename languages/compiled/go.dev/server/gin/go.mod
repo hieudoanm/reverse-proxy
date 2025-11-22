@@ -1,4 +1,4 @@
-module reverse-proxy-gin
+module proxy-gin
 
 go 1.25.2
 

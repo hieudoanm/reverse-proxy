@@ -217,7 +217,7 @@ wheels = [
 ]
 
 [[package]]
-name = "reverse-proxy-pyramid"
+name = "proxy-pyramid"
 version = "0.0.1"
 source = { virtual = "." }
 dependencies = [

@@ -1,4 +1,4 @@
-import '@reverse-proxy/styles/globals.css';
+import '@proxy/styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { FC } from 'react';

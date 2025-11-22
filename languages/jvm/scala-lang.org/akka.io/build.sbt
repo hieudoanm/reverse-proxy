@@ -1,4 +1,4 @@
-name := "reverse-proxy-akka"
+name := "proxy-akka"
 version := "0.0.1"
 scalaVersion := "2.13.18"
 

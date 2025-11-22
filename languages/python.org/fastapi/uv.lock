@@ -194,7 +194,7 @@ wheels = [
 ]
 
 [[package]]
-name = "reverse-proxy-fastapi"
+name = "proxy-fastapi"
 version = "0.0.1"
 source = { virtual = "." }
 dependencies = [

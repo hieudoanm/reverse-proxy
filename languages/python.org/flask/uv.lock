@@ -225,7 +225,7 @@ wheels = [
 ]
 
 [[package]]
-name = "reverse-proxy-flask"
+name = "proxy-flask"
 version = "0.0.1"
 source = { virtual = "." }
 dependencies = [

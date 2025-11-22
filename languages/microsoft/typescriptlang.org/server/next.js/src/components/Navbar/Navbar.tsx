@@ -1,4 +1,4 @@
-import { APP_NAME } from '@reverse-proxy/constants/app';
+import { APP_NAME } from '@proxy/constants/app';
 import Link from 'next/link';
 import { FC } from 'react';
 

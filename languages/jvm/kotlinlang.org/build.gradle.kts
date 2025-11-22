@@ -9,7 +9,7 @@ plugins {
 subprojects {
   group = "io.proxy.reverse"
   version = "0.0.1-SNAPSHOT"
-  description = "reverse-proxy"
+  description = "proxy"
 
   apply(plugin = "org.jetbrains.kotlin.jvm")
   apply(plugin = "checkstyle")

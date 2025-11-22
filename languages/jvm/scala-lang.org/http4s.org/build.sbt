@@ -1,4 +1,4 @@
-name := "reverse-proxy-http4s"
+name := "proxy-http4s"
 version := "0.0.1"
 scalaVersion := "3.7.4"
 
